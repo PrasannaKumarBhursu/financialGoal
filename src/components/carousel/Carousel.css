@@ -1,0 +1,63 @@
+.carousel .slide{
+    background-color: gray;
+}
+.carousel .slide img {
+  
+    object-fit: cover;}
+    
+.carousel .thumbs-wrapper{
+    display:none;
+}
+.carousel-status{
+    display: none;
+}
+
+
+.cr-text{
+    position: absolute;
+    background-color: #3ad4af;
+    /* background-color: black; */
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    height: 8%;
+    left: 52%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3.5vw;
+    top: 13%;
+    
+    cursor: pointer;
+    border: none;
+  
+
+
+
+    
+   
+    
+
+    
+}
+.cr-text:hover{
+    color: black;
+   
+    text-decoration: none;
+}
+.carousel .slide .legend {
+    background:#808080;
+    font-size: large;
+    opacity:1;
+}
+@media screen and (max-width:800px){
+    .carousel .slide .legend h3,.carousel .slide .legend h6{
+        font-size: small;
+    }
+  .carousel-content{
+      font-size: small;
+  }
+  .cr-text{
+      top: 10%;
+  }
+}
