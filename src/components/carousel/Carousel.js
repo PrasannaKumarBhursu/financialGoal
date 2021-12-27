@@ -14,7 +14,17 @@ export default class DemoCarousel extends Component {
         infiniteLoop={true}
 
       >
-       
+
+        <div >
+          <img src="" alt="nishkaera" />
+          <div style={{ color: "#3AD4AF", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
+            <h3>Financial Planning</h3>
+            <h5>
+              Learn the basics of financial planning with us and achieve your
+              financial goals.
+            </h5>
+          </div>
+        </div>
         <div >
           <img src="Carousel_Financial-planning.jpg" alt="nishkaera" />
           <div style={{ color: "#3AD4AF", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
@@ -50,7 +60,7 @@ export default class DemoCarousel extends Component {
           <a className="cr-text " href="mailto:contact@nishkaera.com?subject=Partner with Nishkaera">Partner with us</a>
           <div style={{ color: "white", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
             <h3>Partner with us</h3>
-            <h5>Nishakera is looking for sales partners across India. To know more write to us at <a style={{color:"white"}} href="mailto:contact@nishkaera.com?subject=Partner with Nishkaera">contact@nishkaera.com</a></h5>
+            <h5>Nishakera is looking for sales partners across India. To know more write to us at <a style={{ color: "white" }} href="mailto:contact@nishkaera.com?subject=Partner with Nishkaera">contact@nishkaera.com</a></h5>
           </div>
         </div>
 

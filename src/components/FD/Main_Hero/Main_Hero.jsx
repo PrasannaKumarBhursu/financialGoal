@@ -1,5 +1,4 @@
 import React from "react";
-
 // Imports
 import bajajxpattern from "../assets/3.png";
 import mainhero from "../assets/mainhero.png";

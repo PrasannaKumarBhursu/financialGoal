@@ -169,7 +169,7 @@ const Calc = () => {
 
                             {/* Invest now Button */}
                             <button className="tw-m-auto tw-bg-nishyellow-400 tw-text-xl tw-w-56 tw-h-16 tw-rounded-md md:tw-w-40 md:tw-h-12 lg:tw-w-56 lg:tw-h-16 tw--mt-12 md:tw--mt-28 tw-font-semibold">
-                                <a href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=IFA_Prime&utm_medium=B2B&utm_campaign=IFA_NISHKAERA_FINANCIAL_ADVISORY">
+                                <a className="tw-text-black" href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=IFA_Prime&utm_medium=B2B&utm_campaign=IFA_NISHKAERA_FINANCIAL_ADVISORY">
                                     Invest Now
                                 </a>
                             </button>

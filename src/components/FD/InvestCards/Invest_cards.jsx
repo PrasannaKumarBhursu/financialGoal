@@ -46,8 +46,7 @@ const Invest_card = () => {
 
                                     </div>
                                     <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Strong</p>
-                                        <p>Credibility</p>
+                                        <p>Strong <br/>Credibility</p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white w-full">
@@ -60,7 +59,7 @@ const Invest_card = () => {
                                             </CustomWidthTooltip>
 
                                         </div>
-                                        <div className="md:tw-tw-mx-4">
+                                        <div className="md:tw-mx-4">
                                             <p>Bajaj Finance FD has safely ratings of FAAA by CRISIL and MAAA by ICRA</p>
                                         </div>
                                     </div>
@@ -72,8 +71,8 @@ const Invest_card = () => {
 
                                     </div>
                                     <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Additional</p>
-                                        <p>Rate Benefits</p>
+                                        <p>Additional <br/>Rate Benefits</p>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
@@ -96,8 +95,8 @@ const Invest_card = () => {
 
                                     </div>
                                     <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Online account</p>
-                                        <p>management</p>
+                                        <p>Online account <br/>management</p>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
@@ -119,8 +118,7 @@ const Invest_card = () => {
 
                                     </div>
                                     <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Premature</p>
-                                        <p>Withdrawal Facility</p>
+                                        <p>Premature <br/>Withdrawal Facility</p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">

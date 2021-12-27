@@ -24,7 +24,7 @@ const Hero = () => {
                         <div className=" tw-w-2/5 tw-m-10 tw-my-auto">
 
                             {/* Table Border Box */}
-                            <div className=" tw-flex tw-flex-col tw-mb-6 tw-gap-0 tw-mt-6 md:tw-mt-0 md:tw-float-right tw--ml-2 lg:tw-mr-6 md:tw-ml-0 tw-border-2 tw-w-max lg:tw-h-80 tw-h-64 tw-border-nishblue-400 tw-rounded-xl ">
+                            <div className=" tw-flex tw-flex-col tw-mb-6 tw-gap-0 tw-mt-6 md:tw-mt-0 md:tw-float-right tw--ml-3 lg:tw-mr-6 md:tw-ml-0 tw-border-2 tw-w-max lg:tw-h-80 tw-h-64 tw-border-nishblue-400 tw-rounded-xl ">
 
                                 {/* Table Top */}
                                 <div className="tw-w-full tw-rounded-t-lg tw-p-4 tw-border-b-0">
@@ -66,7 +66,7 @@ const Hero = () => {
                                 {/* Invest Now Button */}
 
                                 <button className="tw-m-auto tw--mt-2 md:tw--mt-6 tw-bg-nishyellow-400 lg:tw-text-lg md:tw-text-sm tw-text-xs tw-rounded-md tw-h-10 lg:tw-w-2/4 lg:tw-h-32 md:tw-w-32 md:tw-h-12 tw-w-28  tw-font-semibold">
-                                    <a href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=IFA_Prime&utm_medium=B2B&utm_campaign=IFA_NISHKAERA_FINANCIAL_ADVISORY">
+                                    <a className="tw-text-black" href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=IFA_Prime&utm_medium=B2B&utm_campaign=IFA_NISHKAERA_FINANCIAL_ADVISORY">
                                         Invest Now
                                     </a>
                                 </button>
