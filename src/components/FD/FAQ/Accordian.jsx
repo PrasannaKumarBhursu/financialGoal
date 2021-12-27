@@ -239,11 +239,7 @@ export default function Accordian() {
 
                             {/* Opened Display Text */}
                             <Disclosure.Panel className="tw-px-4 tw-pt-4 tw-pb-2 tw-text-left tw-text-md tw-text-gray-500">
-                                A fixed deposit is a savings option which helps you earn interest in savings parked with a financier of your choice.
-                                You can choose to get returns on a periodic basis, or at maturity.
-                                The rates of interest are typicaly higher than money kept in savings accounts because the money is locked in for a
-                                specific period and cannot be withdrawn at will of the depositor,
-                                except in certain scenarios in which customer is ready to bear the penality for premature withdrawal.
+                                A fixed deposit is created by opening an Fixed Deposit account with the bank which in turn issues an FD receipt.
                             </Disclosure.Panel>
                         </>
                     )}
@@ -265,20 +261,17 @@ export default function Accordian() {
 
                             {/* Opened Display Text */}
                             <Disclosure.Panel className="tw-px-4 tw-pt-4 tw-pb-2 tw-text-left tw-text-md tw-text-gray-500">
-                                A fixed deposit is a savings option which helps you earn interest in savings parked with a financier of your choice.
-                                You can choose to get returns on a periodic basis, or at maturity.
-                                The rates of interest are typicaly higher than money kept in savings accounts because the money is locked in for a
-                                specific period and cannot be withdrawn at will of the depositor,
-                                except in certain scenatios in which customer is ready to bear the penality for premature withdrawal.
+                                Interest on an Fixed Deposit can be paid into the depositor’s savings bank account at a predefined frequency, or accumulated and paid at the end of the term. On maturity, the lump sum deposit amount is returned to the investor.Investors can also choose to renew the deposit on the maturity date.The minimum deposit amount varies across banks. Banks also offer special rates to senior citizens, defined as those who are over 60 years of age.
                             </Disclosure.Panel>
                         </>
                     )}
                 </Disclosure>
                 {/* Element 3 Ends */}
                 <div className='tw-w-full tw-text-center'>
+                    {readMore && extraContent}
                     <button className='tw-w-max tw-text-justify tw-text-lg tw-h-10 tw-border-2 tw-px-4 tw-rounded-lg tw-font-semibold tw-border-nishblue-400' onClick={() => { setReadMore(!readMore) }}>{linkName}</button>
                 </div>
-                {readMore && extraContent}
+
 
             </div>
         </div>
