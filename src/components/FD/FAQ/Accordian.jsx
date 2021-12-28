@@ -159,7 +159,7 @@ export default function Accordian() {
                 <>
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
-                        <span>How will the maturity amount be transferrd?</span>
+                        <span>How will the maturity amount be transferred?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
