@@ -17,11 +17,11 @@ const CustomWidthTooltip = styled(({ className, ...props }) => (
 }));
 
 const toolTip1 = `
-Rate of interest per annum, applicble on a scheme tenor of 36-60 months for senior citizens.
+Rate of interest per annum, applicable on a scheme tenor of 36-60 months for senior citizens.
 
 `;
 const toolTip2 = `
-Rate of interest per annum, applicble on a scheme tenor of 36-60 months for non-senior citizens.
+Rate of interest per annum, applicable on a scheme tenor of 36-60 months for non-senior citizens.
 
 `;
 const toolTip3 = `
@@ -33,7 +33,7 @@ Staying invested for longer can help you earn higher returns on your deposit. Th
 
 `;
 const toolTip5 = `
-Rate of interest per annum, applicble on a scheme tenor of 36-60 months for senior citizens.
+Rate of interest per annum, applicable on a scheme tenor of 36-60 months for senior citizens.
 
 `;
 const Un_benefits = () => {

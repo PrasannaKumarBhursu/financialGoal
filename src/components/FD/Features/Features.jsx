@@ -44,9 +44,9 @@ const Features = () => {
                                         to 60 months
                                     </div>
                                 </div>
-                                <div className="py-4 items-center text-justify text-md text-black rounded-b-xl h-3/5 bg-white w-full">
-                                    <div className="mx-4 mt-2">
-                                        <div className="md:mx-4">
+                                <div className="tw-py-4 tw-items-center tw-text-left tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
+                                    <div className="tw-mx-4 tw-mt-2">
+                                        <div className="md:tw-mx-4">
                                             <p>Choose tenors ranging from 12 to 60 months, as per your convenience.</p>
                                         </div>
                                     </div>

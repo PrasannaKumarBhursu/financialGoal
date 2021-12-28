@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel.css";
+import fd_banner from "../FD/assets/fd_banner.png"
 
 export default class DemoCarousel extends Component {
   render() {
@@ -16,12 +17,11 @@ export default class DemoCarousel extends Component {
       >
 
         <div >
-          <img src="" alt="nishkaera" />
+          <img src={fd_banner} alt="nishkaera" />
           <div style={{ color: "#3AD4AF", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
-            <h3>Financial Planning</h3>
+            <h3>Fixed Deposit</h3>
             <h5>
-              Learn the basics of financial planning with us and achieve your
-              financial goals.
+              Apply Now!
             </h5>
           </div>
         </div>

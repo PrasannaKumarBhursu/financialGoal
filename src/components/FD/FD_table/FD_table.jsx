@@ -37,7 +37,7 @@ const BankList = () => {
             s_fd: "6.20% p.a.",
             returns: "Rs.5,510",
             img: SBI,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "3",
@@ -47,7 +47,7 @@ const BankList = () => {
             s_fd: "6.25% p.a.",
             returns: "Rs.5,614",
             img: HDFC,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "4",
@@ -57,7 +57,7 @@ const BankList = () => {
             s_fd: "5.80% p.a.",
             returns: "Rs.5,406",
             img: PAS,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "5",
@@ -67,7 +67,7 @@ const BankList = () => {
             s_fd: "6.30% p.a.",
             returns: "Rs.5,614",
             img: ICICI,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "6",
@@ -77,7 +77,7 @@ const BankList = () => {
             s_fd: "5.75% p.a.",
             returns: "Rs.5,354",
             img: CANARA,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "7",
@@ -87,7 +87,7 @@ const BankList = () => {
             s_fd: "6.50% p.a.",
             returns: "Rs.5,875",
             img: AXIS,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "8",
@@ -97,7 +97,7 @@ const BankList = () => {
             s_fd: "5.80% p.a.",
             returns: "Rs.5,406",
             img: KOTAK,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "9",
@@ -107,7 +107,7 @@ const BankList = () => {
             s_fd: "7.0% p.a.",
             returns: "Rs.6,398",
             img: YES,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "10",
@@ -117,7 +117,7 @@ const BankList = () => {
             s_fd: "6.25% p.a.",
             returns: "Rs.5,354",
             img: BOB,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "11",
@@ -127,7 +127,7 @@ const BankList = () => {
             s_fd: "5.75% p.a.",
             returns: "Rs.5,354",
             img: IDBI,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "12",
@@ -137,7 +137,7 @@ const BankList = () => {
             s_fd: "6.50% p.a.",
             returns: "Rs.6,660",
             img: IDFC,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
     ];
 
@@ -150,7 +150,7 @@ const BankList = () => {
             s_fd: "7.05%",
             returns: "Rs.7,238",
             img: bajajfin,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "2",
@@ -160,7 +160,7 @@ const BankList = () => {
             s_fd: "6.20%",
             returns: "Rs.6,346",
             img: SBI,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "3",
@@ -170,7 +170,7 @@ const BankList = () => {
             s_fd: "6.25%",
             returns: "Rs.6,398",
             img: HDFC,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "4",
@@ -180,7 +180,7 @@ const BankList = () => {
             s_fd: "5.80%",
             returns: "Rs.5,927",
             img: PAS,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "5",
@@ -190,7 +190,7 @@ const BankList = () => {
             s_fd: "6.30%",
             returns: "Rs.6,450",
             img: ICICI,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "6",
@@ -200,7 +200,7 @@ const BankList = () => {
             s_fd: "5.75%",
             returns: "Rs.5,875",
             img: CANARA,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "7",
@@ -210,7 +210,7 @@ const BankList = () => {
             s_fd: "6.50%",
             returns: "Rs.6,660",
             img: AXIS,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "8",
@@ -220,7 +220,7 @@ const BankList = () => {
             s_fd: "5.80%",
             returns: "Rs.5,927",
             img: KOTAK,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "9",
@@ -230,7 +230,7 @@ const BankList = () => {
             s_fd: "7.0%",
             returns: "Rs.7,186",
             img: YES,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "10",
@@ -240,7 +240,7 @@ const BankList = () => {
             s_fd: "6.25%",
             returns: "Rs.6,398",
             img: BOB,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "11",
@@ -250,7 +250,7 @@ const BankList = () => {
             s_fd: "5.75%",
             returns: "Rs.5,875",
             img: IDBI,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
         {
             id: "12",
@@ -260,7 +260,7 @@ const BankList = () => {
             s_fd: "6.50%",
             returns: "Rs.6,660",
             img: IDFC,
-            route: "/bajaj"
+            // route: "/bajaj"
         },
     ];
 
