@@ -15,16 +15,6 @@ export default class DemoCarousel extends Component {
         infiniteLoop={true}
 
       >
-
-        <div >
-          <img src={fd_banner} alt="nishkaera" />
-          <div style={{ color: "#3AD4AF", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
-            <h3>Fixed Deposit</h3>
-            <h5>
-              Apply Now!
-            </h5>
-          </div>
-        </div>
         <div >
           <img src="Carousel_Financial-planning.jpg" alt="nishkaera" />
           <div style={{ color: "#3AD4AF", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
