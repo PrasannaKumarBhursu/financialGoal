@@ -40,12 +40,12 @@ const Invest_card = () => {
                     <div className="tw-h-auto  tw-border-4 tw-rounded-2xl tw-border-nishblue-100">
                         <h1 className="tw-text-2xl md:tw-text-4xl tw-text-black tw-font-semibold tw-text-left tw-py-4 tw-px-6 lg:tw-px-4">Why invest in Bajaj Finance FD</h1>
                         <div className=" md:tw-mb-6 tw-flex tw-flex-col md:tw-flex-row md:tw-flex-wrap lg:tw-flex-row tw-justify-center tw-items-center tw-gap-6 lg:tw-gap-12 tw-py-4">
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${strong})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
                                         <p>Strong <br/>Credibility</p>
                                     </div>
                                 </div>
@@ -65,12 +65,12 @@ const Invest_card = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${additional})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 md:tw-mt-4  tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
                                         <p>Additional <br/>Rate Benefits</p>
                                         <p></p>
                                     </div>
@@ -89,12 +89,12 @@ const Invest_card = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${online})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
                                         <p>Online account <br/>management</p>
                                         <p></p>
                                     </div>
@@ -112,12 +112,12 @@ const Invest_card = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-2 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${premature})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
                                         <p>Premature <br/>Withdrawal Facility</p>
                                     </div>
                                 </div>

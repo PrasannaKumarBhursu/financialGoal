@@ -19,7 +19,7 @@ const Steps = () => {
                                 <img src={step1}/>
                             </div>
                             <span className="tw--m-14">
-                                <img src={dotd} />
+                                <img className="tw-h-1/2 tw-w-1/2 md:tw-w-full md:tw-h-full" src={dotd} />
                             </span>
 
                             <div>
@@ -27,7 +27,7 @@ const Steps = () => {
                             </div>
 
                             <span className="tw--m-14">
-                                <img src={dotd} />
+                                <img className="tw-h-1/2 tw-w-1/2 md:tw-w-full md:tw-h-full" src={dotd} />
                             </span>
 
                             <div>
@@ -35,7 +35,7 @@ const Steps = () => {
                             </div>
 
                             <span className="tw--m-14">
-                                <img src={dotd} />
+                                <img className="tw-h-1/2 tw-w-1/2 md:tw-w-full md:tw-h-full" src={dotd} />
                             </span>
 
                             <div>

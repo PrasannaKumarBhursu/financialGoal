@@ -13,7 +13,7 @@ const Features = () => {
                     <div className="tw-h-auto tw-border-4 tw-rounded-2xl tw-border-nishblue-100">
                         <h1 className="tw-text-2xl md:tw-text-4xl tw-text-black tw-font-semibold tw-py-4 tw-px-6 tw-text-left lg:tw-px-4">Features and Benefits of Fixed Deposit</h1>
                         <div className=" md:tw-mb-6 tw-flex tw-flex-col md:tw-flex-row md:tw-flex-wrap lg:tw-flex-row tw-justify-center tw-items-center tw-gap-6 lg:tw-gap-12 tw-py-4">
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${Upto})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className=" tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
@@ -34,7 +34,7 @@ const Features = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className="tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${tenor})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
@@ -52,7 +52,7 @@ const Features = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${deposits})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className=" tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
@@ -74,7 +74,7 @@ const Features = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
+                            <div className="md:tw-w-72 tw-w-64 tw-shadow-md tw-rounded-xl tw-h-56">
                                 <div className="tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${secured})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 

@@ -9,6 +9,7 @@ import axios from "axios";
 import dotenv from "dotenv";
 // import { faLeanpub } from "@fortawesome/free-brands-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
+import SocialFollow from "../social/SocialFollow";
 
 dotenv.config();
 export default class Footer extends React.Component {
@@ -95,8 +96,8 @@ export default class Footer extends React.Component {
                       <img
                         // src="/Letter-NE.png"
                         src="/NishkaEra-Footer_Logo.png"
-                        width="auto"
-                        height="70"
+                        width="125.88px"
+                        height="70px"
                         className="d-inline-block align-top"
                         alt="Nishka"
                       />
@@ -244,6 +245,9 @@ export default class Footer extends React.Component {
               </div>
               <div className="col-md-3 col-sm-6"></div> */}
             </div>
+          </div>
+          <div className="tw-mt-6">
+            <SocialFollow />
           </div>
         </div>
 

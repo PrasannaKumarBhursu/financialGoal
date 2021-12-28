@@ -20,10 +20,10 @@ const Main_Hero = () => {
 
                         {/* Right Div */}
                         {/* Table Container Starts */}
-                        <div className="tw-w-3/5 tw-m-10  tw-my-auto">
+                        <div className="tw-w-3/5 tw-m-10 tw-my-auto">
 
                             {/* Table Border Box */}
-                            <div className=" tw-flex tw-flex-col tw-mb-6 tw-gap-0 tw-mt-6 md:tw-mt-0 md:tw-float-right tw--ml-2 lg:tw-mr-6 md:tw-ml-0 tw-border-2 tw-w-64 md:tw-w-60 lg:tw-w-max lg:tw-h-68 tw-h-64 tw-border-nishblue-400 tw-rounded-xl ">
+                            <div className=" tw-flex tw-flex-col tw-mb-6 tw-gap-0 tw--ml-4 tw-mt-6 md:tw-mt-0 md:tw-float-right lg:tw-mr-6 md:tw-ml-0 tw-border-2 tw-w-60 md:tw-w-60 lg:tw-w-max lg:tw-h-68 tw-h-64 tw-border-nishblue-400 tw-rounded-xl ">
 
                                 {/* Table Top */}
                                 <div className="lg:tw-w-96 tw-rounded-t-lg tw-p-4 tw-border-b-0">

@@ -17,7 +17,7 @@ const Faq = () => {
                         <h1 className="tw-text-2xl md:tw-text-4xl tw-text-left tw-text-black tw-font-semibold tw-py-4 tw-px-4">FAQs</h1>
 
                         {/* Accordian */}
-                        <div className="tw-w-full tw-m-4">
+                        <div className="tw-w-full tw-m-2 md:tw-m-4">
                             <Accordian className="tw-w-full" />
                         </div>
                     </div>

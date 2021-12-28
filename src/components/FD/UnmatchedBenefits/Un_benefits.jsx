@@ -58,10 +58,10 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Interest Rates
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
                                         7.05%p.a.*
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs tw--mt-2 md:tw--mt-0 tw-font-semibold ">For Senior Citizen</p>
+                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold ">For Senior Citizen</p>
                                 </div>
                             </div>
                             <div className="tw-bg-nishblue-400 md:tw-w-60 md:tw-h-44 tw-h-32 tw-w-36 tw-rounded-xl">
@@ -76,10 +76,10 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Interest Rates
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
                                         6.80%p.a.**
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs tw--mt-2 md:tw--mt-0 tw--mt-1 md:tw-mt-0 tw-font-semibold">For Non Senior Citizen</p>
+                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw--mt-1 md:tw-mt-0 tw-font-semibold">For Non Senior Citizen</p>
                                 </div>
                             </div>
 
@@ -95,10 +95,10 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Choose
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
                                         Flexible
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs tw--mt-2 md:tw--mt-0 tw-font-semibold">Payout Interest</p>
+                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold">Payout Interest</p>
                                 </div>
                             </div>
                             <div className="tw-bg-nishblue-400 md:tw-w-60 md:tw-h-44 tw-h-32 tw-w-36 tw-rounded-xl">
@@ -113,10 +113,10 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Get a loan up to
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
                                         75%
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs tw--mt-2 md:tw--mt-0 tw-font-semibold">Of FD amount</p>
+                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold">Of FD amount</p>
                                 </div>
                             </div>
                             <div className="tw-bg-nishblue-400 md:tw-w-60 md:tw-h-44 tw-h-32 tw-w-36 tw-rounded-xl">
@@ -131,10 +131,10 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Months
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3x md:tw--mt-0 tw-text-white tw-font-black">
                                         12-60
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs tw--mt-2 md:tw--mt-0 tw-font-semibold">Flexible Tenor</p>
+                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold">Flexible Tenor</p>
                                 </div>
                             </div>
                         </div>
