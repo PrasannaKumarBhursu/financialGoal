@@ -86,7 +86,7 @@ export default class Login extends Component {
         <ScrollToTop />
         <Header />
         <Jumbotron className="container-fluid">
-          <Container style={{ display: "flex" }} className="contact-container">
+          <Container style={{ display: "flex", width:"100%" }} className="contact-container">
             <Row style={{ width: "50%" }} className="first-contact">
               <Form.Row className="contact-details">
                 <div className="register-img">

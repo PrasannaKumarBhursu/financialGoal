@@ -251,7 +251,7 @@ export default class Register extends Component {
       <div>
         <Header />
         <Jumbotron className="container-fluid">
-          <Container style={{ display: "flex" }} className="contact-container">
+          <Container style={{ display: "flex", width:"100%" }} className="contact-container">
 
             <Row
               style={{ width: "50%" }}
