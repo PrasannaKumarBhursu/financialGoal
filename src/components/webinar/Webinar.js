@@ -265,7 +265,6 @@ export default function Webinar() {
         </div>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
     </>
   );
 }

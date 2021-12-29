@@ -36,7 +36,7 @@ const Calc = () => {
             <div className="tw-m-3 tw-h-auto tw-border-black tw-shadow-3xl tw-rounded-2xl">
 
                 {/* Blue Border Box */}
-                <div className="tw-border-nishblue-100 tw-p-8">
+                <div className="tw-border-nishblue-100 md:tw-p-8">
                     <div className=" tw-h-auto tw-border-4 tw-rounded-2xl tw-border-nishblue-100">
 
                         {/* Calculator Start */}

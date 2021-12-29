@@ -27,7 +27,7 @@ Rated FAAA/Stable by CRISIL and MAAA/Stable by ICRA, which means highest safety 
 `;
 
 const toolTip2 = `
-Fund emergencies with an easy premature withdrwal facility after a minimum lock-in period of 3 months. You can also take an easy loan against FD, instead of liquidating your saving prematurily.
+Fund emergencies with an easy premature withdrawal facility after a minimum lock-in period of 3 months. You can also take an easy loan against FD, instead of liquidating your saving prematurly.
 
 `;
 
@@ -36,8 +36,8 @@ const Invest_card = () => {
     return (
         <>
             <div className=" tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-2xl">
-                <div className="tw-border-nishblue-100 tw-p-8">
-                    <div className="tw-h-auto  tw-border-4 tw-rounded-2xl tw-border-nishblue-100">
+                <div className="tw-border-nishblue-100 md:tw-p-8">
+                    <div className="tw-h-auto  tw-border-4 tw-rounded-2xl tw-border-solid tw-border-nishblue-100">
                         <h1 className="tw-text-2xl md:tw-text-4xl tw-text-black tw-font-semibold tw-text-left tw-py-4 tw-px-6 lg:tw-px-4">Why invest in Bajaj Finance FD</h1>
                         <div className=" md:tw-mb-6 tw-flex tw-flex-col md:tw-flex-row md:tw-flex-wrap lg:tw-flex-row tw-justify-center tw-items-center tw-gap-6 lg:tw-gap-12 tw-py-4">
                             <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">

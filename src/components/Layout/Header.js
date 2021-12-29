@@ -39,8 +39,8 @@ export default function Header() {
           <Link style={Styles} to="/">
             <img
               src="/NishkaEra_Logo.png"
-              width="259.86"
-              height="50"
+              width="auto"
+              height="70"
               className="d-inline-block align-top align-items-center nav-img"
               alt="Nishka Era logo"
             />

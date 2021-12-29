@@ -295,12 +295,12 @@ const BankList = () => {
                 <p className="lg:tw-ml-32 tw-text-left md:tw-ml-20 tw-mb-4 tw-ml-10">*Estimated Annual Returns on Rs.1 Lakh Investment</p>
 
                 <div >
-                    <div className=" tw-w-full tw-font-bold tw-items-center tw-flex tw-flex-row lg:tw-gap-0 tw-gap-2 lg:tw-pl-64 md:tw-pl-24 tw-pl-8 tw-flex-start lg:tw-text-md md:tw-text-sm tw-text-xs">
-                        <div className=" md:tw-w-1/6 tw-pl-4">Name</div>
-                        <div className=" md:tw-w-1/6 tw-pl-6 md:tw-pl-2 lg:tw-pl-12">Bank/NBFC</div>
+                    <div className=" tw-w-full tw-font-bold tw-items-center tw-flex tw-flex-row tw-gap-2 lg:tw-gap-0 md:tw-gap-2 lg:tw-pl-64 md:tw-pl-24 tw-pl-8 tw-flex-start lg:tw-text-md md:tw-text-sm tw-text-xs">
+                        <div className=" md:tw-w-1/6 md:tw-pl-4">Name</div>
+                        <div className=" md:tw-w-1/6 tw-pl-5 md:tw-pl-2 lg:tw-pl-12">Bank/NBFC</div>
                         <div className=" md:tw-w-1/6 tw-text-center tw-pr-20 md:tw-pr-16 lg:tw-pr-20 md:tw-ml-10 lg:tw-ml-20 ">Regular <br /> FD Rates</div>
                         <div className=" md:tw-w-1/6 tw-text-center md:tw-pr-14 lg:tw--ml-2 tw--ml-20 md:tw--ml-2">Senior Citizen's <br /> FD Rates</div>
-                        <div className="  md:tw-w-1/6 tw-text-center tw--ml-2 md:tw--ml-4 lg:tw--ml-2 ">
+                        <div className="  md:tw-w-1/6 tw-text-center md:tw--ml-4 lg:tw--ml-2 ">
                             Annual Returns*<br />
                             <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center lg:tw-ml-12 md:tw-ml-6">
                                 <span className="md:tw-text-sm tw-text-xs tw-font-light">For Senior Citizen</span>
@@ -331,9 +331,9 @@ const Bank = (props) => {
     return (
         <>
             <Link  style={{  textDecoration: 'none',  }} className="tw-ring-black tw-text-black" to={route}>
-                <div style={{ background: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left', backgroundSize: '70%' }} className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-5/6 tw-mx-auto">
+                <div style={{ background: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left', backgroundSize: '70%' }} className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
                     <div className="tw-bg-transparent md:tw-h-16 tw-h-20 tw-p-4 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
-                        <div className="tw-flex tw-flex-row md:tw-pl-8 lg:tw-pl-32 tw-flex-start tw-gap-6 lg:tw-gap-0 lg:tw-text-md md:tw-text-sm tw-text-xs">
+                        <div className="tw-flex tw-flex-row  md:tw-pl-8 lg:tw-pl-32 tw-flex-start md:tw-gap-6 lg:tw-gap-0 lg:tw-text-md md:tw-text-sm tw-text-xs">
                             <div className="tw-w-1/5">{name}</div>
                             <div className="tw-w-1/5">{bk}</div>
                             <div className="tw-font-semibold tw-w-1/5">{r_fd}</div>

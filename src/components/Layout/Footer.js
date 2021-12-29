@@ -96,8 +96,8 @@ export default class Footer extends React.Component {
                       <img
                         // src="/Letter-NE.png"
                         src="/NishkaEra-Footer_Logo.png"
-                        width="125.88px"
-                        height="70px"
+                        width="auto"
+                        height="70"
                         className="d-inline-block align-top"
                         alt="Nishka"
                       />

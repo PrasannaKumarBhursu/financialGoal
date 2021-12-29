@@ -29,7 +29,7 @@ Apply for a loan against FD and take a loan up to 75% of FD amount in case of em
 
 `;
 const toolTip4 = `
-Staying invested for longer can help you earn higher returns on your deposit. The tenor for Single MAturity Scheme of SDP is 19 to 60 months. 
+Staying invested for longer can help you earn higher returns on your deposit. The tenor for Single Maturity Scheme of SDP is 19 to 60 months. 
 
 `;
 const toolTip5 = `
@@ -41,8 +41,8 @@ const Un_benefits = () => {
         <>
             <div className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-2xl">
 
-                <div className="tw-border-nishblue-100 md:tw-p-8 tw-p-6">
-                    <div className=" tw-border-4 tw-rounded-2xl tw-border-nishblue-100 ">
+                <div className="tw-border-nishblue-100 md:tw-p-8 ">
+                    <div className=" tw-border-4 tw-rounded-2xl tw-border-solid tw-border-nishblue-100 ">
                         <h1 className=" tw-text-2xl md:tw-text-4xl tw-text-black tw-font-semibold text-left tw-py-4 tw-px-4">Explore the Unmatched Benefits</h1>
                         <div className="tw-flex tw-flex-row tw-justify-center lg:tw-gap-10 tw-py-4 md:tw-gap-6 tw-gap-4 tw-flex-wrap">
                             <div className="tw-bg-nishblue-400 md:tw-w-60 md:tw-h-44 tw-h-32 tw-w-36 tw-rounded-xl">
@@ -58,10 +58,10 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Interest Rates
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3xl tw-text-white tw-font-black">
                                         7.05%p.a.*
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold ">For Senior Citizen</p>
+                                    <p className="md:tw-text-base tw-text-xs tw-font-semibold ">For Senior Citizen</p>
                                 </div>
                             </div>
                             <div className="tw-bg-nishblue-400 md:tw-w-60 md:tw-h-44 tw-h-32 tw-w-36 tw-rounded-xl">
@@ -79,7 +79,7 @@ const Un_benefits = () => {
                                     <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
                                         6.80%p.a.**
                                     </p>
-                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw--mt-1 md:tw-mt-0 tw-font-semibold">For Non Senior Citizen</p>
+                                    <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold">For Non Senior Citizen</p>
                                 </div>
                             </div>
 
@@ -131,7 +131,7 @@ const Un_benefits = () => {
                                     <p className="tw-text-white tw-text-xs md:tw-text-sm tw-font-semibold">
                                         Months
                                     </p>
-                                    <p className="tw-text-xl md:tw-text-3x md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl md:tw-text-3xl md:tw--mt-0 tw-text-white tw-font-black">
                                         12-60
                                     </p>
                                     <p className="md:tw-text-base tw-text-xs md:tw--mt-0 tw-font-semibold">Flexible Tenor</p>

@@ -13,7 +13,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>Is there a minimum deposit amount or tenor for fixed deposit?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -33,7 +33,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>What interest rates does Bajaj Finance offer on fixed deposit?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -53,7 +53,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>Can I withdraw this Fixed deposit before the tenor expiry? If, yes what is the impact on interest?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-tw-transform tw-rotate-180' : ''
@@ -77,7 +77,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>When will TDS certificate be provided to the depositor?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -98,7 +98,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>How soon will I recieve my fixed deposit receipt?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -119,7 +119,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>I am unable to track my fixed deposit receipt. Please assist. </span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -138,7 +138,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>What is the interest amount that will be credited to my account?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -158,7 +158,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>How will the maturity amount be transferred?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -177,7 +177,7 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                         <span>How can I change my bank account details?</span>
                         <FaChevronUp
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -203,7 +203,7 @@ export default function Accordian() {
                     {({ open }) => (
                         <>
                             {/* Unopened Display Text */}
-                            <Disclosure.Button className=" tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                            <Disclosure.Button className=" tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                                 <span>What is FD?</span>
                                 <FaChevronUp
                                     className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -229,7 +229,7 @@ export default function Accordian() {
                     {({ open }) => (
                         <>
                             {/* Unopened Display Text */}
-                            <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                            <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                                 <span>How to open a fixed deposit account?</span>
                                 <FaChevronUp
                                     className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -251,7 +251,7 @@ export default function Accordian() {
                     {({ open }) => (
                         <>
                             {/* Unopened Display Text */}
-                            <Disclosure.Button className="tw-h-22 tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
+                            <Disclosure.Button className="tw-h-22 tw-bg-white tw-items-center tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-xl md:tw-text-2xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg hover:tw-bg-nishblue-100 focus:tw-outline-none focus-visible:tw-ring focus-visible:tw-ring-nishblue-200 focus-visible:tw-ring-opacity-75">
                                 <span>How interest is paid on the FD account?</span>
                                 <FaChevronUp
                                     className={`${open ? 'tw-transform tw-rotate-180' : ''
@@ -269,7 +269,7 @@ export default function Accordian() {
                 {/* Element 3 Ends */}
                 <div className='tw-w-full tw-text-center'>
                     {readMore && extraContent}
-                    <button className='tw-w-max tw-text-justify tw-text-lg tw-h-10 tw-border-2 tw-px-4 tw-rounded-lg tw-font-semibold tw-border-nishblue-400' onClick={() => { setReadMore(!readMore) }}>{linkName}</button>
+                    <button className='tw-bg-white tw-w-max tw-text-justify tw-mt-4 tw-text-lg tw-h-10 tw-border-2 tw-px-4 tw-rounded-lg tw-font-semibold tw-border-nishblue-400' onClick={() => { setReadMore(!readMore) }}>{linkName}</button>
                 </div>
 
 

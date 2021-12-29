@@ -7,6 +7,7 @@ import FD_table from "./FD_table/FD_table";
 import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
 import fd_banner from "../FD/assets/fd_banner.png";
+import '../../index.css';
 
 const FD = () => {
 

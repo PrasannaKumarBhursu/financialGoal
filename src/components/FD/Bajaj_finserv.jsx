@@ -17,6 +17,8 @@ import Btn from "./btn/Btn";
 import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
 import fd_banner from "../FD/assets/fd_banner.png";
+import '../../index.css';
+
 const Bajaj_Finserv = () => {
 
     return (

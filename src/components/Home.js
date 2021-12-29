@@ -28,7 +28,6 @@ function Home() {
       {/* <FinancialPlanning /> */}
       {/* <Resources /> */}
       <Footer />
-      <SocialFollow />
       {/* <AboutUs /> */}
       {/* <OurStory /> */}
     </div>
