@@ -58,7 +58,10 @@ export default function Header() {
 
           <NavDropdown title="Products" id="collasible-nav-dropdown">
             <NavDropdown.Item style={Styles} href="/FixedDeposits">
-                  Fixed Deposit
+                  Fixed Deposit - Grow and Protect your Capital
+              </NavDropdown.Item>
+              <NavDropdown.Item className="disabled" style={Styles} href="/FixedDeposits">
+                  Personal Loan - Coming Up
               </NavDropdown.Item>
           </NavDropdown>
 

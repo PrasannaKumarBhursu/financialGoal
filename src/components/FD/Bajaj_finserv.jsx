@@ -25,7 +25,7 @@ const Bajaj_Finserv = () => {
         <>
             <div>
                 <Header />
-                <div className="tw-w-full">
+                <div className="tw-px-4">
                     <img className="tw-w-full tw-mx-auto" src={fd_banner} />
                 </div>
                 <Hero />

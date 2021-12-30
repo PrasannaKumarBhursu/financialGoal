@@ -54,7 +54,7 @@ const Requirements = () => {
                             <div className="tw-mx-10 md:tw-mx-32 tw-text-justify">
                                 <p>
                                     To invest in a Bajaj Finance online FD, you need to be above 18 years of age. You can book your deposit online, with a quick paperless process and get started with an investment amount of just Rs. 25,000. Invest in a Bajaj Finance online FD to save time and book your deposit in less than 10 minutes.<br /><br />
-                                    Senior citizens get an additional rate benefits up to 0.25%* on their deposit, regardless of the mode of investment, they choose.<br /><br />
+                                    Senior citizens get an additional rate benefits up to 0.25%*p.a. on their deposit, regardless of the mode of investment, they choose.<br /><br />
                                     Existing FD customers of Bajaj Finance need not resubmit any documents on renewal, as this is a one-time process. For new customers, here are the documents required to open a fixed deposit account with Bajaj Finance.<br /><br />
                                     <ul className="tw-list-disc">
                                         <li>Latest photograph</li>
