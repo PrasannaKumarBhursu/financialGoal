@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7ab5a78.chunk.css",
-    "main.js": "/static/js/main.69c57bb6.chunk.js",
-    "main.js.map": "/static/js/main.69c57bb6.chunk.js.map",
+    "main.css": "/static/css/main.07b5208b.chunk.css",
+    "main.js": "/static/js/main.083a96b8.chunk.js",
+    "main.js.map": "/static/js/main.083a96b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.644ba94a.js",
     "runtime-main.js.map": "/static/js/runtime-main.644ba94a.js.map",
     "static/css/2.3283066b.chunk.css": "/static/css/2.3283066b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.1ade7ee8.chunk.js.map": "/static/js/2.1ade7ee8.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3283066b.chunk.css.map": "/static/css/2.3283066b.chunk.css.map",
-    "static/css/main.a7ab5a78.chunk.css.map": "/static/css/main.a7ab5a78.chunk.css.map",
+    "static/css/main.07b5208b.chunk.css.map": "/static/css/main.07b5208b.chunk.css.map",
     "static/js/2.1ade7ee8.chunk.js.LICENSE.txt": "/static/js/2.1ade7ee8.chunk.js.LICENSE.txt",
     "static/media/3.5298681e.png": "/static/media/3.5298681e.png",
     "static/media/bajaj.25352737.png": "/static/media/bajaj.25352737.png",
@@ -19,9 +19,9 @@
     "static/media/canara.bf88e852.png": "/static/media/canara.bf88e852.png",
     "static/media/fd_banner.a3654935.png": "/static/media/fd_banner.a3654935.png",
     "static/media/mainhero.4a8aaf70.png": "/static/media/mainhero.4a8aaf70.png",
-    "static/media/step1.d027f356.png": "/static/media/step1.d027f356.png",
-    "static/media/step2.9fccf188.png": "/static/media/step2.9fccf188.png",
-    "static/media/step3.193fdca7.png": "/static/media/step3.193fdca7.png",
+    "static/media/step1.66892b7d.png": "/static/media/step1.66892b7d.png",
+    "static/media/step2.dcb1cf0e.png": "/static/media/step2.dcb1cf0e.png",
+    "static/media/step3.9130d893.png": "/static/media/step3.9130d893.png",
     "static/media/step4.cbe833e9.png": "/static/media/step4.cbe833e9.png",
     "static/media/tabblebg.7083ea23.png": "/static/media/tabblebg.7083ea23.png"
   },
@@ -29,7 +29,7 @@
     "static/js/runtime-main.644ba94a.js",
     "static/css/2.3283066b.chunk.css",
     "static/js/2.1ade7ee8.chunk.js",
-    "static/css/main.a7ab5a78.chunk.css",
-    "static/js/main.69c57bb6.chunk.js"
+    "static/css/main.07b5208b.chunk.css",
+    "static/js/main.083a96b8.chunk.js"
   ]
 }

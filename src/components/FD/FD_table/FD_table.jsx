@@ -27,7 +27,7 @@ const BankList = () => {
             s_fd: "7.05% p.a.",
             returns: "Rs.6,975",
             img: bajajfin,
-            route: "/FixedDeposits/bajaj"
+            route: "/FixedDeposits/bajaj",
         },
         {
             id: "2",
@@ -290,11 +290,11 @@ const BankList = () => {
 
     return (
         <>
-            <div>
-                <h1 className=" tw-text-2xl md:tw-text-4xl tw-text-black tw-font-bold tw-pt-16 tw-mb-8 lg:tw-px-32 md:tw-px-16 tw-text-left md:tw-pl-4 tw-pl-6">Best FD Rates in India 2021</h1>
-                <p className="lg:tw-ml-32 tw-text-left md:tw-ml-20 tw-mb-4 tw-ml-10">*Estimated Annual Returns on Rs.1 Lakh Investment</p>
+            <h1 className=" tw-text-2xl md:tw-text-4xl tw-text-black tw-font-bold tw-pt-16 tw-mb-8 lg:tw-px-32 md:tw-px-16 tw-text-left md:tw-pl-4 tw-pl-4">Best FD Rates in India 2021</h1>
+            <p className="lg:tw-ml-32 tw-text-left md:tw-ml-20 tw-mb-4 tw-ml-4 tw-text-sm">*Estimated Annual Returns on Rs.1 Lakh Investment</p>
+            <div className="tw-p-1">
 
-                <div >
+                {/* <div className="tw-hidden md:tw-block">
                     <div className=" tw-w-full tw-font-bold tw-items-center tw-flex tw-flex-row tw-gap-2 lg:tw-gap-0 md:tw-gap-2 lg:tw-pl-64 md:tw-pl-24 tw-pl-8 tw-flex-start lg:tw-text-md md:tw-text-sm tw-text-xs">
                         <div className=" md:tw-w-1/6 md:tw-pl-4">Name</div>
                         <div className=" md:tw-w-1/6 tw-pl-5 md:tw-pl-2 lg:tw-pl-12">Bank/NBFC</div>
@@ -305,6 +305,44 @@ const BankList = () => {
                             <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center lg:tw-ml-12 md:tw-ml-6">
                                 <span className="md:tw-text-sm tw-text-xs tw-font-light">For Senior Citizen</span>
                                 <ColorSwitches handleChange={handleChange} />
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+                <div className="tw-hidden md:tw-block">
+
+                    <div className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
+                        <div className="tw-bg-nishblue-400 tw-font-bold tw-text-white tw-h-auto tw-p-4 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
+                            <div className="tw-flex tw-flex-row  md:tw-pl-8 lg:tw-pl-32 tw-flex-start tw-items-center md:tw-gap-6 lg:tw-gap-0 lg:tw-text-md md:tw-text-sm tw-text-xs">
+                                <div className=" tw-w-1/5">Name</div>
+                                <div className="tw-w-1/5">Bank/NBFC</div>
+                                <div className="tw-w-1/5">Regular <br /> FD Rates</div>
+                                <div className="tw-w-1/5">Senior Citizen's <br /> FD Rates</div>
+                                <div id="switchOn" className="tw-w-1/5">Annual Returns*<br />
+                                    <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center lg:tw-ml-12 md:tw-ml-6">
+                                        <span className="md:tw-text-sm tw-text-xs tw-font-light">For Senior Citizen</span>
+                                        <ColorSwitches handleChange={handleChange} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="md:tw-hidden">
+                    <div className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
+                        <div className="tw-bg-nishblue-400 tw-text-white tw-font-bold tw-h-auto tw-p-4 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
+                            <div className="tw-flex tw-flex-row tw-gap-6 tw-flex-start tw-items-center tw-text-xs">
+                                <div className="tw-w-1/5">Name</div>
+                                <div className="tw-w-1/5">Bank/<br />NBFC</div>
+                                <div className="tw-w-1/5">Regular <br /> FD Rates</div>
+                                <div className="tw-w-1/5">Senior Citizen's <br /> FD Rates</div>
+                                <div className=" tw-w-1/5 tw--ml-2">Annual Returns*<br />
+                                    <div className=" tw-flex tw-flex-col tw-items-center">
+                                        <span className="tw-text-xs tw-font-light">For Senior Citizen</span>
+                                        <span className="tw-w-4 tw--ml-12 "><ColorSwitches handleChange={handleChange} /></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -330,19 +368,36 @@ const Bank = (props) => {
 
     return (
         <>
-            <Link  style={{  textDecoration: 'none',  }} className="tw-ring-black tw-text-black" to={route}>
-                <div style={{ background: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left', backgroundSize: '70%' }} className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
-                    <div className="tw-bg-transparent md:tw-h-16 tw-h-20 tw-p-4 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
-                        <div className="tw-flex tw-flex-row  md:tw-pl-8 lg:tw-pl-32 tw-flex-start md:tw-gap-6 lg:tw-gap-0 lg:tw-text-md md:tw-text-sm tw-text-xs">
-                            <div className="tw-w-1/5">{name}</div>
-                            <div className="tw-w-1/5">{bk}</div>
-                            <div className="tw-font-semibold tw-w-1/5">{r_fd}</div>
-                            <div className="tw-font-semibold tw-w-1/5">{s_fd}</div>
-                            <div id="switchOn" className="tw-font-semibold tw-w-1/5">{returns}</div>
+            <div className="tw-hidden md:tw-block">
+                <Link style={{ textDecoration: 'none', }} className="tw-ring-black tw-text-black" to={route}>
+                    <div style={{ background: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left', backgroundSize: '70%' }} className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
+                        <div className="tw-bg-transparent md:tw-h-16 tw-h-20 tw-p-4 tw-border-4 tw-border-solid tw-rounded-xl tw-border-nishblue-100 tw-w-full">
+                            <div className="tw-flex tw-flex-row  md:tw-pl-8 lg:tw-pl-32 tw-flex-start md:tw-gap-6 lg:tw-gap-0 lg:tw-text-md md:tw-text-sm tw-text-xs">
+                                <div className=" tw-w-1/5">{name}</div>
+                                <div className="tw-w-1/5">{bk}</div>
+                                <div className="tw-font-semibold tw-w-1/5">{r_fd}</div>
+                                <div className="tw-font-semibold tw-w-1/5">{s_fd}</div>
+                                <div id="switchOn" className="tw-font-semibold tw-w-1/5">{returns}</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </Link>
+                </Link>
+            </div>
+            <div className="md:tw-hidden">
+                <Link style={{ textDecoration: 'none', }} className="tw-ring-black tw-text-black" to={route}>
+                    <div className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
+                        <div className="tw-border-solid tw-border-nishblue-100 tw-border-4 tw-bg-transparent tw-h-24 tw-p-4 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
+                            <div className="tw-flex tw-flex-row tw-gap-6 tw-flex-start tw-items-center tw-text-xs">
+                                <div className="tw-w-1/5">{name}</div>
+                                <div className="tw-w-1/5">{bk}</div>
+                                <div className="tw-font-semibold tw-w-1/5">{r_fd}</div>
+                                <div className="tw-font-semibold tw-w-1/5">{s_fd}</div>
+                                <div id="switchOn" className="tw-font-semibold tw-w-1/5">{returns}</div>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+            </div>
 
         </>
     );

@@ -16,16 +16,16 @@ const Table = () => {
                             <div className="lg:tw-w-1/2 tw-flex tw-flex-col tw-items-center tw-rounded-t-xl tw-font-semibold lg:tw-m-6 lg:tw--mr-2">
                                 <h1 className="tw-text-xl md:tw-text-lg">Senior Citizen </h1>
                                 <table className="tw-w-full tw-m-4 tw-text-center tw-rounded-xl tw-shadow-md ">
-                                    <tr className="tw-border-nishblue-300 tw-border-collapse tw-text-xs md:tw-text-lg tw-bg-nishblue-400 tw-text-nishtext-50">
+                                    <tr className="tw-text-xs md:tw-text-lg tw-bg-nishblue-400 tw-text-nishtext-50">
                                         <th className="tw-rounded-tl-xl" rowSpan="2">Tenor in month</th>
-                                        <th rowSpan="2">Cumulative</th>
-                                        <th className="tw-rounded-tr-xl" colSpan="4">Non-Cumulative</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid tw-border-r-0 tw-border-t-0" rowSpan="2">Cumulative</th>
+                                        <th className="tw-rounded-tr-xl tw-border-nishblue-300 tw-border-2 tw-border-solid tw-border-r-0 tw-border-t-0" colSpan="4">Non-Cumulative</th>
                                     </tr>
-                                    <tr className="tw-border-nishblue-300 tw-text-xs md:tw-text-lg tw-border-collapse tw-bg-nishblue-400 tw-text-nishtext-50">
-                                        <th>Monthly</th>
-                                        <th>Quaterly</th>
-                                        <th>Half Yearly</th>
-                                        <th>Annual</th>
+                                    <tr className="tw-border-nishblue-300 tw-text-xs md:tw-text-lg tw-border-collapse tw-border-2 tw-border-r-0 tw-bg-nishblue-400 tw-text-nishtext-50">
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid">Monthly</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid">Quaterly</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid">Half Yearly</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-r-0 tw-border-solid">Annual</th>
                                     </tr>
                                     <tr className="tw-text-xs md:tw-text-lg">
                                         <td>12-23</td>
@@ -59,14 +59,14 @@ const Table = () => {
                                 <table className="tw-w-full tw-m-4 tw-text-center tw-rounded-xl tw-shadow-md ">
                                     <tr className="tw-text-xs md:tw-text-lg tw-border-nishblue-300 tw-border-collapse tw-bg-nishblue-400 tw-text-nishtext-50">
                                         <th className="tw-rounded-tl-xl" rowSpan="2">Tenor in month</th>
-                                        <th rowSpan="2">Cumulative</th>
-                                        <th className="tw-rounded-tr-xl"colSpan="4">Non-Cumulative</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid tw-border-r-0 tw-border-t-0" rowSpan="2">Cumulative</th>
+                                        <th className="tw-rounded-tr-xl tw-border-nishblue-300 tw-border-2 tw-border-solid tw-border-r-0 tw-border-t-0"colSpan="4">Non-Cumulative</th>
                                     </tr>
-                                    <tr className="tw-text-xs md:tw-text-lg tw-border-nishblue-300 tw-border-collapse tw-bg-nishblue-400 tw-text-nishtext-50">
-                                        <th>Monthly</th>
-                                        <th>Quaterly</th>
-                                        <th>Half Yearly</th>
-                                        <th>Annual</th>
+                                    <tr className="tw-border-nishblue-300 tw-text-xs md:tw-text-lg tw-border-collapse tw-border-2 tw-border-r-0 tw-bg-nishblue-400 tw-text-nishtext-50">
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid">Monthly</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid">Quaterly</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-solid">Half Yearly</th>
+                                        <th className="tw-border-nishblue-300 tw-border-2 tw-border-r-0 tw-border-solid">Annual</th>
                                     </tr>
                                     <tr className="tw-text-xs md:tw-text-lg">
                                         <td>12-23</td>

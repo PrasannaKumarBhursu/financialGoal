@@ -45,12 +45,12 @@ const Invest_card = () => {
                                     <div style={{ background: `url(${strong})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 md:tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Strong <br/>Credibility</p>
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-text-right tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                        <p>Strong <br />Credibility</p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white w-full">
-                                    <div className="tw-ml-12 tw-mt-2">
+                                    <div className="tw-mt-2">
                                         <div className="tw-float-right">
                                             <CustomWidthTooltip title={toolTip1}>
                                                 <Button>
@@ -59,7 +59,7 @@ const Invest_card = () => {
                                             </CustomWidthTooltip>
 
                                         </div>
-                                        <div className="md:tw-mx-4">
+                                        <div className="tw-mx-4">
                                             <p>Bajaj Finance FD has safely ratings of FAAA by CRISIL and MAAA by ICRA</p>
                                         </div>
                                     </div>
@@ -70,20 +70,22 @@ const Invest_card = () => {
                                     <div style={{ background: `url(${additional})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 md:tw-mt-4  tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Additional <br/>Rate Benefits</p>
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-text-right tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                        <p>Additional <br />Rate Benefits</p>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
-                                    <div className="tw-ml-12 tw-mt-2">
+                                    <div className="tw-mt-2">
                                         <div className="tw-float-right">
+                                            <CustomWidthTooltip>
                                                 <Button>
                                                     <AiFillInfoCircle className="tw-text-xl tw-text-white tw--mr-6 tw--mt-10" />
                                                 </Button>
+                                            </CustomWidthTooltip>
 
                                         </div>
-                                        <div className="md:tw-mx-4">
+                                        <div className="tw-mx-4">
                                             <p>Up to 0.25% p.a. for senior citizens</p>
                                         </div>
                                     </div>
@@ -94,19 +96,22 @@ const Invest_card = () => {
                                     <div style={{ background: `url(${online})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 md:tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Online account <br/>management</p>
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-text-right tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                        <p>Online account <br />management</p>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
-                                    <div className="tw-ml-12 tw-mt-2">
+                                    <div className="tw-mt-2">
                                         <div className="tw-float-right">
+                                            <CustomWidthTooltip>
                                                 <Button>
                                                     <AiFillInfoCircle className="tw-text-xl tw-text-white tw--mr-6 tw--mt-10" />
                                                 </Button>
+                                            </CustomWidthTooltip>
+
                                         </div>
-                                        <div className="md:tw-mx-4">
+                                        <div className="tw-mx-4">
                                             <p>Access all products details 24x7 on our customer portal-Experia</p>
                                         </div>
                                     </div>
@@ -117,12 +122,12 @@ const Invest_card = () => {
                                     <div style={{ background: `url(${premature})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 md:tw-mt-4 tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Premature <br/>Withdrawal Facility</p>
+                                    <div className="tw-mt-2 md:tw-mt-4 tw-text-right tw-leading-6 tw-text-xl tw-text-white tw-font-bold">
+                                        <p>Premature <br />Withdrawal Facility</p>
                                     </div>
                                 </div>
                                 <div className="tw-py-4 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
-                                    <div className="tw-ml-12 tw-mt-2">
+                                    <div className="tw-mt-2">
                                         <div className="tw-float-right">
                                             <CustomWidthTooltip title={toolTip2}>
                                                 <Button>
@@ -131,7 +136,7 @@ const Invest_card = () => {
                                             </CustomWidthTooltip>
 
                                         </div>
-                                        <div className="md:tw-mx-4">
+                                        <div className="tw-mx-4">
                                             <p>Access your savings instantly, during emergencies</p>
                                         </div>
                                     </div>

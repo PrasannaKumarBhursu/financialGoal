@@ -17,7 +17,7 @@ const Invest_main = () => {
                                     <div style={{ background: `url(${guarantee})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className=" tw-mt-8 tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 tw-text-right tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
                                         <p>Guaranteed <br/> Returns</p>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@ const Invest_main = () => {
                                     <div style={{ background: `url(${compunding})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} className=" tw-mt-8 tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 tw-text-right tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
                                         <p>The Power of <br/> Compounding</p>
                                     </div>
                                 </div>
@@ -52,8 +52,8 @@ const Invest_main = () => {
                                     <div style={{background: `url(${flexible})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} className=" tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="md:tw-mt-2 tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
-                                        <p>Flexiblity of user <br/>Invested Money</p>
+                                    <div className="md:tw-mt-2 tw-text-right tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
+                                        <p>Flexiblity of User <br/>Invested Money</p>
                                     </div>
                                 </div>
                                 <div className="tw-py-2 tw-items-center tw-text-justify tw-text-md tw-text-black tw-rounded-b-xl tw-h-3/5 tw-bg-white tw-w-full">
@@ -70,7 +70,7 @@ const Invest_main = () => {
                                     <div style={{background: `url(${higher})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} className=" tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="md:tw-mt-2 tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
+                                    <div className="md:tw-mt-2 tw-text-right tw-text-lg md:tw-text-xl tw-text-white tw-font-bold">
                                         <p>Higher Returns<br/>For Senior Citizens</p>
                                     </div>
                                 </div>

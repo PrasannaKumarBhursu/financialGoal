@@ -21,7 +21,7 @@ const Features = () => {
                                     <div className="tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
                                         <p>
                                             Upto 0.25% higher<br />
-                                            interest rates for,<br />
+                                            interest rates for<br />
                                             senior citizens
                                         </p>
                                     </div>
@@ -95,7 +95,7 @@ const Features = () => {
                                 </div>
                             </div>
 
-                            <div className="tw-mx-14 tw-text-justify">
+                            <div className="tw-mx-16 tw-text-justify">
                                 <p>
                                     Fixed deposit (FD) is a low-risk financial instrument that is offered by banks, post offices or Non-banking Financial Companies (NBFCs). Bajaj Finance offers higher FD rates ensuring you earn better returns.<br/><br/>
                                     With the Bajaj Finance Fixed Deposit, you can grow your savings at attractive FD interest rates up to 7.05%* along with the convenience of an endto-end paperless investment process. The Bajaj Finance online FD provides an easy application process that saves you time and trouble waiting in long queues to open an FD account.<br/> <br/>
