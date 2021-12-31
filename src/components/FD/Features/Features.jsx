@@ -14,11 +14,11 @@ const Features = () => {
                         <h1 className="tw-text-2xl md:tw-text-4xl tw-text-black tw-font-semibold tw-py-4 tw-px-6 tw-text-left lg:tw-px-4">Features and Benefits of Fixed Deposit</h1>
                         <div className=" md:tw-mb-6 tw-flex tw-flex-col md:tw-flex-row md:tw-flex-wrap lg:tw-flex-row tw-justify-center tw-items-center tw-gap-6 lg:tw-gap-12 tw-py-4">
                             <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
-                                <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
+                                <div className=" tw-flex tw-flex-row tw-justify-between md:tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${Upto})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className=" tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 tw-leading-6 tw-text-right tw-text-lg tw-text-white tw-font-bold">
                                         <p>
                                             Upto 0.25% higher<br />
                                             interest rates for<br />
@@ -35,11 +35,11 @@ const Features = () => {
                                 </div>
                             </div>
                             <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
-                                <div className="tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
+                                <div className="tw-flex tw-flex-row tw-justify-between md:tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${tenor})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 tw-leading-6 tw-text-right tw-text-lg tw-text-white tw-font-bold">
                                         Flexible tenor up<br />
                                         to 60 months
                                     </div>
@@ -53,14 +53,14 @@ const Features = () => {
                                 </div>
                             </div>
                             <div className="tw-w-64 md:tw-w-72 tw-shadow-md tw-rounded-xl tw-h-56">
-                                <div className=" tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
+                                <div className=" tw-flex tw-flex-row tw-justify-between md:tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${deposits})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className=" tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
+                                    <div className="tw-mt-2 tw-leading-6 tw-text-right tw-text-lg tw-text-white tw-font-bold">
                                         <p>
                                             Deposits starting<br />
-                                            at Rs.25,000 per<br />
+                                            at Rs.25,000<br/>per
                                             month
                                         </p>
                                     </div>
@@ -75,11 +75,11 @@ const Features = () => {
                                 </div>
                             </div>
                             <div className="md:tw-w-72 tw-w-64 tw-shadow-md tw-rounded-xl tw-h-56">
-                                <div className="tw-flex tw-flex-row tw-justify-between tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
+                                <div className="tw-flex tw-flex-row tw-justify-between md:tw-gap-6 tw-w-1/4 tw-px-4 tw-py-2 tw-rounded-t-xl tw-h-2/5 tw-bg-nishblue-400 tw-w-full">
                                     <div style={{ background: `url(${secured})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="tw-mt-8 tw-bg-black tw-h-16 tw-w-16 tw-rounded-full">
 
                                     </div>
-                                    <div className="tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
+                                    <div className="tw-text-right tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
                                         <p>
                                             Get secured<br />
                                             returns upto 7.05%
@@ -95,7 +95,7 @@ const Features = () => {
                                 </div>
                             </div>
 
-                            <div className="tw-mx-16 tw-text-justify">
+                            <div className="tw-mx-10 md:tw-mx-16 tw-text-justify">
                                 <p>
                                     Fixed deposit (FD) is a low-risk financial instrument that is offered by banks, post offices or Non-banking Financial Companies (NBFCs). Bajaj Finance offers higher FD rates ensuring you earn better returns.<br/><br/>
                                     With the Bajaj Finance Fixed Deposit, you can grow your savings at attractive FD interest rates up to 7.05%*p.a. along with the convenience of an end-to-end paperless investment process. The Bajaj Finance online FD provides an easy application process that saves you time and trouble waiting in long queues to open an FD account.<br/> <br/>
