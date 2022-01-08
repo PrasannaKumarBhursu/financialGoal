@@ -65,7 +65,7 @@ const Hero = () => {
 
                                     {/* Invest Now Button */}
                                     <div className="tw-m-auto tw-bg-nishyellow-400 tw--mb-4 md:tw-mt-2 lg:tw--mt-7 lg:tw-text-lg md:tw-text-sm tw-text-xs tw-rounded-md tw-h-10 lg:tw-w-2/4 lg:tw-h-20 md:tw-w-32 md:tw-h-8 tw-w-28  tw-font-semibold">
-                                    <a href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=IFA_Prime&utm_medium=B2B&utm_campaign=IFA_NISHKAERA_FINANCIAL_ADVISORY" className="tw-text-black" >
+                                    <a href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=&utm_medium=B2B&utm_campaign=Online_Fintech" className="tw-text-black" >
                                         <button className="tw-bg-nishyellow-400 tw-w-full tw-h-full tw-rounded-md  tw-font-semibold">
                                             Invest Now
                                         </button>
