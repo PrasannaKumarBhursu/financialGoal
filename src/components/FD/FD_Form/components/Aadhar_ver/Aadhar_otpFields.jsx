@@ -11,7 +11,7 @@ const Aadhar_otpFields = () => {
   return (
     <>
       <div className=" tw-h-auto tw-m-4 lg:tw-ml-14 tw-mt-16 tw-mb-20 tw-p-6 tw-rounded-lg tw-shadow-lg">
-        <h1 className="tw-mb-6 tw-font-bold tw-text-2xl">
+        <h1 className="tw-mb-6 tw-text-left tw-font-bold tw-text-2xl">
           Aadhaar offline verification
         </h1>
 
@@ -43,10 +43,10 @@ const Aadhar_otpFields = () => {
             }, 400);
           }}
         >
-          <Form className="tw-w-full">
+          <Form className="tw-w-full tw-text-left">
             <label
               htmlFor="otp"
-              className="tw-font-medium tw-text-gray-800 tw-text-xl"
+              className="tw-font-medium tw-text-left tw-text-gray-800 tw-text-xl"
             >
               Enter OTP
             </label>
@@ -54,16 +54,16 @@ const Aadhar_otpFields = () => {
               <Field
                 name="otp"
                 type="text"
-                className="tw-border-b-2 tw-border-black tw-w-full tw-mt-4 tw-outline-none"
+                className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-mt-4 tw-outline-none"
               />{" "}
             </div>
-            <div className="tw-text-red-500 tw-text-sm tw-font-semibold tw-mb-8">
+            <div className="tw-text-red-500 tw-text-left tw-text-sm tw-font-semibold tw-mb-8">
               <ErrorMessage name="otp" />{" "}
             </div>
 
             <label
               htmlFor="shareCode"
-              className="tw-font-medium tw-text-gray-800 tw-text-xl"
+              className="tw-font-medium tw-text-left tw-text-gray-800 tw-text-xl"
             >
               Share Code
             </label>
@@ -79,7 +79,7 @@ const Aadhar_otpFields = () => {
               <Field
                 name="shareCode"
                 type="text"
-                className="tw-border-b-2 tw-border-black tw-w-full tw-mt-4 tw-outline-none"
+                className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-mt-4 tw-outline-none"
               />{" "}
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">

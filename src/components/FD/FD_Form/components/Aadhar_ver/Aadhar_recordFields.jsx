@@ -31,7 +31,7 @@ const Aadhar_recordFields = () => {
             <img src={aadhar_id} />
           </div>
 
-          <div className="tw-flex tw-flex-col tw-gap-10 md:tw-w-3/4">
+          <div className="tw-flex tw-flex-col tw-text-left tw-gap-10 md:tw-w-3/4">
 
             <div className="tw-flex tw-flex-col md:tw-flex-row tw-justify-between">
 
@@ -72,7 +72,7 @@ const Aadhar_recordFields = () => {
 
               <Link to="/form/personaldetails">
 
-                <button className="tw-text-blue-700">Click here for manual redirection.</button>
+                <button className="tw-border-none tw-bg-transparent tw-font-semibold tw-text-blue-700">Click here for manual redirection.</button>
               </Link>
             </div>
 

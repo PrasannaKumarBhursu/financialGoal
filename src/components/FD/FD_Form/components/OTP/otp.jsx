@@ -68,7 +68,7 @@ const Otp_code = () => {
             <Field
               name="otp"
               type="text"
-              className="tw-border-b-2 tw-border-black md:tw-w-3/4 tw-w-4/5 tw-ml-6 tw-pl-2 tw-mb-3 tw-mt-4 md:tw-mt-8 md:tw-ml-20 tw-outline-none"
+              className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-black md:tw-w-3/4 tw-w-4/5 tw-ml-6 tw-pl-2 tw-mb-3 tw-mt-4 md:tw-mt-8 md:tw-ml-20 tw-outline-none"
             />{" "}
           </div>
           <div className="tw-text-red-500 tw-text-sm tw-font-semibold tw-text-center">

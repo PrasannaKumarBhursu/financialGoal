@@ -15,12 +15,12 @@ const Otp_ver = () => {
       </div>
 
       <div className="tw-border-nishblue-100 tw-p-4 md:tw-p-8">
-        <div className=" tw-h-auto tw-border-2 tw-rounded-2xl tw-border-nishblue-100">
-          <h1 className="tw-font-semibold md:tw-text-5xl tw-text-4xl tw-m-4 md:tw-ml-10">
+        <div className=" tw-h-auto tw-border-2 tw-border-solid tw-rounded-2xl tw-border-nishblue-100">
+          <h1 className="tw-font-semibold tw-text-left md:tw-text-5xl tw-text-4xl tw-m-4 md:tw-ml-10">
             OTP Sent
           </h1>
 
-          <p className="tw-text-yellow-400 md:tw-ml-10 tw-ml-4 tw-text-md tw-font-medium">
+          <p className="tw-text-yellow-400 tw-text-left md:tw-ml-10 tw-ml-4 tw-text-md tw-font-medium">
             Please enter the OTP received on your mobile.
           </p>
 

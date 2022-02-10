@@ -32,9 +32,9 @@ const Personal_details = () => {
 
   return (
     <>
-      <div className="tw-ml-8 lg:tw-ml-20 tw-p-4 tw-m-2 tw-w-full tw-flex tw-flex-col">
+      <div className="tw-ml-8 lg:tw-ml-20 tw-p-4 tw-text-left tw-m-2 tw-w-full tw-flex tw-flex-col">
         <span className=" tw-flex tw-items-center tw-gap-2 tw-text-left tw-text-lg tw-text-gray-600 tw-font-semibold">
-          <h1>Personal Details</h1>
+          <p>Personal Details</p>
           <FaCheckCircle className="tw-text-green-500" />
         </span>
 
@@ -158,7 +158,7 @@ const Personal_details = () => {
             }, 400);
           }}
         >
-          <Form className="tw-w-full">
+          <Form className="tw-w-full ">
             <label
               htmlFor="custId"
               className="tw-font-bold tw-text-gray-800 tw-text-md"
@@ -170,7 +170,7 @@ const Personal_details = () => {
                 disabled
                 name="custId"
                 type="text"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
               />{" "}
             </div>
 
@@ -184,7 +184,7 @@ const Personal_details = () => {
             <div>
               <Field
                 name="title"
-                className="tw-my-select tw-border-b-2 tw-outline-none  tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                className="tw-my-select tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-border-b-2 tw-outline-none  tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
                 as="select"
               >
                 <option value="">Select Title</option>
@@ -208,9 +208,9 @@ const Personal_details = () => {
               <Field
                 name="fullName"
                 type="text"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
               />{" "}
-              <span className="tw-border-b-2 tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+              <span className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
               </span>
@@ -229,9 +229,9 @@ const Personal_details = () => {
               <Field
                 name="mobNumber"
                 type="number"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
               />{" "}
-              <span className="tw-border-b-2 tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+              <span className="tw-border-b-2 tw-border-black tw-pb-0.5 tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
               </span>
@@ -250,7 +250,7 @@ const Personal_details = () => {
               <Field
                 name="email"
                 type="email"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-outline-none tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
               />{" "}
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -267,9 +267,9 @@ const Personal_details = () => {
               <Field
                 name="dob"
                 type="date"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-outline-none tw-border-t-0 tw-border-l-0  tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-mt-2 tw-mb-4"
               />{" "}
-              <span className="tw-border-b-2 tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-1.5">
+              <span className="tw-border-b-2 tw-border-black tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-4">
                 {" "}
                 <FaLock />{" "}
               </span>
@@ -288,9 +288,9 @@ const Personal_details = () => {
               <Field
                 name="pan"
                 type="text"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-outline-none tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-mt-2 tw-mb-4"
               />{" "}
-              <span className="tw-border-b-2 tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+              <span className="tw-border-b-2 tw-border-black tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
               </span>
@@ -309,9 +309,9 @@ const Personal_details = () => {
               <Field
                 name="address"
                 type="text"
-                className="tw-border-b-2 tw-outline-none tw-border-black tw-w-full tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-outline-none tw-border-t-0 tw-border-l-0  tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-mt-2 tw-mb-4"
               />{" "}
-              <span className="tw-border-b-2 tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+              <span className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
               </span>
@@ -330,9 +330,9 @@ const Personal_details = () => {
               <Field
                 name="zipcode"
                 type="number"
-                className="tw-border-b-2 tw-border-black tw-outline-none tw-w-full tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-border-t-0 tw-border-l-0  tw-border-r-0 tw-border-solid tw-border-black tw-outline-none tw-w-full tw-mt-2 tw-mb-4"
               />{" "}
-              <span className="tw-border-b-2 tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+              <span className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
               </span>
@@ -352,9 +352,9 @@ const Personal_details = () => {
                     name="toggle"
                   />
                 </label>
-                <h3 className="tw-text-md tw-font-semibold tw-text-gray-600">
+                <p className="tw-text-md tw-font-semibold tw-text-gray-600">
                   My communication address is same as permanent address
-                </h3>
+                </p>
               </div>
 
               {!checkedComm && (
@@ -370,7 +370,7 @@ const Personal_details = () => {
                     <Field
                       name="comaddress"
                       type="text"
-                      className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                      className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
                     />{" "}
                   </div>
                   <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -388,7 +388,7 @@ const Personal_details = () => {
                     <Field
                       name="comzipcode"
                       type="text"
-                      className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                      className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
                     />{" "}
                   </div>
                   <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -402,11 +402,11 @@ const Personal_details = () => {
               <label htmlFor="detailsCopy">
                 <Field type="checkbox" id="detailsCopy" name="toggle" />
               </label>
-              <h3 className=" tw-w-3/4 tw-text-md tw-font-semibold tw-text-gray-600">
+              <p className=" tw-w-3/4 tw-text-md tw-font-semibold tw-text-gray-600">
                 You will receive a digital copy of Fixed Deposit Reciept (FDR)
                 on your email ID and mobile number. However, if you wish to
                 recieve a physical copy then select Yes
-              </h3>
+              </p>
             </div>
 
             <div>
@@ -420,17 +420,17 @@ const Personal_details = () => {
                     name="toggle"
                   />
                 </label>
-                <h3 className="tw-text-md tw-font-semibold tw-text-gray-600">
+                <p className="tw-text-md tw-font-semibold tw-text-gray-600">
                   Do you wish to add a nominee?
-                </h3>
+                </p>
               </div>
 
               {checkedNomDetails && (
                 <>
                   <div className="tw-w-full tw-flex tw-flex-col tw-mt-8">
-                    <h1 className="tw-mb-8 tw-font-semibold tw-text-4xl lg:tw--ml-12">
+                    <p className="tw-mb-8 tw-font-semibold tw-text-4xl lg:tw--ml-12">
                       Nominee Details
-                    </h1>
+                    </p>
                     <div className="tw-w-2/6">
                       <label
                         htmlFor="nomtitle"
@@ -441,7 +441,7 @@ const Personal_details = () => {
                       <div>
                         <Field
                           name="nomtitle"
-                          className="tw-my-select tw-border-b-2 tw-outline-none  tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
+                          className="tw-my-select tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none  tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
                           as="select"
                         >
                           <option value="">Select Title</option>
@@ -467,7 +467,7 @@ const Personal_details = () => {
                           <Field
                             name="nomfullName"
                             type="text"
-                            className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
+                            className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
                           />{" "}
                         </div>
                         <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -485,7 +485,7 @@ const Personal_details = () => {
                           <Field
                             name="nomdob"
                             type="date"
-                            className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
+                            className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
                           />{" "}
                         </div>
                         <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -504,7 +504,7 @@ const Personal_details = () => {
                       <div>
                         <Field
                           name="nomrel"
-                          className="tw-my-select tw-outline-none  tw-border-b-2 tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
+                          className="tw-my-select tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none  tw-border-b-2 tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4 tw-text-xs md:tw-text-sm"
                           as="select"
                         >
                           <option value="">Select Relationship</option>
@@ -533,9 +533,9 @@ const Personal_details = () => {
                     name="toggle"
                   />
                 </label>
-                <h3 className="tw-text-md tw-font-semibold tw-text-gray-600">
+                <p className="tw-text-md tw-font-semibold tw-text-gray-600">
                   Nominee address is same as Primary Applicant's address
-                </h3>
+                </p>
               </div>
 
               {!checkedNominee && (
@@ -551,7 +551,7 @@ const Personal_details = () => {
                     <Field
                       name="nomaddress"
                       type="text"
-                      className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                      className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
                     />{" "}
                   </div>
                   <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -569,7 +569,7 @@ const Personal_details = () => {
                     <Field
                       name="nomzipcode"
                       type="text"
-                      className="tw-border-b-2 tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                      className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-outline-none tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
                     />{" "}
                   </div>
                   <div className="tw-text-red-500 tw-text-sm tw-font-semibold">

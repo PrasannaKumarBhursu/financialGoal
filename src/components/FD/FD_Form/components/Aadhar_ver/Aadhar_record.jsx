@@ -15,8 +15,8 @@ const Aadhar_record = () => {
       </div>
 
       <div className="tw-border-nishblue-100 tw-p-4 md:tw-p-4">
-        <div className=" tw-h-auto tw-border-2 tw-rounded-2xl tw-border-nishblue-100">
-          <h1 className="tw-font-semibold tw-text-3xl lg:tw-text-5xl tw-m-4 md:tw-ml-10">
+        <div className=" tw-h-auto tw-border-2 tw-border-solid tw-rounded-2xl tw-border-nishblue-100">
+          <h1 className="tw-font-semibold tw-text-3xl tw-text-left lg:tw-text-5xl tw-m-4 md:tw-ml-10">
             Customer details as per Aadhaar Records
           </h1>
 

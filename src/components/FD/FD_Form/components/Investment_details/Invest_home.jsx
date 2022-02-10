@@ -133,12 +133,12 @@ const Invest_home = () => {
           }, 400);
         }}
       >
-        <Form>
+        <Form className="tw-text-left">
           <div className="tw-border-nishblue-100 tw-p-4 md:tw-p-8">
-            <div className=" tw-h-auto tw-border-2 tw-rounded-2xl tw-border-nishblue-100">
-              <h1 className="tw-font-semibold tw-text-3xl md:tw-text-5xl tw-m-4 tw-ml-10">
+            <div className=" tw-h-auto tw-border-solid tw-rounded-2xl tw-border-nishblue-100">
+              <p className="tw-font-semibold tw-text-3xl md:tw-text-5xl tw-m-4 tw-ml-10">
                 Investment Details
-              </h1>
+              </p>
 
               <div className="tw-flex tw-flex-col lg:tw-flex-row tw-w-full">
                 <div className="lg:tw-w-1/2">
@@ -146,12 +146,12 @@ const Invest_home = () => {
                     <div className="tw-m-4 tw-mt-8 tw-p-4">
                       <label htmlFor="mobileNumber" className="tw-w-full">
                         <div className="tw-flex tw-justify-between tw-mb-2">
-                          <h1 className="tw-text-sm md:tw-text-lg tw-font-semibold">
+                          <p className="tw-text-sm md:tw-text-lg tw-font-semibold">
                             DEPOSIT AMOUNT
-                          </h1>
-                          <h1 className="tw-text-blue-500 tw-text-sm md:tw-text-md tw-font-medium">
+                          </p>
+                          <p className="tw-text-blue-500 tw-text-sm md:tw-text-md tw-font-medium">
                             View interest rates
-                          </h1>
+                          </p>
                         </div>
                       </label>
 
@@ -180,9 +180,9 @@ const Invest_home = () => {
                   </div>
 
                   <div>
-                    <h1 className="tw-text-lg tw-font-semibold tw-text-gray-800 tw-ml-8">
+                    <p className="tw-text-lg tw-font-semibold tw-text-gray-800 tw-ml-8">
                       TENOR (MONTHS){" "}
-                    </h1>
+                    </p>
                     <div className="tw-ml-2 tw-m-4 tw-p-4 tw-flex tw-items-center">
                       <span className="tw-text-center"> 12 months</span>
                       <Slider
@@ -203,9 +203,9 @@ const Invest_home = () => {
                   </div>
 
                   {/* <div>
-                    <h1 className="text-lg font-semibold text-gray-800 ml-8 mt-10">
+                    <p className="text-lg font-semibold text-gray-800 ml-8 mt-10">
                       INTEREST PAYOUT{" "}
-                    </h1>
+                    </p>
 
                     <Tab.Group>
                       <Tab.List className="border-gray-700 ml-8 w-4/5 flex overflow-x-scroll -mt-2 gap-2 lg:gap-5">
@@ -281,80 +281,80 @@ const Invest_home = () => {
                   </div> */}
 
                   <div className=" tw-flex gap-3 tw-items-center tw-bg-gray-200 tw-p-2 tw-ml-8 tw-m-4 tw-mt-8 tw-p-4 tw-rounded-sm tw-mb-10">
-                    <span className="tw-text-orange-500">
+                    <span className="tw-text-orange-500 tw-mb-4">
                       <AiFillStar />{" "}
                     </span>
-                    <h1 className="tw-text-sm">
+                    <p className="tw-text-sm">
                       Recommended for maximum savings
-                    </h1>
+                    </p>
                   </div>
                 </div>
 
                 <div className="lg:tw-w-1/2 lg:tw-ml-8">
-                  <div className="tw-border-2 tw-border-gray-300 tw-p-6 tw-m-10">
+                  <div className=" tw-border-solid tw-border-gray-300 tw-p-6 tw-m-10">
                     <div className="tw-mb-5">
-                      <h1 className="tw-font-semibold ">
+                      <p className="tw-font-semibold ">
                         YOUR DEPOSIT SUMMARY
-                      </h1>
+                      </p>
                     </div>
 
                     <div className="tw-flex tw-justify-between tw-mb-1.5">
-                      <h1 className="tw-font-medium ">
+                      <p className="tw-font-medium ">
                         Interest rate per annum
-                      </h1>
-                      <h1 className="tw-font-bold ">{interest}%</h1>
+                      </p>
+                      <p className="tw-font-bold ">{interest}%</p>
                     </div>
 
                     <div className="tw-flex tw-justify-between tw-mb-1.5">
-                      <h1 className="tw-font-medium ">Maturity month</h1>
-                      <h1 className="tw-font-bold ">
+                      <p className="tw-font-medium ">Maturity month</p>
+                      <p className="tw-font-bold ">
                         {month} {yyyy}
-                      </h1>
+                      </p>
                     </div>
 
                     <div className="tw-flex tw-justify-between tw-mb-1.5">
-                      <h1 className="tw-font-medium ">Total deposit amount</h1>
-                      <h1 className="tw-font-bold ">{pAmount}</h1>
+                      <p className="tw-font-medium ">Total deposit amount</p>
+                      <p className="tw-font-bold ">{pAmount}</p>
                     </div>
 
                     <div className="tw-flex tw-justify-between tw-mb-1.5">
-                      <h1 className="tw-font-medium ">
+                      <p className="tw-font-medium ">
                         Interest amount* <span>(On Maturity)</span>
-                      </h1>
-                      <h1 className="tw-font-bold ">{TotalAmountofInterest}</h1>
+                      </p>
+                      <p className="tw-font-bold ">{TotalAmountofInterest}</p>
                     </div>
 
                     <div className="tw-flex tw-justify-between tw-mb-1.5">
-                      <h1 className="tw-font-medium ">Total payout</h1>
-                      <h1 className="tw-font-bold">{totalAmt}</h1>
+                      <p className="tw-font-medium ">Total payout</p>
+                      <p className="tw-font-bold">{totalAmt}</p>
                     </div>
 
                     <div className="tw-mt-2 tw-w-4/5 ">
-                      <h1 className="tw-text-md tw-text-gray-600">
+                      <p className="tw-text-md tw-text-gray-600">
                         Disclaimer: Actual returns may very slightly if deposit
                         enters into a leap year
-                      </h1>
+                      </p>
                     </div>
                   </div>
 
                   <div className="tw-p-4 tw-m-6">
                     <div>
-                      <h1 className="tw-text-lg tw-font-semibold tw-text-gray-800 tw--mt-6 tw-mb-4">
+                      <p className="tw-text-lg tw-font-semibold tw-text-gray-800 tw--mt-6 tw-mb-4">
                         BANKING DETAILS
-                      </h1>
+                      </p>
                     </div>
 
                     <div>
                       <MySelect
-                        className="tw-w-full tw-outline-none tw--ml-1 tw-border-b-2 tw-border-gray-700 tw-text-md tw-text-gray-600"
+                        className="tw-w-full tw-outline-none tw--ml-1 tw-border-b-2 tw-border-t-0 tw-border-l-0  tw-border-r-0 tw-border-solid tw-border-gray-700 tw-text-md tw-text-gray-600"
                         label={
-                          <div className="tw-flex tw-justify-between tw-mb-2">
-                            <h1 className=" tw-text-sm md:tw-text-md tw-font-semibold">
+                          <div className="tw-flex tw-flex-row md:tw-gap-64 tw-mb-2">
+                            <p className=" tw-text-sm md:tw-text-md tw-font-semibold">
                               SELECT BANK NAME
-                            </h1>
-                            <h1 className="tw-text-blue-500 tw-text-xs md:tw-text-sm tw-font-medium">
+                            </p>
+                            <p className="tw-text-blue-500 tw-text-xs md:tw-text-sm tw-font-medium">
                               View available payment modes
-                            </h1>
+                            </p>
                           </div>
                         }
                         name="bankName"
@@ -367,9 +367,9 @@ const Invest_home = () => {
                       </MySelect>
 
                       <div>
-                        <h1 className="tw-text-lg tw-font-semibold tw-text-gray-800 tw-mt-6 tw-mb-2">
+                        <p className="tw-text-lg tw-font-semibold tw-text-gray-800 tw-mt-6 tw-mb-2">
                           CHOOSE PAYMENT MODE
-                        </h1>
+                        </p>
 
                         <FormControl component="tw-fieldset">
                           <Field
@@ -399,7 +399,7 @@ const Invest_home = () => {
 
                       <label
                         htmlFor="accountNumber"
-                        className="tw-font-semibold tw-text-gray-800 tw-text-lg"
+                        className="tw-font-semibold tw-text-gray-800  tw-text-lg"
                       >
                         ACCOUNT NUMBER{" "}
                         <span className="tw-text-sm tw-text-gray-600 tw-font-normal">
@@ -411,7 +411,7 @@ const Invest_home = () => {
                         <Field
                           name="accountNumber"
                           type="text"
-                          className="tw-border-b-2 tw-border-black tw-outline-none tw-w-full tw-mt-3 "
+                          className="tw-border-b-2 tw-border-t-0 tw-border-l-0  tw-border-r-0 tw-border-solid tw-border-black tw-outline-none tw-w-full tw-mt-3 "
                         />{" "}
                       </div>
                       <div className="tw-text-red-500 tw-text-sm tw-font-semibold  tw-mb-8">
@@ -429,19 +429,19 @@ const Invest_home = () => {
                         <Field
                           name="ifsc"
                           type="text"
-                          className="tw-border-b-2 tw-border-black tw-w-full tw-outline-none tw-mt-3 "
+                          className="tw-border-b-2 tw-border-t-0 tw-border-l-0  tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-outline-none tw-mt-3 "
                         />{" "}
                       </div>
                       <div className="tw-text-red-500 tw-text-sm tw-font-semibold tw-mb-4">
                         <ErrorMessage name="ifsc" />{" "}
                       </div>
 
-                      <h1 className="tw-text-justify tw-text-gray-700 tw-mb-8">
+                      <p className="tw-text-justify tw-text-gray-700 tw-mb-8">
                         In case of any mismatch in bank account number/ account
                         holder name from where FD funds are received, refund
                         shall be processed in 7 working days without any
                         interest
-                      </h1>
+                      </p>
 
                       <button
                         type="submit"
