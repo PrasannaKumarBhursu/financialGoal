@@ -60,8 +60,8 @@ export default function Header() {
             <NavDropdown.Item style={Styles} href="/FixedDeposits">
                   Fixed Deposit - Grow and Protect<br/> Your Capital
               </NavDropdown.Item>
-              <NavDropdown.Item className="disabled" style={Styles} href="/FixedDeposits">
-                  Personal Loan - Coming Up
+              <NavDropdown.Item style={Styles} href="/PersonalLoan">
+                  Personal Loan
               </NavDropdown.Item>
           </NavDropdown>
 

@@ -5,10 +5,22 @@ import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
 
 const people = [
     { name: 'Maturity' },
-    { name: 'Monthly' },
-    { name: 'Quaterly' },
-    { name: 'Half-Yearly' },
-    { name: 'Yearly' },
+    {
+        name: 'Monthly',
+        value: "1"
+    },
+    {
+        name: 'Quaterly',
+        value: "4"
+    },
+    {
+        name: 'Half-Yearly',
+        value: "6"
+    },
+    {
+        name: 'Yearly',
+        value: "12"
+    },
 ]
 
 export default function Example() {
@@ -37,7 +49,7 @@ export default function Example() {
                         leaveFrom="tw-opacity-100"
                         leaveTo="tw-opacity-0"
                     >
-                        <Listbox.Options className="tw-absolute tw-w-60 tw-z-10 md:tw-w-full tw-py-1 tw-mt-1 tw-overflow-auto tw-text-base tw-bg-white tw-rounded-md tw-shadow-lg tw-max-h-60 tw-ring-1 tw-ring-black tw-ring-opacity-5 tw-focus:outline-none sm:tw-text-sm">
+                        <Listbox.Options className="tw-list-none tw-absolute tw-w-60 tw-z-10 md:tw-w-full tw-py-1 tw-mt-1 tw-overflow-auto tw-text-base tw-bg-white tw-rounded-md tw-shadow-lg tw-max-h-60 tw-ring-1 tw-ring-black tw-ring-opacity-5 tw-focus:outline-none tw-text-center sm:tw-text-sm">
                             {people.map((person, personIdx) => (
                                 <Listbox.Option
                                     key={personIdx}

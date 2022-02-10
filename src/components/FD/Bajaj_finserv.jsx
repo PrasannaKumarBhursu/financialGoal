@@ -33,7 +33,7 @@ const Bajaj_Finserv = () => {
                 <Un_benefits />
                 <Requirements />
                 <Invest_card />
-                {/* <Calc /> */}
+                <Calc />
                 <Table />
                 <Steps />
                 <Faq />
@@ -41,8 +41,13 @@ const Bajaj_Finserv = () => {
                     <p>*Rate of interest per annum, applicable on a cumulative scheme tenor of 36-60 months for senior citizens</p>
                     <p> **Rate of interest per annum, applicable on a cumulative scheme tenor of 36-60 months for non-senior citizens
                         applying online</p>
-                    <div>
+                    {/* <div>
                         <a target="_blank" href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=&utm_medium=B2B&utm_campaign=Online_Fintech">
+                            <Btn />
+                        </a>
+                    </div> */}
+                     <div>
+                        <a target="_blank" href="/form">
                             <Btn />
                         </a>
                     </div>
