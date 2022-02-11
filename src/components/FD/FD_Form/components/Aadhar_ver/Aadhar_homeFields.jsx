@@ -74,6 +74,7 @@ const Aadhar_code = () => {
                     placeholder="Enter Security Code"
                   />{" "}
                 </div>
+                <span className="tw-text-sm  tw-text-nishblue-600">Please enter the captcha code</span>
                 <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
                   <ErrorMessage name="security" />{" "}
                 </div>

@@ -118,12 +118,12 @@ const Invest_home = () => {
           accountNumber: Yup.string()
             .min(9, "Must be atleast 9 characters")
             .max(18, "Must be atmost 18 characters")
-            .matches("[0-9]{10}", "Account number only contains numbers")
+            .matches("[0-9]", "Account number only contains numbers")
             .required("Required"),
           ifsc: Yup.string()
             .min(11, "Must be 11 characters")
             .max(11, "Must be 11 characters")
-            .matches("^[A-Z]{4}0[A-Z0-9]{6}$")
+            .matches("^[A-Z]{4}0[A-Z0-9]{6}$","Please enter a valid IFSC code")
             .required("Required"),
         })}
         onSubmit={(values, { setSubmitting }) => {
@@ -280,13 +280,28 @@ const Invest_home = () => {
                     </Tab.Group>
                   </div> */}
 
-                  <div className=" tw-flex gap-3 tw-items-center tw-bg-gray-200 tw-p-2 tw-ml-8 tw-m-4 tw-mt-8 tw-p-4 tw-rounded-sm tw-mb-10">
-                    <span className="tw-text-orange-500 tw-mb-4">
+                  <div className=" tw-flex tw-flex-col tw-gap-2 tw-bg-gray-200 tw-p-2 tw-ml-8 tw-m-4 tw-mt-8 tw-p-4 tw-rounded-sm tw-mb-10">
+                    <div>
+                    <span className="tw-text-yellow-500 tw-pr-2">
                       <AiFillStar />{" "}
                     </span>
-                    <p className="tw-text-sm">
+                    <span className="tw-text-sm tw-font-medium">
                       Recommended for maximum savings
-                    </p>
+                    </span>
+                    </div>
+
+                    <div>
+                    <span className="tw-text-sm">
+                    <span className="tw-font-medium">Desposit Amount</span> - Rs. 25,000
+                    </span>
+                    </div>
+
+                    <div>
+                    <span className="tw-text-sm">
+                      <span className="tw-font-medium">Tenor</span> - 12 Months
+                    </span>
+                    </div>
+
                   </div>
                 </div>
 

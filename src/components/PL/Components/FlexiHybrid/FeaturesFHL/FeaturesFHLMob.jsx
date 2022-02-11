@@ -2,59 +2,101 @@ import React from "react";
 import bajajfin from "../../../assets/fblg.png";
 import bajajfinmob from "../../../assets/bajajimg.png";
 
-const FeaturesFL = () => {
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { NextArrow, PrevArrow } from "../../Slide/arrows.component";
+
+const FeaturesFHLMob = () => {
+
+  const sliderSettings = {
+
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: false,
+    arrows: true,
+    infinite: false,
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
+
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 580,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   const features = [
     {
       heading: "Borrow when you need",
       content:
         "Withdraw funds as many times as you need from your approved loan limit.",
-      img: bajajfin, // route: "/FixedDeposits/bajaj",
+      // route: "/FixedDeposits/bajaj",
+      imgmob: bajajfinmob
     },
     {
       heading: "24 hours* disbursal",
       content:
         "With a simple online application process, get money in your bank account on the same day of approval*.",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
     {
       heading: "Prepay when you can",
       content: "Deposit funds into your loan account whenever you have surplus money.",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
     {
       heading: "No extra charges",
       content:
         "Withdraw funds and prepay them without paying any fee whatsover.",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
     {
       heading: "No added applications",
       content:
         "Skip having to put in additional paperwork when you withdraw or prepay funds.",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
     {
       heading: "Online Transactions",
       content:
         "Use our customer portal - Experia, to transfer funds from your loan limit to your loan account and make prepayments.",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
     {
       heading: "Interest-only EMIs",
       content:
         "Opt to pay only interest as your EMI for the first part of he tenor and the principal later, to reduce your EMI by up to 45%.*",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
     {
       heading: "Day-wise interest",
       content:
         "Incur interest only on what you utilize by the end of the day. Use the Flexi Interest calculator for insights.",
-      img: bajajfin, // route: "/bajaj"
+      // route: "/bajaj"
+      imgmob: bajajfinmob
     },
   ];
 
   return (
     <>
+    <div className="tw-block md:tw-hidden">
       <div className="tw-m-3 tw-border-black tw-shadow-3xl tw-rounded-2xl">
         <div className="tw-border-nishblue-100  md:tw-p-8">
           <div className="tw-h-auto tw-p-2 tw-border-4 tw-rounded-2xl tw-border-solid tw-border-nishblue-100">
@@ -62,9 +104,25 @@ const FeaturesFL = () => {
               Features and Benefits of Bajaj Finserv Personal Loan
             </h1>
             <div className="tw-text-center">
-              {features.map((data) => {
-                return <Benefits data={data}> </Benefits>;
-              })}
+            <Slider {...sliderSettings}>
+                  {features.map((card, index) => (
+                    <>
+                      <div key={index} className="tw-m-4 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
+                        <div className="tw-border-solid tw-border-nishblue-100 tw-border-4 tw-bg-transparent tw-h-24 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
+                          <div className=" tw-w-full tw-h-full tw-flex tw-flex-row tw-flex-start tw-items-center tw-text-xs">
+                            <div className="">
+                              <img className="tw-w-full tw-h-full" src={card.imgmob} />
+                            </div>
+                            <div className=" tw-w-3/4 tw-flex tw-flex-col">
+                              <div className="tw-font-semibold">{card.heading}</div>
+                              <div className="">{card.content}</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  ))}
+                </Slider>
             </div>
             <div className="tw-w-full tw-text-justify tw-mx-auto tw-text-xs md:tw-text-sm xl:tw-text-xl">
               <p className="tw-m-4 tw-mt-12 tw-ml-5 ">
@@ -87,35 +145,10 @@ const FeaturesFL = () => {
           </div>
         </div>
       </div>
-    </>
-  );
-};
-
-const Benefits = (props) => {
-  const { heading, content, img, imgmob } = props.data;
-
-  return (
-    <>
-      <div className="tw-hidden md:tw-block tw-w-5/6 lg:tw-w-11/12 md:tw-mx-8 lg:tw-mx-auto">
-        <div className="tw-m-5 tw-border-black tw-rounded-xl tw-w-full">
-          <div className="tw-bg-transparent tw-flex tw-flex-row tw-flex-end tw-items-center md:tw-h-auto tw-h-20 tw-border-2 tw-border-solid tw-rounded-xl tw-border-nishblue-100 tw-w-full">
-            <div className="md:tw-w-2/5 tw-text-left lg:tw-w-1/5">
-              <img className="tw-rounded-xl" src={img} />
-            </div>
-
-            <div className="tw-flex tw-flex-col xl:tw-w-full md:tw-w-3/5 tw-text-left tw-flex-justify md:tw-gap-6 lg:tw-gap-3 md:tw-text-sm tw-text-xs">
-              <div className="md:tw-text-xl lg:tw-text-2xl xl:tw-text-3xl tw-font-bold">{heading}</div>
-              <div className="xl:tw-w-full md:tw-w-10/12 tw-text-sm md:tw-text-md xl:tw-text-xl tw-font-medium tw-text-gray-700 tw--mt-2">
-                {content}
-              </div>
-            </div>
-
-          </div>
-        </div>
       </div>
-
     </>
   );
 };
 
-export default FeaturesFL;
+
+export default FeaturesFHLMob;

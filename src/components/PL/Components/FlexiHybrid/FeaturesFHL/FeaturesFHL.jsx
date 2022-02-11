@@ -123,23 +123,6 @@ const Benefits = (props) => {
         </div>
       </div>
 
-      <div className="md:tw-hidden">
-
-        <div className="tw-m-4 tw-border-black tw-shadow-3xl tw-rounded-xl tw-w-full md:tw-w-5/6 tw-mx-auto">
-          <div className="tw-border-solid tw-border-nishblue-100 tw-border-4 tw-bg-transparent tw-h-24 tw-border-2 tw-rounded-xl tw-border-nishblue-100 tw-w-full">
-            <div className=" tw-w-full tw-h-full tw-flex tw-flex-row tw-flex-start tw-items-center tw-text-xs">
-              <div className="">
-                <img className="tw-w-full tw-h-full" src={imgmob} />
-              </div>
-              <div className=" tw-w-3/4 tw-flex tw-flex-col">
-                <div className="tw-font-semibold">{heading}</div>
-                <div className="">{content}</div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
     </>
   );
 };

@@ -94,7 +94,7 @@ const FeaturesBenefitsMob = () => {
             <h1 className="tw-text-xl tw-text-left md:tw-text-2xl lg:tw-text-4xl tw-text-black tw-font-bold tw-py-4 tw-px-6 lg:tw-px-4">
               Features and Benefits
             </h1>
-            <div>
+            <div className="tw-ml-8">
               <Slider {...sliderSettings}>
                 {features.map((card, index) => (
                   <>

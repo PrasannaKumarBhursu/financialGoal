@@ -25,12 +25,12 @@ const Otp_ver = () => {
           </p>
 
           <div className="tw-flex tw-w-full">
-            <div className="lg:tw-w-1/2 tw-w-full">
+            <div className="xl:tw-w-1/2 tw-w-full">
               <Otp_code />
             </div>
 
-            <div className="tw-w-2/5 tw-mx-auto tw-hidden lg:tw-block">
-              <img src={otp} className="tw-mx-auto tw-my-auto" />
+            <div className="xl:tw-w-2/5 xl:tw-mx-auto tw-hidden lg:tw-block">
+              <img src={otp} className="xl:tw-w-full tw-w-full tw-mx-auto tw-my-auto" />
             </div>
           </div>
         </div>

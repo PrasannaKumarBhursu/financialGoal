@@ -114,7 +114,7 @@ const Kyc_code = () => {
             pan: Yup.string()
               .min(10, "Must be 10 characters")
               .max(10, "Must be 10 characters")
-              .matches("[A-Z]{5}[0-9]{4}[A-Z]{1}")
+              .matches("[A-Z]{5}[0-9]{4}[A-Z]{1}","Please enter a valid PAN")
               .required("Required"),
           })}
           onSubmit={(values, { setSubmitting }) => {

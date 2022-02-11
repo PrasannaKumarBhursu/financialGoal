@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { FaCheckCircle, FaLock } from "react-icons/fa";
+import { GoCheck } from "react-icons/go";
 import { Link } from "react-router-dom";
 
 const Personal_details = () => {
@@ -130,7 +131,7 @@ const Personal_details = () => {
               //   is: (nomineeDetails) => nomineeDetails === true,
               //   then:
               Yup.string()
-                .oneOf(["Mr", "Mrs", "Ms"], "Please select a relationship")
+                .oneOf(["Father", "Mother", "Relative"], "Please select a relationship")
                 .required("Please select a relationship"),
             // })
             // nomineeAddress: Yup.boolean.oneOf([true, false]),
@@ -176,7 +177,7 @@ const Personal_details = () => {
 
             <label
               htmlFor="title"
-              className="tw-font-bold tw-text-gray-800 tw-text-md "
+              className="tw-font-bold tw-text-gray-800 tw-mt-3 tw-text-md "
             >
               TITLE
             </label>
@@ -200,7 +201,7 @@ const Personal_details = () => {
 
             <label
               htmlFor="fullName"
-              className="tw-font-bold tw-text-gray-800 tw-text-md"
+              className="tw-font-bold tw-text-gray-800 tw-mt-3 tw-text-md"
             >
               FULL NAME
             </label>
@@ -213,6 +214,10 @@ const Personal_details = () => {
               <span className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
+              </span>
+              <span className="tw-border-b-2 tw-text-green-600 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+                {" "}
+                <GoCheck />{" "}
               </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -234,6 +239,9 @@ const Personal_details = () => {
               <span className="tw-border-b-2 tw-border-black tw-pb-0.5 tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
+              </span><span className="tw-border-b-2 tw-text-green-600 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+                {" "}
+                <GoCheck />{" "}
               </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -246,12 +254,16 @@ const Personal_details = () => {
             >
               EMAIL ADDRESS
             </label>
-            <div>
+            <div className="tw-flex tw-items-center tw-w-3/4">
               <Field
                 name="email"
                 type="email"
-                className="tw-border-b-2 tw-outline-none tw-border-t-0 tw-border-l-0 tw-mb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-w-3/4 tw-mt-2 tw-mb-4"
+                className="tw-border-b-2 tw-outline-none tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-border-black tw-w-full tw-mt-2"
               />{" "}
+              <span className="tw-border-b-2 tw-text-green-600 tw-border-black tw-border-t-0 tw-border-l-0 tw-border-r-0 tw--mb-0.5  tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4">
+                {" "}
+                <GoCheck />{" "}
+              </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
               <ErrorMessage name="email" />{" "}
@@ -259,7 +271,7 @@ const Personal_details = () => {
 
             <label
               htmlFor="dob"
-              className="tw-font-bold tw-text-gray-800 tw-text-md"
+              className="tw-font-bold tw-text-gray-800 tw-mt-3 tw-text-md"
             >
               DATE OF BIRTH
             </label>
@@ -272,6 +284,10 @@ const Personal_details = () => {
               <span className="tw-border-b-2 tw-border-black tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-4">
                 {" "}
                 <FaLock />{" "}
+              </span>
+              <span className="tw-border-b-2 tw-text-green-600 tw-border-black tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-solid tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-4">
+                {" "}
+                <GoCheck />{" "}
               </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -294,6 +310,10 @@ const Personal_details = () => {
                 {" "}
                 <FaLock />{" "}
               </span>
+              <span className="tw-border-b-2 tw-text-green-600 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+                {" "}
+                <GoCheck />{" "}
+              </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
               <ErrorMessage name="pan" />{" "}
@@ -315,6 +335,10 @@ const Personal_details = () => {
                 {" "}
                 <FaLock />{" "}
               </span>
+              <span className="tw-border-b-2 tw-text-green-600 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+                {" "}
+                <GoCheck />{" "}
+              </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
               <ErrorMessage name="address" />{" "}
@@ -335,6 +359,10 @@ const Personal_details = () => {
               <span className="tw-border-b-2 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
                 {" "}
                 <FaLock />{" "}
+              </span>
+              <span className="tw-border-b-2 tw-text-green-600 tw-border-t-0 tw-border-l-0 tw-pb-0.5 tw-border-r-0 tw-border-solid tw-border-black tw-text-gray-400 tw-pb-2 tw-pr-4 tw-mb-2">
+                {" "}
+                <GoCheck />{" "}
               </span>
             </div>
             <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -380,7 +408,7 @@ const Personal_details = () => {
                   <div>
                     <label
                       htmlFor="comzipcode"
-                      className="tw-font-bold tw-text-gray-800 tw-text-md"
+                      className="tw-font-bold tw-mt-3 tw-text-gray-800 tw-text-md"
                     >
                       COMMUNICATION PIN CODE
                     </label>
@@ -455,8 +483,8 @@ const Personal_details = () => {
                       </div>
                     </div>
 
-                    <div className="tw-flex tw-mt-4 tw-flex-row">
-                      <div className="w-2/5">
+                    <div className="tw-flex tw-justify-between tw-w-3/4 tw-mt-4 tw-flex-row">
+                      <div className="tw-w-2/5">
                         <label
                           htmlFor="nomfullName"
                           className="tw-font-bold tw-text-gray-800 tw-text-sm md:tw-text-md"
@@ -497,7 +525,7 @@ const Personal_details = () => {
                     <div className="">
                       <label
                         htmlFor="nomrel"
-                        className="tw-font-bold tw-text-gray-800 md:tw-text-md tw-text-sm"
+                        className="tw-font-bold tw-text-gray-800 tw-mt-3 md:tw-text-md tw-text-sm"
                       >
                         RELATIONSHIP WITH NOMINEE
                       </label>
@@ -508,9 +536,9 @@ const Personal_details = () => {
                           as="select"
                         >
                           <option value="">Select Relationship</option>
-                          <option value="Mr">Mr.</option>
-                          <option value="Ms">Ms.</option>
-                          <option value="Mrs">Mrs.</option>
+                          <option value="Father">Father</option>
+                          <option value="Mother">Mother</option>
+                          <option value="Relative">Relative</option>
                         </Field>{" "}
                       </div>
                       <div className="tw-text-red-500 tw-text-sm tw-font-semibold">
@@ -561,7 +589,7 @@ const Personal_details = () => {
                   <div>
                     <label
                       htmlFor="nomzipcode"
-                      className="tw-font-bold tw-text-gray-800 tw-text-md"
+                      className="tw-font-bold tw-mt-3 tw-text-gray-800 tw-text-md"
                     >
                       NOMINEE PIN CODE
                     </label>

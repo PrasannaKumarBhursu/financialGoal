@@ -68,7 +68,7 @@ const Aadhar_recordFields = () => {
 
             <div className="md:tw-text-right">
 
-              <p className="tw-text-orange-600">Page will redirect in {counter} seconds.</p>
+              <p className="tw-text-red-400">Page will redirect in {counter} seconds.</p>
 
               <Link to="/form/personaldetails">
 

@@ -7,14 +7,14 @@ import FeaturesFHL from "./Components/FlexiHybrid/FeaturesFHL/FeaturesFHL";
 import InterestFHL from "./Components/FlexiHybrid/InterestFHL/InterestFHL";
 import DocumentFHL from "./Components/FlexiHybrid/DocumentFHL/DocumentFHL";
 import RequirementFHL from "./Components/FlexiHybrid/RequirementFHL/RequirementFHL";
-
-
+import FeaturesFHLMob from "./Components/FlexiHybrid/FeaturesFHL/FeaturesFHLMob";
 
 const Bajaj_FHL = () => {
     return (
         <>
             <AboutFHL />
             <FeaturesFHL />
+            <FeaturesFHLMob />
             <InterestFHL />
             <DocumentFHL />
             <RequirementFHL />

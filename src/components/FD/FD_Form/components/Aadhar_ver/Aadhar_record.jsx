@@ -22,11 +22,11 @@ const Aadhar_record = () => {
 
           <div className="tw-flex tw-w-full">
 
-            <div className="lg:tw-w-1/2">
+            <div className="xl:tw-w-1/2">
               <Aadhar_recordFields />
             </div>
 
-            <div className="tw-hidden lg:tw-block tw-w-1/2 tw-my-auto">
+            <div className="tw-hidden xl:tw-block tw-w-1/2 tw-my-auto">
               <img src={aadharRecord} className="tw-m-auto tw-my-auto" />
             </div>
 

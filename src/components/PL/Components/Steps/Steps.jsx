@@ -15,9 +15,9 @@ const Steps = () => {
                 <div className="tw-border-nishblue-100 md:tw-p-8">
                     <div className=" tw-h-auto tw-border-solid tw-border-4 tw-rounded-2xl tw-border-nishblue-100">
                         <h1 className=" tw-text-xl md:tw-text-2xl lg:tw-text-4xl tw-text-black tw-text-left tw-font-bold tw-py-4 tw-px-4">Steps to apply for Personal Loan</h1>
-                        <div className="tw-flex tw-flex-col md:tw-w-5/6 tw-justify-center tw-items-center tw-gap-12 tw-py-4 tw-px-4 tw-mx-auto">
+                        <div className="tw-flex tw-flex-col lg:tw-w-4/5 md:tw-w-5/6 tw-justify-center tw-items-center tw-gap-12 tw-py-4 tw-px-4 tw-mx-auto">
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className="tw-block lg:tw-hidden tw-h-full tw-w-full" src={step1}/>
                                 <img className="tw-hidden lg:tw-block" src={step1}/>
                             </div>
@@ -25,7 +25,7 @@ const Steps = () => {
                                 <img src={dotd} />
                             </span>
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className=" tw-block lg:tw-hidden tw-h-full tw-w-full" src={step2}/>
                                 <img className="tw-hidden lg:tw-block" src={step2}/>
                             </div>
@@ -34,7 +34,7 @@ const Steps = () => {
                                 <img src={dotd} />
                             </span>
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className="tw-block lg:tw-hidden tw-h-full tw-w-full" src={step3}/>
                                 <img className="tw-hidden lg:tw-block" src={step3}/>
                             </div>
@@ -43,7 +43,7 @@ const Steps = () => {
                                 <img src={dotd} />
                             </span>
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className="tw-block lg:tw-hidden tw-h-full tw-w-full" src={step4}/>
                                 <img className="tw-hidden lg:tw-block" src={step4}/>
                             </div>
@@ -51,7 +51,7 @@ const Steps = () => {
                                 <img src={dotd} />
                             </span>
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className="tw-block lg:tw-hidden tw-h-full tw-w-full" src={step5}/>
                                 <img className="tw-hidden lg:tw-block" src={step5}/>
                             </div>
@@ -59,7 +59,7 @@ const Steps = () => {
                                 <img src={dotd} />
                             </span>
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className="tw-block lg:tw-hidden tw-h-full tw-w-full" src={step6}/>
                                 <img className="tw-hidden lg:tw-block" src={step6}/>
                             </div>
@@ -68,7 +68,7 @@ const Steps = () => {
                                 <img className="tw-h-full tw-w-full" src={dotd} />
                             </span>
 
-                            <div className="tw-w-4/5">
+                            <div className="xl:tw-w-4/5">
                                 <img className="tw-block lg:tw-hidden tw-h-full tw-w-full" src={step7}/>
                                 <img className="tw-hidden lg:tw-block" src={step7}/>
                             </div>

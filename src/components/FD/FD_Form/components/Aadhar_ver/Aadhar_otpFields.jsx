@@ -31,7 +31,7 @@ const Aadhar_otpFields = () => {
             shareCode: Yup.string()
               .min(4, "Must be 4 characters")
               .max(4, "Must be 4 characters")
-              .matches("[0-9]{4}", "OTP contains only numbers")
+              .matches("[0-9]{4}", "Share Code contains only numbers")
               .required("Required"),
           })}
           onSubmit={(values, { setSubmitting }) => {

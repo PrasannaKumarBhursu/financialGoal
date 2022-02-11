@@ -33,8 +33,8 @@ const Mob_ver = () => {
               <Tabs />
             </div>
 
-            <div className="tw-w-2/5 tw-mx-auto tw-hidden lg:tw-block">
-              <img src={Person} className="tw-mx-auto tw-my-auto" />
+            <div className="xl:tw-w-2/5 xl:tw-mx-auto tw-hidden lg:tw-block">
+              <img src={Person} className="xl:tw-w-full tw-w-3/4 tw-mx-auto tw-my-auto" />
             </div>
           </div>
         </div>

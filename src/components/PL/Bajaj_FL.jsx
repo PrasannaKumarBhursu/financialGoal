@@ -7,6 +7,7 @@ import DocumentFL from "./Components/FlexiLoan/DocumentFL/DocumentFL"
 import RequirementFL from "./Components/FlexiLoan/RequirementFL/RequirementFL";
 import Steps from "./Components/Steps/Steps";
 import Faq from "./Components/FAQ/Faq";
+import FeaturesFLMob from "./Components/FlexiLoan/FeaturesFL/FeaturesFLMob";
 
 
 
@@ -15,6 +16,7 @@ const Bajaj_FL = () => {
         <>
             <AboutFL/>
             <FeaturesFL/>
+            <FeaturesFLMob />
             <InterestFL/>
             <DocumentFL />
             <RequirementFL />
