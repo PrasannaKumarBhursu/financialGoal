@@ -3,6 +3,8 @@ import React from "react";
 //image
 import kyc from "../../assets/kyc.png";
 import step2 from "../../assets/step2.png";
+import step2mob from "../../assets/step2mob.png";
+
 
 //components
 import Kyc_code from "./kyc_homeFields";
@@ -10,8 +12,11 @@ import Kyc_code from "./kyc_homeFields";
 const Kyc_HomePage = () => {
   return (
     <>
-      <div className="tw-w-full tw-px-8 tw-pt-8">
+      <div className="tw-hidden md:tw-block tw-w-full tw-px-8 tw-pt-8">
         <img src={step2} className="tw-mx-auto tw-w-full" />
+      </div>
+      <div className="tw-block md:tw-hidden tw-w-full tw-px-2 tw-pt-8">
+        <img src={step2mob} className="tw-mx-auto tw-w-full" />
       </div>
 
       <div className="tw-border-nishblue-100 tw-p-4 tw-mx-auto md:tw-p-8">

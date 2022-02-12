@@ -1,5 +1,5 @@
 import React from "react";
-
+import ScrollUpButton from "react-scroll-up-button";
 import Steps from "./Components/Steps/Steps";
 import Faq from "./Components/FAQ/Faq";
 import AboutFHL from "./Components/FlexiHybrid/AboutFHL/AboutFHL";
@@ -20,6 +20,7 @@ const Bajaj_FHL = () => {
             <RequirementFHL />
             <Steps />
             <Faq />
+            <ScrollUpButton/>
         </>
     );
 };

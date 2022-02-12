@@ -1,5 +1,5 @@
 import React from "react";
-import bajajfin from "../../../assets/fblg.png";
+import bajajfin from "../../../assets/FeaturesTL/1.png";
 import bajajfinmob from "../../../assets/bajajimg.png";
 import Carousel from "react-responsive-carousel";
 import image1 from "../../../assets/FeaturesTL/1.png";

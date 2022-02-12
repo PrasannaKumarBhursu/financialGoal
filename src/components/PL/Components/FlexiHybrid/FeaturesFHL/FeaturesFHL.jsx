@@ -1,7 +1,14 @@
 import React from "react";
-import bajajfin from "../../../assets/fblg.png";
+import bajajfin from "../../../assets/FeaturesTL/1.png";
 import bajajfinmob from "../../../assets/bajajimg.png";
 import Carousel from "react-responsive-carousel";
+import image2 from "../../../assets/FeaturesTL/2.png";
+import image3 from "../../../assets/FeaturesTL/3.png";
+import image4 from "../../../assets/FeaturesTL/4.png";
+import image5 from "../../../assets/FeaturesTL/5.png";
+import image6 from "../../../assets/FeaturesTL/6.png";
+import image7 from "../../../assets/FeaturesTL/7.png";
+import image8 from "../../../assets/FeaturesTL/8.png";
 
 const FeaturesFHL = () => {
   const features = [
@@ -9,56 +16,42 @@ const FeaturesFHL = () => {
       heading: "Borrow when you need",
       content:
         "Withdraw funds as many times as you need from your approved loan limit.",
-      img: bajajfin, // route: "/FixedDeposits/bajaj",
-      imgmob: bajajfinmob
-    },
-    {
-      heading: "24 hours* disbursal",
-      content:
-        "With a simple online application process, get money in your bank account on the same day of approval*.",
-      img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
+      img: image2, // route: "/FixedDeposits/bajaj",
     },
     {
       heading: "Prepay when you can",
       content: "Deposit funds into your loan account whenever you have surplus money.",
-      img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
+      img: image3, // route: "/bajaj"
     },
     {
       heading: "No extra charges",
       content:
         "Withdraw funds and prepay them without paying any fee whatsover.",
-      img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
+      img: image4, // route: "/bajaj"
     },
     {
       heading: "No added applications",
       content:
         "Skip having to put in additional paperwork when you withdraw or prepay funds.",
-      img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
+      img: image5, // route: "/bajaj"
     },
     {
       heading: "Online Transactions",
       content:
         "Use our customer portal - Experia, to transfer funds from your loan limit to your loan account and make prepayments.",
       img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
     },
     {
       heading: "Interest-only EMIs",
       content:
         "Opt to pay only interest as your EMI for the first part of he tenor and the principal later, to reduce your EMI by up to 45%.*",
-      img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
+      img: image6, // route: "/bajaj"
     },
     {
       heading: "Day-wise interest",
       content:
         "Incur interest only on what you utilize by the end of the day. Use the Flexi Interest calculator for insights.",
-      img: bajajfin, // route: "/bajaj"
-      imgmob: bajajfinmob
+      img: image7, // route: "/bajaj"
     },
   ];
 

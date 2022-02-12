@@ -1,5 +1,5 @@
 import React from "react";
-
+import ScrollUpButton from "react-scroll-up-button";
 import Faq from "./Components/FAQ/Faq";
 import Steps from "./Components/Steps/Steps";
 import EligibilityTL from "./Components/TermLoan/EligibilityTL/EligibilityTL";
@@ -18,6 +18,7 @@ const Bajaj_TL = () => {
             <EligibilityTL />
             <Steps />
             <Faq />
+            <ScrollUpButton AnimationDuration={10000}/>
 
         </>
     );

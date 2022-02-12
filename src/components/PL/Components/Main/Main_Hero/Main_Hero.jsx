@@ -15,7 +15,7 @@ const Main_Hero = () => {
                         {/* Left Div */}
                         {/* Brand Logo */}
                         <div className="md:tw-w-1/2 tw-p-0 tw-m-0">
-                            <img className="tw-rounded-tr-xl tw-w-full md:tw-rounded-br-xl tw--mr-1 tw--mb-1 tw-float-right lg:tw-w-max md:tw-h-full" src={mainhero} />
+                            <img className="tw-rounded-tr-xl tw-w-full md:tw-rounded-br-xl tw--mr-1 tw--mb-1 tw-float-right" src={mainhero} />
                         </div>
 
                         {/* Right Div */}

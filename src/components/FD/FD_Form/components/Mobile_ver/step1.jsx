@@ -3,6 +3,7 @@ import React from "react";
 //image
 import Person from "../../assets/image.png";
 import step1 from "../../assets/step1.png";
+import step1mob from "../../assets/step1mob.png";
 // import CustomizedSteppers from "../Steps/steps";
 
 //components
@@ -11,8 +12,12 @@ import Tabs from "./tab";
 const Mob_ver = () => {
   return (
     <>
-      <div className="tw-w-full tw-px-8 tw-pt-8">
+      <div className="tw-hidden md:tw-block tw-w-full tw-px-8 tw-pt-8">
         <img src={step1} className="tw-mx-auto tw-w-full" />
+      </div>
+
+      <div className="tw-block md:tw-hidden tw-w-full tw-px-2 tw-pt-8">
+        <img src={step1mob} className="tw-mx-auto tw-w-full" />
       </div>
 
       <div className="tw-border-nishblue-100 tw-p-4 md:tw-p-8">

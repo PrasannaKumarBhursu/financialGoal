@@ -6,6 +6,7 @@ import step2 from "../assets/step2.png"
 import step3 from "../assets/step3.png"
 import step4 from "../assets/step4.png"
 
+
 const Steps = () => {
     return (
         <>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import ScrollUpButton from "react-scroll-up-button";
 import AboutFL from "./Components/FlexiLoan/AboutFL/AboutFL";
 import FeaturesFL from "./Components/FlexiLoan/FeaturesFL/FeaturesFL";
 import InterestFL from "./Components/FlexiLoan/InterestFL/InterestFL";
@@ -14,6 +14,7 @@ import FeaturesFLMob from "./Components/FlexiLoan/FeaturesFL/FeaturesFLMob";
 const Bajaj_FL = () => {
     return (
         <>
+        
             <AboutFL/>
             <FeaturesFL/>
             <FeaturesFLMob />
@@ -22,6 +23,7 @@ const Bajaj_FL = () => {
             <RequirementFL />
             <Steps/>
             <Faq/>
+            <ScrollUpButton/>
         </>
     );
 };

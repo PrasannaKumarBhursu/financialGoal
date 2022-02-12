@@ -1,5 +1,4 @@
 import React from "react";
-import bajajfin from "../../../assets/fblg.png";
 import bajajfinmob from "../../../assets/bajajimg.png";
 
 import Slider from "react-slick";

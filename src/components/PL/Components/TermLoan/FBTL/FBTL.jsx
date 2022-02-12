@@ -1,8 +1,7 @@
 import React from "react";
-import bajajfin from "../../../assets/fblg.png";
+import bajajfin from "../../../assets/FeaturesTL/1.png";
 import bajajfinmob from "../../../assets/bajajimg.png";
 import Carousel from "react-responsive-carousel";
-import image1 from "../../../assets/FeaturesTL/1.png";
 import image2 from "../../../assets/FeaturesTL/2.png";
 import image3 from "../../../assets/FeaturesTL/3.png";
 import image4 from "../../../assets/FeaturesTL/4.png";
@@ -23,42 +22,42 @@ const FBTL = () => {
       heading: "24 hours* disbursal",
       content:
         "With a simple online application process, get money in your bank account on the same day of approval*.",
-      img: bajajfin, // route: "/bajaj"
+      img: image2, // route: "/bajaj"
     },
     {
       heading: "Approval in 5 minutes",
       content: "Meet our basic eligibility criteria and get instant approval.",
-      img: bajajfin, // route: "/bajaj"
+      img: image3, // route: "/bajaj"
     },
     {
       heading: "Repay over 60 months",
       content:
         "Pick a convenient tenor ranging from one to five years to repay your loan.",
-      img: bajajfin, // route: "/bajaj"
+      img: image4, // route: "/bajaj"
     },
     {
       heading: "No collateral required",
       content:
         "No guarantors or collateral needed to get approval on your loan application.",
-      img: bajajfin, // route: "/bajaj"
+      img: image5, // route: "/bajaj"
     },
     {
       heading: "No extra charges* on part-prepayment",
       content:
         "Pre-pay your loan with surplus funds at no added cost with a Flexi loan.",
-      img: bajajfin, // route: "/bajaj"
+      img: image6, // route: "/bajaj"
     },
     {
       heading: "Special offers for pre-approved customers",
       content:
         "Our existing cutomers enjoy quicker processing with special offers and a range of benefits.",
-      img: bajajfin, // route: "/bajaj"
+      img: image7, // route: "/bajaj"
     },
     {
       heading: "Personal loan EMIs starting Rs. 1,104/lakh",
       content:
         "Borrow as per your needs and manage your personal loan EMIs with ease.",
-      img: bajajfin, // route: "/bajaj"
+      img: image8, // route: "/bajaj"
     },
   ];
 

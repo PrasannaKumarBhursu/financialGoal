@@ -11,6 +11,8 @@ import { useState } from "react";
 
 //image
 import step4 from "../../assets/step4.png";
+import step4mob from "../../assets/step4mob.png";
+
 
 const MySelect = ({ label, ...props }) => {
   const [field, meta] = useField(props);
@@ -94,8 +96,11 @@ const Invest_home = () => {
 
   return (
     <>
-      <div className="tw-w-full tw-px-8 tw-pt-8">
+      <div className="tw-hidden md:tw-block tw-w-full tw-px-8 tw-pt-8">
         <img src={step4} className="tw-mx-auto tw-w-full" />
+      </div>
+      <div className="tw-block md:tw-hidden tw-w-full tw-px-2 tw-pt-8">
+        <img src={step4mob} className="tw-mx-auto tw-w-full" />
       </div>
 
       <Formik

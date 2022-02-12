@@ -12,8 +12,8 @@ const EligibilityCriteriaMob = () => {
     slidesToScroll: 1,
     arrows: true,
     infinite: false,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     
     responsive: [
       {

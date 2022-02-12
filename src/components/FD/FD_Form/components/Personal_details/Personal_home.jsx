@@ -4,13 +4,17 @@ import Personal_details from "./Personal_form";
 
 //image
 import step3 from "../../assets/step3.png";
+import step3mob from "../../assets/step3mob.png";
 import pd from "../../assets/pd.png";
 
 const Personal_home = () => {
   return (
     <>
-      <div className="tw-w-full tw-px-8 tw-pt-8">
+      <div className="tw-hidden md:tw-mob tw-w-full tw-px-8 tw-pt-8">
         <img src={step3} className="tw-mx-auto tw-w-full" />
+      </div>
+      <div className="tw-block md:tw-hidden tw-w-full tw-px-2 tw-pt-8">
+        <img src={step3mob} className="tw-mx-auto tw-w-full" />
       </div>
 
       <div className="tw-border-nishblue-100 tw-p-4 md:tw-p-8">

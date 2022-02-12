@@ -1,5 +1,5 @@
 import React from "react";
-import bajajfin from "../../../assets/fblg.png";
+import bajajfin from "../../../assets/FeaturesTL/1.png";
 import bajajfinmob from "../../../assets/bajajimg.png";
 
 import Slider from "react-slick";
@@ -15,10 +15,11 @@ const FeaturesFLMob = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
+    dots:true,
     arrows: true,
     infinite: false,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
 
     responsive: [
       {
