@@ -17,9 +17,9 @@ const RequirementFL = () => {
                         <div className="tw-text-left tw-p-6 tw-text-xs md:tw-text-sm lg:tw-text-lg xl:tw-text-xl">
                         <p className="tw-mb-2 tw-font-semibold">For Salaried Individuals:</p>
                             <ul className="tw-ml-4 tw-list-disc">
-                                <li>You should be between 20 and 60 years of age.</li><br/>
+                                <li>You should be between 21 and 67 years of age.</li><br/>
                                 <li>You should be a salaried employee of either an MNC, public, or private company. </li><br/>
-                                <li>You should be a resident Indian citizen. (Select cities applicable)</li><br/>
+                                <li>You should be an Indian citizen living in a eligible city. (<a target="_blank" href="https://www.bajajfinserv.in/flexi-loans">https://www.bajajfinserv.in/flexi-loans</a>)</li><br/>
                             </ul>
                             (The document list mentioned here is indicative. You may be asked)
                         </div>

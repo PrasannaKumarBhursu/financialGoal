@@ -81,15 +81,15 @@ const InterestFL = () => {
                                         </p>
                                     </td>
                                 </tr>
-                                <tr className="tw-font-semibold tw-text-xs md:tw-text-sm lg:tw-text-lg xl:tw-text-xl tw-text-justify tw-bg-blue-50">
+                                {/* <tr className="tw-font-semibold tw-text-xs md:tw-text-sm lg:tw-text-lg xl:tw-text-xl tw-text-justify tw-bg-blue-50">
                                     <td className="tw-border-r tw-border-nishblue-200 md:tw-p-3 tw-p-1 tw-w-1/3">
                                         Part-Payment charges**
                                     </td>
                                     <td className="md:tw-p-3 tw-p-1 ">
                                         2% + applicable taxes on part-payment amount paid*{" "}
                                     </td>
-                                </tr>
-                                <tr className="tw-font-semibold tw-text-xs md:tw-text-sm lg:tw-text-lg xl:tw-text-xl tw-text-justify">
+                                </tr> */}
+                                <tr className="tw-font-semibold tw-text-xs md:tw-text-sm lg:tw-text-lg xl:tw-text-xl tw-bg-blue-50 tw-text-justify">
                                     <td className="tw-border-r tw-border-nishblue-200 md:tw-p-3 tw-p-1 tw-w-1/3">
                                         Stamp Duty
                                     </td>

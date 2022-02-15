@@ -24,7 +24,7 @@ const InterestMain = () => {
       route: "/BajajPersonalLoan"
     },
     {
-      name: "HDFC",
+      name: "HDFC Bank",
       bk: "Bank",
       rate: "14%",
       emi: "11,634",
@@ -45,7 +45,7 @@ const InterestMain = () => {
       img: rbl, // route: "/bajaj"
     },
     {
-      name: "ICICI",
+      name: "ICICI Bank",
       bk: "Bank",
       rate: "13.0%",
       emi: "11,374",
@@ -59,7 +59,7 @@ const InterestMain = () => {
       img: saraswat, // route: "/bajaj"
     },
     {
-      name: "Indusland Bank",
+      name: "Induslnd Bank",
       bk: "Bank",
       rate: "11.5%",
       emi: "10,966",
@@ -92,7 +92,7 @@ const InterestMain = () => {
   return (
     <>
       <div className="tw-p-2">
-        <div className="tw-hidden md:tw-block">
+        <div className="tw-hidden md:tw-block tw-w-3/4 tw-mx-auto">
           <div className="tw-m-3 tw-border-black tw-rounded-xl tw-w-full md:tw-w-11/12 tw-mx-auto">
             <h1 className=" tw-text-xl md:tw-text-2xl lg:tw-text-4xl tw-text-black tw-font-bold tw-pt-16 tw-mb-8 md:tw-px-0 tw-text-left tw-pl-4">
               Best Personal Loan Interest Rates in India 2022
@@ -148,7 +148,7 @@ const Benefits = (props) => {
 
   return (
     <>
-      <div className="tw-hidden md:tw-block tw-mb-4">
+      <div className="tw-hidden md:tw-block tw-mb-4 tw-w-3/4 tw-mx-auto">
         <Link style={{ textDecoration: 'none', }} className="tw-ring-black tw-text-black" to={route}>
           <div className="tw-bg-transparent tw-flex tw-flex-row md:tw-h-auto tw-w-11/12 tw-mx-auto md:tw-h-16 tw-h-20 tw-p-4 md:tw-p-0 tw-border-4 tw-border-solid tw-rounded-xl tw-border-nishblue-100">
             <div className="tw-flex tw-w-full tw-items-center">

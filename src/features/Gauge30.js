@@ -3,7 +3,9 @@ import GaugeChart from 'react-gauge-chart'
 
 export default function Gauge() {
     return (
-        <div className="card">
+        <div className="card" style={{border:'none'}}>
+            <h3> Weak (0-40) </h3>
+            <br/>
             <GaugeChart id="gauge-chart5"
                 nrOfLevels={420}
                 arcsLength={[0.4, 0.4, 0.2]}
@@ -12,6 +14,7 @@ export default function Gauge() {
                 arcPadding={0.02}
                 textColor="black"
                 hideText={true}
+                
             />
             {/* <GaugeChart id="gauge-chart1" textColor="black" /> */}
             {/*   <GaugeChart id="gauge-chart2"
@@ -19,8 +22,8 @@ export default function Gauge() {
                     percent={0.86}
                     textColor="black"
                 /> */}
-            <h4>Financially Weak</h4>
-            <p> Your financials need immediate attention and course correction</p>
+            {/* <h4>Financially Weak</h4> */}
+            {/* <p> Your financials need immediate attention and course correction</p> */}
         </div>
     );
 }

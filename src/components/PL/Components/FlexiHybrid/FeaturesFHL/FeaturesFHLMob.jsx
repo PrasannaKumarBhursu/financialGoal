@@ -15,9 +15,10 @@ const FeaturesFHLMob = () => {
     slidesToScroll: 1,
     infinite: false,
     arrows: true,
+    dots:true,
     infinite: false,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
 
     responsive: [
       {

@@ -82,7 +82,7 @@ const FeaturesFLMob = () => {
     {
       heading: "Interest-only EMIs",
       content:
-        "Opt to pay only interest as your EMI for the first part of he tenor and the principal later, to reduce your EMI by up to 45%.*",
+        "Opt to pay only interest as your EMI for the first part of the tenor and the principal later, to reduce your EMI by up to 45%.*",
       // route: "/bajaj"
       imgmob: bajajfinmob
     },
