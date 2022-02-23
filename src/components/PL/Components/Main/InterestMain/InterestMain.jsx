@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bajajfin from "../../../assets/bajaj.png";
 import idfc from "../../../assets/idfc.png";
-import hdfc from "../../../assets/hdfc.png";
+import hdfc from "../../../assets/HDFC.png";
 import axis from "../../../assets/axis.png";
 import rbl from "../../../assets/rbl.png";
 import icici from "../../../assets/icici.png";
