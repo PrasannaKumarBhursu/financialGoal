@@ -4,7 +4,7 @@ import GaugeChart from 'react-gauge-chart'
 export default function Gauge() {
     return (
         <div className="card" style={{border:'none'}}>
-            <h3> Weak (0-40) </h3>
+            <h3 style={{ whiteSpace:"nowrap"}}> Weak (0-40) </h3>
             <br/>
             <GaugeChart id="gauge-chart5"
                 nrOfLevels={420}

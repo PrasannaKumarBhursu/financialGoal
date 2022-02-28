@@ -15,6 +15,7 @@ import RealEstate from "./components/resources/RealEstate";
 import Gold from "./components/resources/Gold";
 import Shares from "./components/resources/Shares";
 // import IPO from './components/resources/IPO';
+import NRI_bajaj from "./components/FD/NRI_bajaj";
 import AltInvestment from "./components/resources/AltInvestment";
 
 import Careers from "./components/Careers/Careers";
@@ -74,6 +75,7 @@ import Aadhar_record from "./components/FD/FD_Form/components/Aadhar_ver/Aadhar_
 import Invest_home from "./components/FD/FD_Form/components/Investment_details/Invest_home";
 import Personal_home from "./components/FD/FD_Form/components/Personal_details/Personal_home";
 import Aadhar_otp from "./components/FD/FD_Form/components/Aadhar_ver/Aadhar_otp";
+import SDP_bajaj from "./components/FD/SDP_bajaj";
 
 function App() {
   // const {checktoken}=useContext(AppContext)
@@ -102,7 +104,8 @@ function App() {
           <Route exact path="/FixedDeposits/bajaj" component={Bajaj_finserv} />
           <Route exact path="/PersonalLoan" component={Main} />
           <Route exact path="/BajajPersonalLoan" component={Hero} />
-
+          <Route exact path="/NRI" component={NRI_bajaj}/>
+          <Route exact path="/SDP" component={SDP_bajaj}/>
           {/* FD FORM */}
           <Route exact path='/form' component={Mob_ver} />
           <Route exact path='/form/otpverification' component={Otp_ver} />
