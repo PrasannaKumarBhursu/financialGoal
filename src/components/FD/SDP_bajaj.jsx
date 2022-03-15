@@ -24,10 +24,10 @@ const SDP_bajaj = () => {
     return (
         <>
             <div>
-                <Header />
+                {/* <Header />
                 <div className="tw-px-4">
                     <img className="tw-w-full tw-mx-auto" src={fd_banner} />
-                </div>
+                </div> */}
                 <SDP_Hero />
                 {/* <Features /> */}
                 <Un_benefits_SDP />
@@ -47,7 +47,7 @@ const SDP_bajaj = () => {
                         </a>
                     </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </>
     );

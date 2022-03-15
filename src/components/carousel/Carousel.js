@@ -15,44 +15,186 @@ export default class DemoCarousel extends Component {
         infiniteLoop={true}
 
       >
-        <div >
-          <img src="Carousel_Financial-planning.jpg" alt="nishkaera" />
-          <div style={{ color: "#3AD4AF", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
-            <h3>Financial Planning</h3>
-            <h5>
-              Learn the basics of financial planning with us and achieve your
-              financial goals.
-            </h5>
+       
+
+        <div className="maindiv" style={{backgroundColor:"white" , height:"630px", position:"relative"}}>
+          
+
+          <div  className="image" style={{position:"absolute" ,zIndex:"1", left:"4%"   , bottom:"10%" ,width:"45%"}}>
+          <img src="image-removebg-preview (1) 1image new fd.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+
+
+          <div  className="heading" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <h1 className=" headcontent_kn" style={{fontSize:"92px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Fixed Deposit</h1>
+          </div>
+
+          <div  className="text" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
+          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>One of the most preferred investment instruments in India as it has potential to offer recurring return with capital protection and flexibility</h1>
+          </div>
+
+          <a href="/FixedDeposits"  className="link" id="link_fd" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+
+
+
+
+          {/* <a href="/WomenSpecialHome"  className="link" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a> */}
+
+
+
+          <div  className="image_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 104pl.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          <div  className="image_bottom_2" style={{position:"absolute" ,zIndex:"1", left:"75%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 106res.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          
+
+
+          <div style={{backgroundColor:"#B1EEDF"  ,width:"100%", height:"25%"  ,position:"absolute",top:"70%" }}>
           </div>
         </div>
-        <div>
-          <img src="Carousel_Investment.jpg" alt="nishkaera" />
-          <div style={{ color: "gold", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
-            <h3>Investment</h3>
-            <h5 sty>
-              Use our best-in-class investment portal to buy any product to meet
-              your financial requirements.
-            </h5>
+
+
+
+
+
+
+
+
+
+        <div className="maindiv" style={{backgroundColor:"white" , height:"630px", position:"relative"}}>
+          
+
+          <div  className="image" style={{position:"absolute" ,zIndex:"1", left:"2%"   , bottom:"0%" ,width:"45%"}}>
+          <img src="19197296 1pl main.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+
+
+          <div  className="heading" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <h1 className=" headcontent_kn" style={{fontSize:"92px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Personal Loan</h1>
+          </div>
+
+          <div  className="text" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
+          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Get instant collateral free loan to meet your both planned and unplanned expenditures without restriction on the end use.</h1>
+          </div>
+
+          <a  className="link" href="/PersonalLoan"  style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+
+
+
+          <div  className="image_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 103resco.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          <div  className="image_bottom_2" style={{position:"absolute" ,zIndex:"1", left:"75%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 107ipoo.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          
+
+
+          <div style={{backgroundColor:"#B1EEDF"  ,width:"100%", height:"25%"  ,position:"absolute",top:"70%" }}>
           </div>
         </div>
-        <div>
-          <img src="WomenMain.jpg" alt="nishkaera" />
-          <div style={{ color: "white", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
-            <h3>Women Special</h3>
-            <h5>
-              Nishkaera brings specialised financial services for working women to
-              help them achieve financial freedom.
-            </h5>
+
+
+
+
+
+
+
+
+
+        <div className="maindiv" style={{backgroundColor:"white" , height:"630px", position:"relative"}}>
+          
+
+          <div  className="image" style={{position:"absolute" ,zIndex:"1", left:"4%"   , bottom:"10%" ,width:"40%"}}>
+          <img src="Group 120kun.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+
+
+          <div  className="heading" id="heading_kn" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <h1 className=" headcontent_kn" id="head_kn" style={{fontSize:"60px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Knowledge You Need</h1>
+          </div>
+
+          <div  className="text" id="text_kn" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
+          <h1 className=" textcontent" id="textcontent_kn" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Do not miss any important news on business and economy.</h1>
+          </div>
+          <a className="link" id="link_kn" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+
+          {/* <div  className="text" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
+          <button variant="success" >Learn more</button>
+          </div> */}
+
+
+          <div  className="image_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 107ipow.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          <div  className="image_bottom_2" style={{position:"absolute" ,zIndex:"1", left:"75%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 142fd ku.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          
+
+
+          <div style={{backgroundColor:"#B1EEDF"  ,width:"100%", height:"25%"  ,position:"absolute",top:"70%" }}>
           </div>
         </div>
-        <div>
-          <img className="cr-img" src="patnership.jpeg" alt="nishkaera" />
-          <a className="cr-text " href="mailto:contact@nishkaera.com?subject=Partner with Nishkaera">Partner with us</a>
-          <div style={{ color: "white", backgroundColor: "gray", padding: "20px 10px 30px 10px" }}>
-            <h3>Partner with us</h3>
-            <h5>Nishakera is looking for sales partners across India. To know more write to us at <a style={{ color: "white" }} href="mailto:contact@nishkaera.com?subject=Partner with Nishkaera">contact@nishkaera.com</a></h5>
+
+
+
+        
+
+        <div className="maindiv" style={{backgroundColor:"white" , height:"630px", position:"relative"}}>
+          
+
+          <div  className="image" style={{position:"absolute" ,zIndex:"1", left:"4%"   , bottom:"10%" ,width:"40%"}}>
+          <img src="19197351 1watch .png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+
+
+          <div  className="heading" id="heading_ipo" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <h1 className=" headcontent_kn" style={{fontSize:"60px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>IPO Watch</h1>
+          </div>
+
+          <div  className="text" id="text_ipo" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
+          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Comprehensive and un-biased analysis of IPOs.</h1>
+          </div>
+
+          
+
+          <a   className="link" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+
+
+
+          <div  className="image_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"7%" ,width:"17%"}}>
+          <img src="Group 143fd watch.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          <div  className="image_bottom_2" style={{position:"absolute" ,zIndex:"1", left:"75%"   , bottom:"9%" ,width:"17%"}}>
+          <img src="Group 142pl ww.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+          <div  className="image_bottom_3" style={{position:"absolute" ,zIndex:"1", left:"77%"   , bottom:"8%" ,width:"14%"}}>
+          <img src="Personal Loanpl ww.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+
+
+          
+
+
+          <div style={{backgroundColor:"#B1EEDF"  ,width:"100%", height:"25%"  ,position:"absolute",top:"70%" }}>
           </div>
         </div>
+
 
       </Carousel>
     );

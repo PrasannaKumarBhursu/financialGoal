@@ -18,16 +18,14 @@ import Header from "../Layout/Header";
 import Footer from "../Layout/Footer";
 import fd_banner from "../FD/assets/fd_banner.png";
 import '../../index.css';
+import Tabs from "./tabsMd";
 
 const Bajaj_Finserv = () => {
 
     return (
         <>
             <div>
-                <Header />
-                <div className="tw-px-4">
-                    <img className="tw-w-full tw-mx-auto" src={fd_banner} />
-                </div>
+                {/* <Header /> */}
                 <Hero />
                 <Features />
                 <Un_benefits />
@@ -52,7 +50,7 @@ const Bajaj_Finserv = () => {
                         </a>
                     </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </>
     );

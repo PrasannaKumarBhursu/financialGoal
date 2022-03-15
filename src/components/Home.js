@@ -12,6 +12,7 @@ import Latest from "./Latest";
 import Footer from "./Layout/Footer";
 import SocialFollow from "./social/SocialFollow";
 import Marque from "./Marque";
+import NishkaeraSpecial from "./NishkaeraSpecial/NishkeraSpecial"
 //  import ContactUS from "./ContactUs";
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
       <Carousel />
       <FinancialPulse />
       <OneStopSolution />
+      <NishkaeraSpecial />
       <WomenSpecial />
       <Latest />
       {/* <ContactUS/>  */}

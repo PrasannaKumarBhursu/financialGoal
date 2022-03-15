@@ -24,10 +24,10 @@ const NRI_bajaj = () => {
     return (
         <>
             <div>
-                <Header />
+                {/* <Header />
                 <div className="tw-px-4">
                     <img className="tw-w-full tw-mx-auto" src={fd_banner} />
-                </div>
+                </div> */}
                 <NRI_Hero />
                 {/* <Features /> */}
                 <Un_benefits_NRI />
@@ -47,7 +47,7 @@ const NRI_bajaj = () => {
                         </a>
                     </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </>
     );

@@ -17,9 +17,8 @@ import Shares from "./components/resources/Shares";
 // import IPO from './components/resources/IPO';
 import NRI_bajaj from "./components/FD/NRI_bajaj";
 import AltInvestment from "./components/resources/AltInvestment";
-
+import FD_tabs from "./components/FD/FD_tabs";
 import Careers from "./components/Careers/Careers";
-
 import Disclaimer from "./components/Disclaimer";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import SocialPost from "./components/blogs/SocialPost";
@@ -101,7 +100,7 @@ function App() {
           <Route exact path="/OurStory" component={OurStory} />
           <Route exact path="/OurStory" component={OurStory} />
           <Route exact path="/FixedDeposits" component={FD} />
-          <Route exact path="/FixedDeposits/bajaj" component={Bajaj_finserv} />
+          <Route exact path="/FixedDeposits/bajaj" component={FD_tabs} />
           <Route exact path="/PersonalLoan" component={Main} />
           <Route exact path="/BajajPersonalLoan" component={Hero} />
           <Route exact path="/NRI" component={NRI_bajaj}/>
@@ -116,7 +115,7 @@ function App() {
           <Route exact path='/form/adhaarrecord' component={Aadhar_record} />
           <Route exact path='/form/personaldetails' component={Personal_home} />
           <Route exact path='/form/investment' component={Invest_home} />
-
+          {/* <Route exact path='/tabs' component={FD_tabs} /> */}
           {/* Resources */}
           <Route exact path="/Learn" component={Learn} />
           <Route exact path="/Invest" component={Invest} />
@@ -126,7 +125,7 @@ function App() {
           <Route exact path="/Loans" component={Loans} />
           <Route exact path="/MutualFunds" component={MutualFunds} />
           <Route exact path="/ProvidentFund" component={ProvidentFund} />
-          <Route exact path="/FixedDeposit" component={FixedDeposit} />
+          {/* <Route exact path="/FixedDeposit" component={FD_tabs} /> */}
           <Route exact path="/Insurance" component={Insurance} />
           <Route exact path="/CreditCard" component={CreditCard} />
           <Route exact path="/Gold" component={Gold} />
