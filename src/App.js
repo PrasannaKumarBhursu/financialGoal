@@ -137,7 +137,7 @@ function App() {
 
           {/* Financial pulse */}
           <Route exact path="/Score" component={KnowYourFP} />
-          <Route exact path="/ComprehensiveFinancialPulse" component={DetailedFP} />
+          <Route exact path="ComprehensiveFinancialPulse/" component={DetailedFP} />
 
           <Route exact path="/Details" component={Details} />
 

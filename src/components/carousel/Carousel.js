@@ -34,7 +34,7 @@ export default class DemoCarousel extends Component {
           <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>One of the most preferred investment instruments in India as it has potential to offer recurring return with capital protection and flexibility</h1>
           </div>
 
-          <a href="/FixedDeposits"  className="link" id="link_fd" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+          <a href="https://www.nishkaera.com/FixedDeposits"  className="link" id="link_fd" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
 
 
 
@@ -83,7 +83,7 @@ export default class DemoCarousel extends Component {
           <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Get instant collateral free loan to meet your both planned and unplanned expenditures without restriction on the end use.</h1>
           </div>
 
-          <a  className="link" href="/PersonalLoan"  style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+          <a  className="link"  style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
 
 
 
@@ -171,7 +171,7 @@ export default class DemoCarousel extends Component {
 
           
 
-          <a   className="link" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+          <a  href="/IPOWatch" className="link" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
 
 
 
