@@ -20,7 +20,7 @@ import axios from "axios";
 
 dotenv.config();
 
-const Footercopy = (props) => {
+const Footer = (props) => {
   //   const [email,setEmail] = useState("");
   //     const [show,setShow] = useState(false);
   //     const [message,setMessage] = useState("");
@@ -98,7 +98,7 @@ const Footercopy = (props) => {
         email: "",
         show: true,
         error: false,
-        message: "Thankyou for subscribing to our newsletter.",
+        message: "Thank You for subscribing to our newsletter.",
       });
     } catch (error) {
       if (error.response) {
@@ -134,7 +134,7 @@ const Footercopy = (props) => {
       .then((res) => res.data)
       .then((data) =>
         setStateObj({
-          message: "Your email has been unsuscribed sucessfully!",
+          message: "Your email has been unsubscribed sucessfully!",
           showUnsubscribe: false,
         })
       );
@@ -207,8 +207,8 @@ const Footercopy = (props) => {
           show={stateObj.show}
           onHide={closePopup}
         >
-          <Modal.Header closeButton></Modal.Header>
-          <Modal.Body>
+          <Modal.Header className="tw-bg-navgreen-600" closeButton></Modal.Header>
+          <Modal.Body className="tw-bg-navgreen-700 tw-text-white">
             <Alert>
               {stateObj.showUnsubscribe ? (
                 <>
@@ -229,8 +229,8 @@ const Footercopy = (props) => {
               )}
             </Alert>
           </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={closePopup} variant="outline-primary">
+          <Modal.Footer className="tw-bg-navgreen-600 tw-text-center">
+            <Button className="tw-bg-white hover:tw-bg-nishblue-400 tw-mx-auto tw-w-2/4" onClick={closePopup} variant="outline-primary">
               Cancel
             </Button>
           </Modal.Footer>
@@ -259,14 +259,14 @@ const Footercopy = (props) => {
           </div>
           <div className="tw-flex tw-flex-row tw-gap-3 lg:tw-gap-8 xl:tw-gap-12 lg:tw-text-lg">
             <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
-              <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/OurStory">Fixed Deposit </Link></p>
-              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/OurStory">Personal Loan </Link></p>
-              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/OurStory">Mutual Funds </Link></p>
+              <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/FixedDeposits">Fixed Deposit </Link></p>
+              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/PersonalLoan">Personal Loan </Link></p>
+              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">Mutual Funds </Link></p>
             </div>
             <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
-              <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/OurStory">Learn </Link></p>
-              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/OurStory">Daily Digest </Link></p>
-              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/OurStory">IPO Watch </Link></p>
+              <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/Learn">Learn </Link></p>
+              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">Daily Digest </Link></p>
+              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/IPOWatch">IPO Watch </Link></p>
             </div>
           </div>
         </div>
@@ -311,13 +311,13 @@ const Footercopy = (props) => {
                 <span className="tw-text-sm lg:tw-mr-3 lg:tw-text-lg">
                   <IoIosMail />
                 </span>
-                contact@nishkaera.com
+                <a style={{ textDecoration: 'none' }} className="tw-text-white" href="mailto:contact@nishkaera.com">contact@nishkaera.com</a>
               </p>
               <p className="tw--mt-3">
                 <span className="tw-text-sm lg:tw-mr-3 lg:tw-text-lg">
                   <RiWhatsappFill />
                 </span>
-                +91 9320174124
+                <a style={{ textDecoration: 'none' }} className="tw-text-white" href="https://wa.me/+919320174124">+91 9320174124</a>
               </p>
             </div>
           </div>
@@ -356,7 +356,7 @@ const Footercopy = (props) => {
   );
 };
 
-export default Footercopy;
+export default Footer;
 
 // const Footercopy = (props) => {
 

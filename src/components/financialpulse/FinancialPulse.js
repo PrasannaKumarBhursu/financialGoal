@@ -251,7 +251,6 @@ export default function FinancialPulse() {
 
         </Card>
    </div>
-    )
       </Jumbotron>
     </div>
   );

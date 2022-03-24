@@ -15,7 +15,6 @@ export default function YouTubePost() {
             <CuratorWidget feedId="3ff6f122-07be-4260-9ce9-38b0f371170f" />
             {/* <CuratorWidget feedId="6bfed42e-c57e-4f2f-bce4-2b85a6d10179" /> */}
             <Footer />
-            <SocialFollow />
         </div>
     );
 }

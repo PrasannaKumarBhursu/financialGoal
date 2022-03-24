@@ -208,7 +208,7 @@ export default function Careers() {
         </div>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
+
     </div>
   );
 }

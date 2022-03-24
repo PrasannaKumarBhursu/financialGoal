@@ -623,7 +623,6 @@ export default function DetailedFP() {
         </div>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
     </div>
   );
 }

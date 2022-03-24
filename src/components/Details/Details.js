@@ -115,7 +115,6 @@ export default function IPO() {
     </div>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
     </div>
   );
 }

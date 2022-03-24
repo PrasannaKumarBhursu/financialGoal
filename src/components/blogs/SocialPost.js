@@ -48,7 +48,6 @@ export default function SocialPost() {
                 </div>
             </div>
             <Footer />
-            <SocialFollow />
         </div>
     );
 }

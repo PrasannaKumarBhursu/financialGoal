@@ -45,7 +45,7 @@ export default function Header1() {
       <div className="tw-bg-white tw-h-full tw-flex tw-py-4 tw-items-center tw-px-5 tw-gap-2 tw-justify-between">
 
         <div className="tw-hidden md:tw-block tw-w-1/2 md:tw-w-1/5">
-          <img className="tw-w-full" src={NishkaLogo} />
+          <Link style={{ textDecoration: 'none' }} to={"/"} ><img className="tw-w-full" src={NishkaLogo} /></Link>
         </div>
 
         <div className="tw-hidden md:tw-block">
@@ -97,7 +97,7 @@ export default function Header1() {
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
                     <li className="tw-px-3 ">The A to Z about Financial Products</li>
                     <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                    <Link style={{ textDecoration: 'none' }} to={"/ComprehensiveFinancialPulse"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">Financial Pulse</li></Link>
+                    <Link style={{ textDecoration: 'none' }} to={"/Score"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">Financial Pulse</li></Link>
                     <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
                     <Link style={{ textDecoration: 'none' }} to={"/Webinar"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">Webinar</li></Link>
                   </ul>
@@ -116,7 +116,7 @@ export default function Header1() {
                   </div>
                   <ul className="tw-bg-white tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-400 tw-font-normal  tw-rounded-b-xl tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
-                    <Link style={{ textDecoration: 'none' }} to={"/IPO"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">IPO Analysis</li></Link>
+                    <Link style={{ textDecoration: 'none' }} to={"/IPOWatch"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">IPO Analysis</li></Link>
                     <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
                     <li className="tw-px-3 tw-py-1 ">Financial Result Analysis</li>
                   </ul>
@@ -168,11 +168,11 @@ export default function Header1() {
         </div>
       </div>
       <div className="md:tw-hidden tw-text-left tw-ml-3 tw--mt-4">
-        <img
+        <Link style={{ textDecoration: 'none' }} to={"/"}><img
           className="tw-w-30 tw-h-10 lg:tw-w-56 lg:tw-h-12"
           src={NishkaLogo}
           alt="Logo"
-        />
+        /></Link>
       </div>
 
       <div className="tw--mr-2 tw--mt-9 tw-mb-4 tw-pr-4 tw-text-right tw-items-center md:tw-hidden">
@@ -259,7 +259,7 @@ export default function Header1() {
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
                       <li className="tw-px-3 tw-py-1 ">The A to Z about Financial Products</li>
                       <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                      <a style={{ textDecoration: 'none' }} href="/ComprehensiveFinancialPulse"><li className="tw-px-3 tw-py-1 tw-text-navgreen-400 ">Financial Pulse</li></a>
+                      <a style={{ textDecoration: 'none' }} href="/Score"><li className="tw-px-3 tw-py-1 tw-text-navgreen-400 ">Financial Pulse</li></a>
                       <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
                       <a style={{ textDecoration: 'none' }} href="/Webinar"><li className="tw-px-3 tw-py-1 tw-text-navgreen-400">Webinar</li></a>
                     </ul>
@@ -278,7 +278,7 @@ export default function Header1() {
                     </div>
                     <ul className="tw-bg-white tw-list-none tw-border tw-z-10 tw--ml-2 tw-shadow-3xl tw-text-nishblue-400 tw-font-normal  tw-rounded-b-xl tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
-                      <a style={{ textDecoration: 'none' }} href="/IPO"><li className="tw-px-3 tw-list-none tw-text-navgreen-400 tw-py-1 ">IPO Analysis</li></a>
+                      <a style={{ textDecoration: 'none' }} href="/IPOWatch"><li className="tw-px-3 tw-list-none tw-text-navgreen-400 tw-py-1 ">IPO Analysis</li></a>
                       <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
                       <li className="tw-px-3 tw-list-none tw-py-1 ">Financial Result Analysis</li>
                     </ul>

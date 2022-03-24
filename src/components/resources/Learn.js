@@ -190,7 +190,6 @@ export default function Learn() {
         </Row>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
     </div>
   );
 }
