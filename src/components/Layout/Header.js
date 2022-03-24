@@ -147,10 +147,12 @@ export default function Header1() {
           <div className="tw-bg-navgreen-700 tw-text-white tw-font-semibold tw-px-5 tw-py-1 tw-rounded-lg tw-shadow-0 tw-border-none">
             {loginuser ? (
               <>
-                <div className="">
-                  <h5>Welcome {loginuser.name}</h5>
+                <div className="tw-py-2">
+                  <div className="">
+                    <h5>Welcome {loginuser.name}</h5>
+                  </div>
+                  <div className="tw-bg-nishblue-600 tw-cursor-pointer" onClick={handleLogout}>Logout</div>
                 </div>
-                <div onClick={handleLogout}>Logout</div>
               </>
             ) : (
               <>
@@ -315,10 +317,12 @@ export default function Header1() {
               <div className="tw-bg-navgreen-700 tw-text-white tw-font-semibold tw-px-5 tw-py-1 tw-rounded-lg tw-shadow-0 tw-border-none hover:tw-text-white">
                 {loginuser ? (
                   <>
-                    <div className="">
-                      <h5>Welcome {loginuser.name}</h5>
+                    <div className="tw-py-1">
+                      <div className="">
+                        <h6>Welcome {loginuser.name}</h6>
+                      </div>
+                      <div className="tw-bg-nishblue-600 tw-cursor-pointer" onClick={handleLogout}>Logout</div>
                     </div>
-                    <div onClick={handleLogout}>Logout</div>
                   </>
                 ) : (
                   <>

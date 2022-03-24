@@ -336,7 +336,7 @@ export default function IPO() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <Container>
+        <Container className="tw-w-full">
           <Row>
           {upcoming.length > 0 ? 
                     upcoming.map(item=>(
@@ -352,7 +352,7 @@ export default function IPO() {
         </Container>
       </TabPanel>
       <TabPanel value={value} index={1}>
-            <Container>
+            <Container className="tw-w-full">
               <Row>
               {ongoing.length > 0 ? 
                     ongoing.map(item=>(
@@ -368,7 +368,7 @@ export default function IPO() {
             </Container>
       </TabPanel>
       <TabPanel value={value} index={2}>
-                <Container>
+                <Container className="tw-w-full">
                   <Row>
                       {recent.length > 0 ? 
                     recent.map(item=>(
@@ -411,7 +411,6 @@ export default function IPO() {
         </CardGroup>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
     </div>
   );
 }
