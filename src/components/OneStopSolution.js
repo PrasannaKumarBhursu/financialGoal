@@ -45,7 +45,7 @@ export default function OneStopSolution() {
     return (
         <div >
             <Jumbotron className="container-fluid removePadd " style={{ marginTop: '0', backgroundColor: 'white' }}>
-                <h1 className="sectionHeading" style={{ marginTop: '200px', fontSize: '72px', color: '#114034' }}>One Stop Solution</h1> <h4 className="sectionParagraph" style={{ fontSize: '24px', color: '#1D6A58' }}> Learn, Invest and Grow</h4>
+                <h1 className="sectionHeading" style={{fontSize: '72px', color: '#114034' }}>One Stop Solution</h1> <h4 className="sectionParagraph" style={{ fontSize: '24px', color: '#1D6A58' }}> Learn, Invest and Grow</h4>
 
                 <div className="row" >
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4" >

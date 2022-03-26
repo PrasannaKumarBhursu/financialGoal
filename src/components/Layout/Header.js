@@ -34,7 +34,7 @@ export default function Header1() {
   //   <div className="tw-bg-white-500 tw-flex tw-flex-col tw--mt-7 tw-text-nishblue-400 tw-ml-20 tw-py-3 tw-px-2 tw-items-center">
   //     <div className="tw-py-2 tw-px-2">Fixed Deposit</div>
   //     <div className="tw-py-2 tw-px-2">Personal Loan</div>
-  //     <div className="tw-py-2 tw-px-2">Motor Insurance</div>
+  //     <div className="tw-py-2 tw-px-2">Buisness Loans</div>
   //   </div>
   // );
   // const linkName = products ? "Products ×" : "Products +";
@@ -61,11 +61,13 @@ export default function Header1() {
                   </svg>
                 </span>
               </div>
-              <ul className="tw-bg-white tw-border tw-list-none tw--ml-8 tw-z-10 tw-rounded-b-xl tw-mt-4 tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
+              <ul className="tw-bg-navgreen-600 tw-border tw--ml-4 tw-pr-2 tw-list-none tw-z-10 tw-rounded-b-xl tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
                 tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32 ">
-                <Link style={{ textDecoration: 'none' }} to={"/FixedDeposits"}><li className="tw-rounded-sm tw-px-3 tw-no-underline tw-text-nishblue-400 tw-ml-0 tw-text-left tw-font-normal tw-py-1 ">Fixed Deposit</li></Link>
-                <Link style={{ textDecoration: 'none' }} to={"/PersonalLoan"}><li className="tw-rounded-sm tw-px-3 tw-no-underline tw-text-nishblue-400 tw-ml-0 tw-text-left tw-font-normal tw-py-1 ">Personal Loan</li></Link>
-                <li className="tw-rounded-sm tw-px-3 tw-text-nishblue-400 disabled tw-text-left tw-font-normal tw-py-1 ">Motor Insurance</li>
+                <Link style={{ textDecoration: 'none' }} to={"/FixedDeposits"}><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Fixed Deposit</li></Link>
+                <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
+                <Link style={{ textDecoration: 'none' }} to={"/PersonalLoan"}><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Personal Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li></Link>
+                <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
+                <li className="tw-rounded-sm tw-px-1 tw-text-white disabled tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Buisness Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li>
               </ul>
             </div>
 
@@ -80,12 +82,12 @@ export default function Header1() {
                   </svg>
                 </span>
               </div>
-              <ul className="tw-bg-white tw-border tw--ml-8 tw-list-none tw-z-10 tw-rounded-b-xl tw-mt-4 tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
+              <ul className="tw-bg-navgreen-600 tw-border tw--ml-20 tw-list-none tw-z-10 tw-rounded-b-xl tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
                 tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32  ">
 
-                <li className="tw-rounded-sm tw-relative tw-px-3 tw-py-1 ">
-                  <div className="tw-w-full tw-text-left tw-text-nishblue-400 tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
-                    <span className="tw-pr-1 tw-cursor-pointer tw-flex-1">Financial Educational Services</span>
+                <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
+                  <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
+                    <Link style={{ textDecoration: 'none' }} to={"/Learn"}><span className="tw-pr-1 tw-text-white tw-cursor-pointer tw-flex-1">Financial Educational Services</span></Link>
                     <span className="tw-mr-auto">
                       <svg className="tw-fill-current tw-h-4 tw-w-4
                         tw-transition tw-duration-150 tw-ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -93,19 +95,19 @@ export default function Header1() {
                       </svg>
                     </span>
                   </div>
-                  <ul className="tw-bg-white tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-400 tw-font-normal tw-rounded-b-xl tw-absolute tw-top-0 tw-right-0 
+                  <ul className="tw-bg-navgreen-100 tw-border tw-list-none tw--ml-9 tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
-                    <li className="tw-px-3 ">The A to Z about Financial Products</li>
-                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                    <Link style={{ textDecoration: 'none' }} to={"/Score"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">Financial Pulse</li></Link>
-                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                    <Link style={{ textDecoration: 'none' }} to={"/Webinar"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">Webinar</li></Link>
+                    <li className="tw-px-3 tw-py-1 tw--ml-9 ">The A to Z about Financial Products</li>
+                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={"/Score"}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Financial Pulse</li></Link>
+                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={"/Webinar"}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Webinar</li></Link>
                   </ul>
                 </li>
 
 
-                <li className="tw-rounded-sm tw-relative tw-px-3 tw-py-1 ">
-                  <div className="tw-w-full tw-text-left tw-text-nishblue-400 tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
+                <li className="tw-rounded-sm tw-relative tw-px-3 tw--ml-6 tw-py-1 ">
+                  <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
                     <span className="tw-pr-1 tw-cursor-pointer tw-flex-1">Financial Analysis Services</span>
                     <span className="tw-mr-auto">
                       <svg className="tw-fill-current tw-h-4 tw-w-4
@@ -114,17 +116,17 @@ export default function Header1() {
                       </svg>
                     </span>
                   </div>
-                  <ul className="tw-bg-white tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-400 tw-font-normal  tw-rounded-b-xl tw-absolute tw-top-0 tw-right-0 
+                  <ul className="tw-bg-nishblue-100 tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
-                    <Link style={{ textDecoration: 'none' }} to={"/IPOWatch"}><li className=" tw-text-nishblue-400 tw-px-3 tw-py-1 ">IPO Analysis</li></Link>
-                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                    <li className="tw-px-3 tw-py-1 ">Financial Result Analysis</li>
+                    <Link style={{ textDecoration: 'none' }} to={"/IPOWatch"}><li className=" tw-text-nishblue-900 tw-px-3 tw-py-1 tw--ml-9 ">IPO Analysis</li></Link>
+                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
+                    <li className="tw-px-3 tw-py-1 tw--ml-9 ">Financial Result Analysis <br /><span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
                   </ul>
                 </li>
 
-                <li className="tw-rounded-sm tw-relative tw-px-3 tw-py-1 ">
-                  <div className="tw-w-full tw-text-nishblue-400 tw-font-normal tw-text-left tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
-                    <span className="tw-pr-1 tw-flex-1">Investment Advisory Services</span>
+                <li className="tw-rounded-sm tw-relative tw-px-3 tw--ml-6 tw-py-1 ">
+                  <div className="tw-w-full tw-text-white tw-font-normal tw-text-left tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
+                    <span className="tw-pr-1 tw-flex-1 tw-cursor-pointer">Investment Advisory Services</span>
                     <span className="tw-mr-auto">
                       <svg className="tw-fill-current tw-h-4 tw-w-4
                         tw-transition tw-duration-150 tw-ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -132,26 +134,30 @@ export default function Header1() {
                       </svg>
                     </span>
                   </div>
+                  <ul className="tw-bg-nishblue-100 tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
+                    tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
+                    <li className="tw-px-3 tw-py-1 tw--ml-9 "><span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                  </ul>
                 </li>
 
               </ul>
             </div>
 
-            <div className="tw-px-2 tw-cursor-pointer tw-font-bold">Blog</div>
+            <Link style={{ textDecoration: 'none' }} to={"/Blogs"}><div className="tw-px-2 tw-cursor-pointer tw-text-navgreen-700 tw-font-bold">Blog</div></Link>
             <Link style={{ textDecoration: 'none' }} to={"/OurStory"}><div className="tw-px-2 tw-text-navgreen-700 tw-cursor-pointer tw-font-bold">About Us</div></Link>
           </div>
         </div>
 
 
         <div className="tw-hidden md:tw-block tw-rounded-sm tw-text-sm md:tw-text-md lg:tw-text-lg xl:tw-text-xl">
-          <div className="tw-bg-navgreen-700 tw-text-white tw-font-semibold tw-px-5 tw-py-1 tw-rounded-lg tw-shadow-0 tw-border-none">
+          <div className="tw-text-navgreen-700 tw-font-semibold tw-inline-block tw-rounded-lg tw-shadow-0 tw-border-none">
             {loginuser ? (
               <>
-                <div className="tw-py-2">
+                <div className="tw-py-1">
                   <div className="">
-                    <h5>Welcome {loginuser.name}</h5>
+                    <h5 className="tw-text-sm">Welcome {loginuser.name}</h5>
                   </div>
-                  <div className="tw-bg-nishblue-600 tw-cursor-pointer" onClick={handleLogout}>Logout</div>
+                  <div className="tw-bg-nishblue-600 tw-text-white tw-py-1 tw-rounded-xl tw-text-sm tw-cursor-pointer" onClick={handleLogout}>Logout</div>
                 </div>
               </>
             ) : (
@@ -212,7 +218,7 @@ export default function Header1() {
               </a>
 
               <div className="group inline-block tw-ml-4">
-                <div className="tw-outline-none focus:tw-outline-none tw-text-navgreen-700 tw-px-3 tw-bg-white tw-text-base tw-font-medium tw-rounded-sm tw-flex tw-items-center min-w-32">
+                <div className="tw-outline-none focus:tw-outline-none tw-text-navgreen-700 tw-px-3 tw-mx-auto tw-bg-white tw-text-base tw-font-medium tw-rounded-sm tw-flex tw-items-center tw-w-max">
                   <span className="tw-pr-1 tw-flex-1">Products</span>
                   <span>
                     <svg className="tw-fill-current tw-h-4 tw-w-4 tw-transform group-hover:-rotate-180
@@ -221,18 +227,18 @@ export default function Header1() {
                     </svg>
                   </span>
                 </div>
-                <ul className="tw-bg-white tw-list-none tw-z-10 tw-border tw-rounded-b-xl tw-mt-4 tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
-                tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32 ">
-                  <a style={{ textDecoration: 'none' }} href="/FixedDeposits"><li className="tw-rounded-sm tw-px-3 tw-text-nishblue-400 tw-font-normal tw-py-1 ">Fixed Deposit</li></a>
-                  <a style={{ textDecoration: 'none' }} href="/PersonalLoan"><li className="tw-rounded-sm tw-px-3 tw-text-nishblue-400 tw-font-normal tw-py-1 ">Personal Loan</li></a>
-                  <li className="tw-rounded-sm tw-px-3 tw-text-nishblue-400 tw-font-normal tw-py-1 ">Motor Insurance</li>
+                <ul className="tw-bg-navgreen-600 tw-border tw-ml-16 tw-pr-2 tw-list-none tw-z-10 tw-rounded-b-xl tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
+                tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32">
+                  <a style={{ textDecoration: 'none' }} href="/FixedDeposits"><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Fixed Deposit</li></a>
+                  <a style={{ textDecoration: 'none' }} href="/PersonalLoan"><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1">Personal Loan <span className="tw-font-light tw-text-sm">Coming Up Soon</span></li></a>
+                  <li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Business Loans <span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
                 </ul>
 
 
               </div><br />
 
               <div className="group inline-block tw-mb-0 tw-ml-4">
-                <div className="tw-outline-none hover:tw-bg-white hover:tw-text-navgreen-800 tw-text-navgreen-700 focus:tw-outline-none tw-px-3 tw-mb-0 tw-bg-white tw-rounded-sm tw-flex tw-items-center min-w-32">
+                <div className="tw-outline-none hover:tw-bg-white tw-mx-auto hover:tw-text-navgreen-800 tw-text-navgreen-700 focus:tw-outline-none tw-px-3 tw-mb-0 tw-bg-white tw-rounded-sm tw-flex tw-items-center tw--mt-4 tw-w-max">
                   <span className="tw-pr-1 tw-font-medium tw-flex-1">Services</span>
                   <span>
                     <svg className="tw-fill-current tw-h-4 tw-w-4 tw-transform group-hover:-rotate-180
@@ -241,12 +247,12 @@ export default function Header1() {
                     </svg>
                   </span>
                 </div>
-                <ul className="tw-bg-white tw-z-10 tw-border tw-list-none tw-rounded-b-xl tw-mt-4 tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
-                tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32 ">
+                <ul className="tw-bg-navgreen-600 tw-border tw-list-none tw-ml-10 tw-z-10 tw-rounded-b-xl tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
+                tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32">
 
 
-                  <li className="tw-rounded-sm tw-relative tw-px-3 tw-py-1 ">
-                    <div className="tw-w-full tw-text-left tw-text-nishblue-400 tw-font-normal tw-flex tw-gap-0 tw-items-center tw-w-1/4 tw-outline-none focus:tw-outline-none">
+                  <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
+                    <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-flex tw-gap-0 tw-items-center tw-w-1/4 tw-outline-none focus:tw-outline-none">
                       <span className="tw-pr-1 tw-flex-1">Financial Educational Services</span>
                       <span className="tw-mr-auto">
                         <svg className="tw-fill-current tw-h-4 tw-w-4
@@ -255,19 +261,19 @@ export default function Header1() {
                         </svg>
                       </span>
                     </div>
-                    <ul className="tw-bg-white tw-z-10 tw-list-none tw-border tw-shadow-3xl tw-text-nishblue-400 tw-font-normal tw-rounded-b-xl tw-absolute tw-top-0 tw-right-0 
+                    <ul className="tw-bg-navgreen-100 tw-border tw-list-none tw--ml-9 tw-z-10 tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
-                      <li className="tw-px-3 tw-py-1 ">The A to Z about Financial Products</li>
+                      <li className="tw-px-3 tw-py-1  tw--ml-9">The A to Z about Financial Products</li>
                       <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                      <a style={{ textDecoration: 'none' }} href="/Score"><li className="tw-px-3 tw-py-1 tw-text-navgreen-400 ">Financial Pulse</li></a>
+                      <a style={{ textDecoration: 'none' }} href="/Score"><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1">Financial Pulse</li></a>
                       <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                      <a style={{ textDecoration: 'none' }} href="/Webinar"><li className="tw-px-3 tw-py-1 tw-text-navgreen-400">Webinar</li></a>
+                      <a style={{ textDecoration: 'none' }} href="/Webinar"><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1">Webinar</li></a>
                     </ul>
                   </li>
 
 
-                  <li className="tw-rounded-sm tw-relative tw-px-3 tw-py-1 ">
-                    <div className="tw-w-full tw-text-left tw-text-nishblue-400 tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
+                  <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
+                    <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
                       <span className="tw-pr-1 tw-flex-1">Financial Analysis Services</span>
                       <span className="tw-mr-auto">
                         <svg className="tw-fill-current tw-h-4 tw-w-4
@@ -276,16 +282,16 @@ export default function Header1() {
                         </svg>
                       </span>
                     </div>
-                    <ul className="tw-bg-white tw-list-none tw-border tw-z-10 tw--ml-2 tw-shadow-3xl tw-text-nishblue-400 tw-font-normal  tw-rounded-b-xl tw-absolute tw-top-0 tw-right-0 
-                    tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
-                      <a style={{ textDecoration: 'none' }} href="/IPOWatch"><li className="tw-px-3 tw-list-none tw-text-navgreen-400 tw-py-1 ">IPO Analysis</li></a>
+                    <ul className="tw-bg-navgreen-100 tw-border tw-list-none tw--ml-9 tw-z-10 tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
+                    tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32">
+                      <a style={{ textDecoration: 'none' }} href="/IPOWatch"><li className=" tw-text-nishblue-900 tw-px-3 tw-py-1 tw--ml-9 ">IPO Analysis</li></a>
                       <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0" />
-                      <li className="tw-px-3 tw-list-none tw-py-1 ">Financial Result Analysis</li>
+                      <li className="tw-px-3 tw-py-1 tw--ml-9 ">Financial Result Analysis <span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
                     </ul>
                   </li>
 
-                  <li className="tw-rounded-sm tw-relative tw-px-3 tw-py-1 ">
-                    <div className="tw-w-full tw-text-nishblue-400 tw-font-normal tw-text-left tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
+                  <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
+                    <div className="tw-w-full tw-text-white tw-font-normal tw-text-left tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
                       <span className="tw-pr-1 tw-flex-1">Investment Advisory Services</span>
                       <span className="tw-mr-auto">
                         <svg className="tw-fill-current tw-h-4 tw-w-4
@@ -294,13 +300,17 @@ export default function Header1() {
                         </svg>
                       </span>
                     </div>
+                    <ul className="tw-bg-nishblue-100 tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
+                    tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
+                      <li className="tw-px-3 tw-py-1 tw--ml-9 "><span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                    </ul>
                   </li>
 
                 </ul>
               </div>
 
               <a
-                href="#"
+                href="/Blogs"
                 className="hover:tw-bg-white hover:tw-text-navgreen-800 tw-text-navgreen-700 tw-block tw-px-3 tw-py-2 tw-rounded-md tw-text-base tw-font-medium"
               >
                 Blog

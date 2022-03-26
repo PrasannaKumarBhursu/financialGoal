@@ -75,6 +75,10 @@ import Invest_home from "./components/FD/FD_Form/components/Investment_details/I
 import Personal_home from "./components/FD/FD_Form/components/Personal_details/Personal_home";
 import Aadhar_otp from "./components/FD/FD_Form/components/Aadhar_ver/Aadhar_otp";
 import SDP_bajaj from "./components/FD/SDP_bajaj";
+import Blog from "./components/resources/Blogs";
+import Blog1 from "./components/resources/Blog1";
+import Blog2 from "./components/resources/Blog2";
+import Blog3 from "./components/resources/Blog3";
 
 function App() {
   // const {checktoken}=useContext(AppContext)
@@ -118,6 +122,11 @@ function App() {
           {/* <Route exact path='/tabs' component={FD_tabs} /> */}
           {/* Resources */}
           <Route exact path="/Learn" component={Learn} />
+          <Route exact path="/Blog1" component={Blog1} />
+          <Route exact path="/Blog2" component={Blog2} />
+          <Route exact path="/Blog3" component={Blog3} />
+          <Route exact path="/Blogs" component={Blog} />
+
           <Route exact path="/Invest" component={Invest} />
           <Route exact path="/Grow" component={Grow} />
           <Route exact path="/Webinar" component={Webinar} />
@@ -137,7 +146,7 @@ function App() {
 
           {/* Financial pulse */}
           <Route exact path="/Score" component={KnowYourFP} />
-          <Route exact path="ComprehensiveFinancialPulse/" component={DetailedFP} />
+          <Route exact path="/ComprehensiveFinancialPulse" component={DetailedFP} />
 
           <Route exact path="/Details" component={Details} />
 

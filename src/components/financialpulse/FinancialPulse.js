@@ -87,10 +87,10 @@ export default function FinancialPulse() {
           onHide={() => setModalShow(false)}
         />
         {/* {PromptModal} */}
-        <div className="h1 sectionHeading " style={{ marginTop: "5%" , color: "#1D6A58"}}>
+        <div className="h1 sectionHeading tw-mt-4 " style={{color: "#1D6A58"}}>
           Know your Financial Pulse
         </div>
-        <p className=" h5 sectionParagraph" style={{ marginTop: "0" }}>
+        <p className=" h5 sectionParagraph tw--mt-5">
           Just answer few simple questions to get your financial score.
         </p>
         {/* <p>
@@ -108,7 +108,7 @@ export default function FinancialPulse() {
 
 
     {/* return ( */}
-        <div className='shadow-lg p-1 bg-body rounded ' style={{margin:20}}>
+        <div className='shadow p-1 bg-body rounded tw-mb-8 tw--mt-4'>
         {/* <div className='shadow shadow-success shadow-intensity-xl p-1  ' style={{margin:20}}> */}
         <Card border='0' style={{margin:50}} >
            

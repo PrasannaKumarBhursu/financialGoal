@@ -10,7 +10,7 @@ import { SiFacebook } from "react-icons/si";
 import { BiRadioCircleMarked } from "react-icons/bi";
 import { TiSocialInstagram } from "react-icons/ti";
 import { AiFillTwitterCircle, AiOutlineCopyrightCircle } from "react-icons/ai";
-import Logo from "./FooterLogo.png";
+import Logo from "./assets/nishka_footer.png";
 
 import { Button, Alert, Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -149,7 +149,7 @@ const Footer = (props) => {
       <form onSubmit={handleSubmit}>
         <div className="tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-700 tw-text-white tw-items-center tw-p-3 tw-pt-6">
           <div className="md:tw-w-2/5 tw-p-2">
-            <div className="tw-text-xl lg:tw-text-2xl xl:tw-text-3xl tw-underline tw-underline-offset-4 tw-font-semibold">
+            <div className="tw-text-xl lg:tw-text-2xl xl:tw-text-3xl tw-font-semibold">
               SUBSCRIBE TO OUR REPORTS
             </div>
             <div className="tw-pt-3 lg:tw-text-lg">
@@ -192,8 +192,8 @@ const Footer = (props) => {
           </div>
           <div className="md:tw-w-1/5 tw-p-2 tw-mt-2 md:tw-mt-0">
             <button
-            type="submit"
-             className="tw-bg-navgreen-800 tw-shadow-xl tw-border-none tw-text-white tw-rounded-3xl tw-px-8 tw-font-semibold tw-py-2">
+              type="submit"
+              className="tw-bg-navgreen-800 tw-shadow-xl tw-border-none tw-text-white tw-rounded-3xl tw-px-8 tw-font-semibold tw-py-2">
               Subscribe
             </button>
           </div>
@@ -201,48 +201,48 @@ const Footer = (props) => {
       </form>
 
       <Modal
-          size="lg"
-          aria-labelledby="contained-modal-title-vcenter"
-          centered
-          show={stateObj.show}
-          onHide={closePopup}
-        >
-          <Modal.Header className="tw-bg-navgreen-600" closeButton></Modal.Header>
-          <Modal.Body className="tw-bg-navgreen-700 tw-text-white">
-            <Alert>
-              {stateObj.showUnsubscribe ? (
-                <>
-                  <h4>This email address is already subscribed.</h4>
-                  <p>
-                    To unsubscribe, click on <b>Unsubscribe</b> button below or{" "}
-                    <b>Cancel</b> button to keep subscribed.
-                  </p>
-                  <Button
-                    variant={stateObj.error ? "danger" : "success"}
-                    onClick={onUpdate}
-                  >
-                    Unsubscribe
-                  </Button>
-                </>
-              ) : (
-                <h4>{stateObj.message}</h4>
-              )}
-            </Alert>
-          </Modal.Body>
-          <Modal.Footer className="tw-bg-navgreen-600 tw-text-center">
-            <Button className="tw-bg-white hover:tw-bg-nishblue-400 tw-mx-auto tw-w-2/4" onClick={closePopup} variant="outline-primary">
-              Cancel
-            </Button>
-          </Modal.Footer>
-        </Modal>
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        show={stateObj.show}
+        onHide={closePopup}
+      >
+        <Modal.Header className="tw-bg-navgreen-600" closeButton></Modal.Header>
+        <Modal.Body className="tw-bg-navgreen-700 tw-text-white">
+          <Alert>
+            {stateObj.showUnsubscribe ? (
+              <>
+                <h4>This email address is already subscribed.</h4>
+                <p>
+                  To unsubscribe, click on <b>Unsubscribe</b> button below or{" "}
+                  <b>Cancel</b> button to keep subscribed.
+                </p>
+                <Button
+                  variant={stateObj.error ? "danger" : "success"}
+                  onClick={onUpdate}
+                >
+                  Unsubscribe
+                </Button>
+              </>
+            ) : (
+              <h4>{stateObj.message}</h4>
+            )}
+          </Alert>
+        </Modal.Body>
+        <Modal.Footer className="tw-bg-navgreen-600 tw-text-center">
+          <Button className="tw-bg-white hover:tw-bg-nishblue-400 tw-mx-auto tw-w-2/4" onClick={closePopup} variant="outline-primary">
+            Cancel
+          </Button>
+        </Modal.Footer>
+      </Modal>
 
-      <div className="tw-w-full tw-bg-navgreen-800 tw-text-white tw-pt-4 tw--pb-2 md:tw-text-left tw-pl-5 tw-pb-3 md:tw-pb-0">
-        <img src={Logo} className="tw-w-48 tw-h-16" />
+      <div className="tw-w-full tw-bg-navgreen-800 tw-text-white tw-pt-4 tw--pb-2 md:tw-text-left md:tw-pl-5 tw-pb-3 md:tw-pb-0">
+        <img src={Logo} className="tw-w-72 tw-h-20 lg:tw-w-72 lg:tw-h-20 md:tw-w-56 md:tw-h-14" />
       </div>
 
-      <div className="tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-800 tw-text-white xl:tw--mt-0 lg:tw--mt-8 xl:tw-pt-4">
-        <div className="tw-flex tw-flex-col md:tw-w-1/5 tw-items-center lg:tw--ml-8 md:tw--mt-24 lg:tw--mt-1.5">
-          <div className="tw-text-footer-100 tw-underline tw-underline-offset-4 tw-text-lg lg:tw-text-2xl">
+      <div className="tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-800 tw-text-white xl:tw--mt-0 tw-pb-10 lg:tw--mt-20 md:tw--mt-14 xl:tw--mt-2">
+        <div className="tw-flex tw-flex-col md:tw-w-1/5 tw-items-center xl:tw--ml-8 lg:tw-ml-2 md:tw--mt-24 lg:tw--mt-5 xl:tw--mt-1">
+          <div className="tw-text-footer-100 tw-font-bold  tw-text-lg lg:tw-text-2xl">
             Company
           </div>
           <div className="tw-flex tw-flex-col tw-text-sm lg:tw-text-lg md:tw-text-left">
@@ -253,9 +253,9 @@ const Footer = (props) => {
             <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="#">Terms Of Use </Link></p>
           </div>
         </div>
-        <div className="tw-flex tw-flex-col md:tw--mt-36 lg:tw--mt-0 md:tw-w-1/4 lg:tw--mt-16 tw-items-center xl:tw--ml-10 lg:tw-mr-16">
-          <div className="tw-text-footer-100 tw-underline tw-underline-offset-4 tw-text-lg lg:tw-text-2xl">
-            Products and Services
+        <div className="tw-flex tw-flex-col md:tw--mt-36 lg:tw--mt-0 md:tw-w-1/4 lg:tw-w-1/5 xl:tw-w-1/4 xl:tw--mt-16 lg:tw--mt-20 tw-items-center lg:tw-ml-4 xl:tw--ml-10 xl:tw-mr-16">
+          <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl">
+            Products
           </div>
           <div className="tw-flex tw-flex-row tw-gap-3 lg:tw-gap-8 xl:tw-gap-12 lg:tw-text-lg">
             <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
@@ -263,15 +263,27 @@ const Footer = (props) => {
               <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/PersonalLoan">Personal Loan </Link></p>
               <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">Mutual Funds </Link></p>
             </div>
+          </div>
+        </div>
+        <div className="tw-flex tw-flex-col md:tw--mt-28 lg:tw--mt-0 md:tw-w-1/4 lg:tw-w-2/5 xl:tw-w-1/4 lg:tw--mt-20 xl:tw--mt-16 tw-items-center xl:tw--ml-10 xl:tw-mr-16">
+          <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl lg:tw--ml-4 xl:tw--ml-0">
+            Services
+          </div>
+          <div className="tw-flex tw-flex-row tw-gap-3 lg:tw-gap-5 xl:tw-gap-12 lg:tw-text-lg">
             <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
               <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/Learn">Learn </Link></p>
               <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">Daily Digest </Link></p>
               <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/IPOWatch">IPO Watch </Link></p>
             </div>
+            <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
+              <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/Score">Financial Pulse</Link></p>
+              <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/Blogs">Blogs </Link></p>
+              <p className="tw--mt-3"><Link className="tw-text-pink-600 hover:tw-text-pink-600" to="/WomenSpecialHome">Women Special</Link></p>
+            </div>
           </div>
         </div>
-        <div className="tw-flex tw-flex-col  xl:tw-pt-0 tw-pt-6 md:tw-pt-12 lg:tw-pt-20 md:tw-w-1/3 tw--mt-4 tw-items-center ">
-          <div className="tw-text-footer-100 tw-underline tw-underline-offset-4 tw-text-lg lg:tw-text-2xl">
+        <div className="tw-flex tw-flex-col  xl:tw-pt-0 tw-pt-6 md:tw-pt-6 lg:tw-pt-20 md:tw-w-1/3 tw-items-center ">
+          <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl md:tw-pt-8">
             Our Office
           </div>
           <div className="tw-flex tw-flex-row tw-gap-2 lg:tw-gap-5 tw-ml-5 lg:tw-ml-8">
@@ -303,7 +315,7 @@ const Footer = (props) => {
         </div>
         <div className="tw-flex tw-flex-col md:tw-w-1/4 lg:tw--mt-0 md:tw--mt-12 tw-items-center tw-mr-2">
           <div>
-            <div className="tw-text-footer-100 tw-underline tw-underline-offset-4 tw-text-lg lg:tw-text-2xl">
+            <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl">
               Contact Us
             </div>
             <div className="md:tw-text-left tw-mt-5">
@@ -322,7 +334,7 @@ const Footer = (props) => {
             </div>
           </div>
           <div>
-            <div className="tw-mt-6 tw-mb-6 tw-text-footer-100 tw-underline tw-underline-offset-4 tw-text-lg lg:tw-text-2xl">
+            <div className="tw-mt-6 tw-mb-6 tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl">
               Follow Us
             </div>
             <div className="tw-flex tw-flex-row tw-gap-4 md:tw-gap-2 lg:tw-gap-6">
