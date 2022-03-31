@@ -79,7 +79,11 @@ import Blog from "./components/resources/Blogs";
 import Blog1 from "./components/resources/Blog1";
 import Blog2 from "./components/resources/Blog2";
 import Blog3 from "./components/resources/Blog3";
-
+import youtube from "./components/blogs/youtube";
+import twitter from "./components/blogs/twitter";
+import LatestPost from "./components/Latestpost";
+import facebook from "./components/blogs/facebook";
+import instagram from "./components/blogs/instagram";
 function App() {
   // const {checktoken}=useContext(AppContext)
 
@@ -107,8 +111,8 @@ function App() {
           <Route exact path="/FixedDeposits/bajaj" component={FD_tabs} />
           <Route exact path="/PersonalLoan" component={Main} />
           <Route exact path="/BajajPersonalLoan" component={Hero} />
-          <Route exact path="/NRI" component={NRI_bajaj}/>
-          <Route exact path="/SDP" component={SDP_bajaj}/>
+          <Route exact path="/NRI" component={NRI_bajaj} />
+          <Route exact path="/SDP" component={SDP_bajaj} />
           {/* FD FORM */}
           <Route exact path='/form' component={Mob_ver} />
           <Route exact path='/form/otpverification' component={Otp_ver} />
@@ -165,6 +169,11 @@ function App() {
           <PrivateRoute exact path="/IPOWatch" component={IPOnew} />
           {/* Social Links  */}
           <Route exact path="/SocialPost" component={SocialPost} />
+          <Route exact path="/latestpost" component={LatestPost} />
+          <Route exact path="/youtube" component={youtube} />
+          <Route exact path="/twitter" component={twitter} />
+          <Route exact path="/facebook" component={facebook} />
+          <Route exact path="/instagram" component={instagram} />
 
           {/* Footer */}
           <Route exact path="/Careers" component={Careers} />

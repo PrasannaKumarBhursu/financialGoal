@@ -14,26 +14,14 @@ import '../social/SocialFollow.css'
 import CuratorWidget from '../CuratorWidget';
 
 
-export default function SocialPost() {
+export default function youtube() {
     return (
         <div style={{ backgroundColor: "lightGrey" }}>
             <ScrollToTop />
             <Header />
             <div className="row justify-content-evenly" style={{ color: '#3AD4AF', backgroundColor: "Gray" }}>
-                {/* <CuratorWidget feedId="a40403d9-3b68-4b31-bd48-fc73ca388db6" /> */}
-                <div className="col-6 border border-3">
-
-                    <div className="h4 container-fluid sp-mt" >
-                        NishkaEra on Twitter
-                        <a href="https://www.twitter.com/nishkaera" className="twitter social">
-                            <FontAwesomeIcon icon={faTwitter} size="1x" />
-                        </a>
-                    </div>
-                    {/* Buildstrust's ID */}
-                    {/* <CuratorWidget feedId="3ff6f122-07be-4260-9ce9-38b0f371170f" /> */}
-                    <CuratorWidget feedId="3ff6f6ce-a3a6-4d72-b345-237c60869361" />
-                </div>
-                <div className="col-6 border border-3">
+                
+                <div className="col-12 border border-3">
 
                     <div className="h4 container-fluid sp-mt">
                         NishkaEra on YouTube
@@ -45,11 +33,14 @@ export default function SocialPost() {
                         </a>
                     </div>
                     {/* Saurabh's id  */}
-                    <CuratorWidget feedId="6f1c6b2c-6210-4360-aaee-90f5c75c15f2" />
+                    {/* <CuratorWidget feedId="6f1c6b2c-6210-4360-aaee-90f5c75c15f2" /> */}
                     {/* <CuratorWidget feedId="6bfed42e-c57e-4f2f-bce4-2b85a6d10179" /> */}
+                    {/*  mukesh.vijayvergia@nishkaera.com */}
+                    <CuratorWidget feedId="af69ffa3-9c5e-45cb-b85e-8f0447a9755c" />
+
                 </div>
             </div>
-            <Footer />
+
             <SocialFollow />
         </div>
     );
