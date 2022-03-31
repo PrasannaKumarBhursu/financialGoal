@@ -26,15 +26,15 @@ export default class DemoCarousel extends Component {
 
 
 
-          <div  className="heading" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <div  className="heading" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"5%" ,height:"17%",width:"44%"}}>
           <h1 className=" headcontent_kn" style={{fontSize:"92px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Fixed Deposit</h1>
           </div>
 
           <div  className="text" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
-          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>One of the most preferred investment instruments in India as it has potential to offer recurring return with capital protection and flexibility</h1>
+          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>One of the most preferred investment instrument in India having the potential to offer recurring return with capital protection and flexibility</h1>
           </div>
 
-          <a href="https://www.nishkaera.com/FixedDeposits"  className="link" id="link_fd" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
+          <a href="/FixedDeposits"  className="link" id="link_fd" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
 
 
 
@@ -43,8 +43,11 @@ export default class DemoCarousel extends Component {
 
 
 
-          <div  className="image_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"7%" ,width:"17%"}}>
-          <img src="Group 104pl.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          <div  className="image_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"9%" ,width:"17%"}}>
+          <img src="Group 142carousel_fd_pl.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          </div>
+          <div  className="head_img_bottom_1" style={{position:"absolute" ,zIndex:"1", left:"50%"   , bottom:"6%" ,width:"17%"}}>
+          <h1 className="head_img_bottom_1_content" style={{fontSize:"34px" ,fontStyle:"normal" , fontWeight:"700"  , color:"#1D6A58"}}>Personal Loan</h1>
           </div>
 
           <div  className="image_bottom_2" style={{position:"absolute" ,zIndex:"1", left:"75%"   , bottom:"7%" ,width:"17%"}}>
@@ -69,18 +72,18 @@ export default class DemoCarousel extends Component {
         <div className="maindiv" style={{backgroundColor:"white" , height:"630px", position:"relative"}}>
           
 
-          <div  className="image" style={{position:"absolute" ,zIndex:"1", left:"2%"   , bottom:"0%" ,width:"45%"}}>
-          <img src="19197296 1pl main.png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
+          <div  className="image" style={{position:"absolute" ,zIndex:"1", left:"2%"   , bottom:"0%" ,width:"40%"}}>
+          <img src="image-removebg-preview (2).png" style={{maxHeight:"100%",maxWidth:"100%" }} alt="nishkaera" />
           </div>
 
 
 
-          <div  className="heading" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <div  className="heading" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"5%" ,height:"17%",width:"44%"}}>
           <h1 className=" headcontent_kn" style={{fontSize:"92px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Personal Loan</h1>
           </div>
 
           <div  className="text" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
-          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Get instant collateral free loan to meet your both planned and unplanned expenditures without restriction on the end use.</h1>
+          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Get instant collateral free loan to meet your both planned and unplanned expenditure without restriction on the end use.</h1>
           </div>
 
           <a  className="link"  style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
@@ -119,12 +122,12 @@ export default class DemoCarousel extends Component {
 
 
 
-          <div  className="heading" id="heading_kn" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
-          <h1 className=" headcontent_kn" id="head_kn" style={{fontSize:"60px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Knowledge You Need</h1>
+          <div  className="heading" id="heading_kn" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"5%" ,height:"17%",width:"44%"}}>
+          <h1 className=" headcontent_kn" id="head_kn" style={{fontSize:"60px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>Resources</h1>
           </div>
 
           <div  className="text" id="text_kn" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
-          <h1 className=" textcontent" id="textcontent_kn" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Do not miss any important news on business and economy.</h1>
+          <h1 className=" textcontent" id="textcontent_kn" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Your gateway to the latest and trending news on business and economy.</h1>
           </div>
           <a className="link" id="link_kn" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"40%" ,height:"7%",width:"11%" , backgroundColor:"#3AD4AF" , display:"flex" ,alignItems:"center", justifyContent:"center" ,color:"white" , fontSize:"22px" , fontWeight:"600"}}> Learn More </a>
 
@@ -161,12 +164,12 @@ export default class DemoCarousel extends Component {
 
 
 
-          <div  className="heading" id="heading_ipo" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"0" ,height:"17%",width:"44%"}}>
+          <div  className="heading" id="heading_ipo" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"5%" ,height:"17%",width:"44%"}}>
           <h1 className=" headcontent_kn" style={{fontSize:"60px" ,fontStyle:"normal" , fontWeight:"900"  , color:"#114034"}}>IPO Watch</h1>
           </div>
 
           <div  className="text" id="text_ipo" style={{position:"absolute" ,zIndex:"1", left:"50%"   , top:"20%" ,height:"15%",width:"44%"}}>
-          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Comprehensive and un-biased analysis of IPOs.</h1>
+          <h1 className=" textcontent" style={{fontSize:"26px" ,fontStyle:"normal" , fontWeight:"400"  , color:"#000000"}}>Comprehensive and un-biased analysis of IPOs to enable you to take informed investment decision</h1>
           </div>
 
           

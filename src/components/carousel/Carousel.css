@@ -100,6 +100,7 @@
         font-size: 60px !important;
     }
     .link{
+        top: 43% !important;
        
         width: 15% !important;
     }
@@ -107,26 +108,29 @@
         top: 60% !important;
     } */
 
-    .text{
+    /* .text{
         top: 15% !important;
-    }
+    } */
     .link_kn{
         top: 50% !important;
     }
-    #text_kn{
+    /* #text_kn{
         top: 25% !important;
-    }
+    } */
     .heading_kn{
         width : 50% !important;
     }
     #heading_ipo{
-        top:10% !important;
+        top:5% !important;
     }
-    #text_ipo{
+    /* #text_ipo{
         top:25% !important;
-    }
+    } */
     #head_kn{
         font-size:55px !important ;
+    }
+    .head_img_bottom_1_content{
+        font-size: 25px !important;
     }
 }
 
@@ -168,7 +172,13 @@ top: 0px !important;
 .image_bottom_1{
     width: 40% !important;
     left:  5% !important;
-    bottom: 10% !important;
+    /* bottom: 25% !important; */
+}
+.head_img_bottom_1{
+    width: 40% !important;
+    left:  5% !important;
+    bottom: 9% !important;
+    
 }
 .image_bottom_2{
     width: 40% !important;
@@ -201,6 +211,7 @@ top: 0px !important;
     .image_bottom_1{
         bottom: 10% !important;
     }
+    
     .image_bottom_2{
         bottom: 10% !important;
     }
@@ -229,6 +240,12 @@ top: 0px !important;
     .image_bottom_1{
         bottom: 10% !important;
     }
+    .head_img_bottom_1{
+        bottom: 9% !important;
+    }
+    .head_img_bottom_1_content{
+        font-size: 20px !important;
+    }
     .image_bottom_2{
         bottom: 10% !important;
     }
@@ -254,6 +271,9 @@ top: 0px !important;
     }
     .image_bottom_1{
         bottom: 15% !important;
+    }
+    .head_img_bottom_1{
+        bottom: 13% !important;
     }
     .image_bottom_2{
         bottom: 15% !important;
