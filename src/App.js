@@ -62,6 +62,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import FD from "./components/FD/FD";
 import Bajaj_finserv from "./components/FD/Bajaj_finserv";
 
+import RiskProfile from "./components/Advisory/Forms/RiskProfile";
+import Personal from "./components/Advisory/Forms/Personal";
+
 function App() {
   // const {checktoken}=useContext(AppContext)
 
@@ -123,6 +126,10 @@ function App() {
         {/* <Route exact path="/investing" component={Investing}/> */}
         <Route exact path="/tax" component={Tax} />
         <Route exact path="/womenloans" component={WomenLoans} />
+
+        {/* Advisory */}
+        <Route exact path="/RiskProfile" component={RiskProfile} />
+        <Route exact path="/Personal" component={Personal} />
 
         {/* Markets */}
         <PrivateRoute exact path="/IPOWatch" component={IPOnew} />

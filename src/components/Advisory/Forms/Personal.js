@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+// import "./index.css";
 
 const addressDetailsList = [
   { id: "city",value:"City" },
@@ -25,7 +25,7 @@ const gender=[
   {id:"others",value:"others"},
 ]
 
-export default function PersonalDetailsForm() {
+export default function Personal() {
 
   const addressDetails = (props) => {
     return (
