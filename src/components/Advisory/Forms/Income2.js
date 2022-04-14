@@ -1,10 +1,12 @@
 import { Component } from "react";
 
+import Header from "../../Layout/Header";
+import Footer from "../../Layout/Footer"
 import { Button, Form, Row, InputGroup, Col } from "react-bootstrap";
 
 import "./index.css";
 
-class IncomeForm extends Component {
+class IncomeForm2 extends Component {
 	state = {
 		activeField: 1,
 		monthlySalaryIncome: "",
@@ -51,10 +53,12 @@ class IncomeForm extends Component {
 		} = this.state;
 
 		return (
-			<Form onSubmit={this.renderNextField} className="input-fields">
-				<div>
-					<h1 className="text-left">Your Pension Income </h1>
-					<img src="https://image.shutterstock.com/image-photo/salary-text-written-on-wooden-260nw-1892630419.jpg" className="image" />
+			<div className="d-flex flex-row justify-content-space-between">
+				<div className="desktop-img  align-self-center  d-none d-md-block">
+					<img src="https://static.toiimg.com/thumb/msid-64007735,imgsize-43279,width-400,resizemode-4/64007735.jpg" />
+				</div>
+				<div className="input-field">
+					<h1 className="text-left heading-color">Your Pension Income </h1>
 					<div>
 						<p className="text-left">
 							<b>Mr Abc:</b>
@@ -129,12 +133,8 @@ class IncomeForm extends Component {
 						</Form.Label>
 						<Form.Control type="file" placeholder="choose" />
 					</Form.Group>
-					<div className="btn-con">
-						{this.backButton()}
-						{this.nextButton()}
-					</div>
 				</div>
-			</Form>
+			</div>
 		);
 	};
 
@@ -146,9 +146,10 @@ class IncomeForm extends Component {
 			depYearlySalaryIncome,
 		} = this.state;
 		return (
-			<Form onSubmit={this.renderNextField} className="input-fields">
-				<div>
-					<h1 className="text-left">Your Salary Income </h1>
+			<div className="d-flex flex-row justify-content-space-between">
+				<div className="input-field">
+					<h1 className="text-left heading-color"> Salary  </h1>
+
 					<div>
 						<p className="text-left">
 							<b>Mr Abc:</b>
@@ -223,37 +224,28 @@ class IncomeForm extends Component {
 						</Form.Label>
 						<Form.Control type="file" placeholder="choose" />
 					</Form.Group>
-					<div className="d-flex w-100 justify-content-end">
-						{this.nextButton()}
-					</div>
 				</div>
-			</Form>
+				<div className="desktop-img d-none align-self-center d-md-block">
+					<img src="https://static.toiimg.com/thumb/msid-64007735,imgsize-43279,width-400,resizemode-4/64007735.jpg" />
+				</div>
+			</div>
 		);
-	};
-
-	renderActiveInputField = () => {
-		const { activeField } = this.state;
-
-		switch (activeField) {
-			case 1:
-				return this.salaryIncome();
-			case 2:
-				return this.pensionIncome();
-			default:
-				return this.pensionIncome();
-		}
 	};
 
 	render() {
 		const { activeField } = this.state;
 		console.log(activeField);
 		return (
-			<div className="box-con">
+			<Form className="box-con pl-3 pr-3">
+				<Header />
 				<h1>Income Details</h1>
-				<div className="form-container">{this.renderActiveInputField()}</div>
-			</div>
+
+				{this.salaryIncome()}
+				{this.pensionIncome()}
+				<Footer />
+			</Form>
 		);
 	}
 }
 
-export default IncomeForm;
+export default IncomeForm2;

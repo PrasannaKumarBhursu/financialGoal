@@ -62,97 +62,114 @@ import ScrollToTop from "./components/ScrollToTop";
 import FD from "./components/FD/FD";
 import Bajaj_finserv from "./components/FD/Bajaj_finserv";
 
+//vinay updated routes
+import IncomeForm2 from "./components/Advisory/Forms/Income2";
+import IncomeForm from "./components/Advisory/Forms/Income";
+import Personal_home from "./components/Advisory/Forms/Personal_details/Personal_home";
+import FinancialGoals from "./components/Advisory/Forms/FinancialGoals";
+
 function App() {
-  // const {checktoken}=useContext(AppContext)
+	// const {checktoken}=useContext(AppContext)
 
-  //  useEffect(()=>{
-   
-  //  },[])
+	//  useEffect(()=>{
 
-  return (
-    <ScrollToTop>
-    <div className="App">
-      <Switch>
-        {/* Auth */}
-        <Route exact path="/Login" component={Login} />
-        <Route exact path="/Register" component={Register} />
-        <Route exact path="/Plans" component={Plans} />
-        <Route exact path="/EmailSent" component={VerificationSent} />
-        <Route exact path="/Thankyou" component={ThankyouForReg} />
-        <Route exact path="/forgotpassword" component={ForgotPassword} />
-        <Route exact path="/reset/:token" component={ResetPass}/>
-        {/* <OurStory /> */}
-        <Route exact path="/" component={Home} />
-        <Route exact path="/OurStory" component={OurStory} />
-        <Route exact path="/OurStory" component={OurStory} />
-        <Route exact path="/FixedDeposits" component={FD} />
-        <Route exact path="/FixedDeposits/bajaj" component={Bajaj_finserv}/>
+	//  },[])
 
-        {/* Resources */}
-        <Route exact path="/Learn" component={Learn} />
-        <Route exact path="/Invest" component={Invest} />
-        <Route exact path="/Grow" component={Grow} />
-        <Route exact path="/Webinar" component={Webinar} />
-        {/* Resource Links  */}
-        <Route exact path="/Loans" component={Loans} />
-        <Route exact path="/MutualFunds" component={MutualFunds} />
-        <Route exact path="/ProvidentFund" component={ProvidentFund} />
-        <Route exact path="/FixedDeposit" component={FixedDeposit} />
-        <Route exact path="/Insurance" component={Insurance} />
-        <Route exact path="/CreditCard" component={CreditCard} />
-        <Route exact path="/Gold" component={Gold} />
-        <Route exact path="/CryptoCurrency" component={CryptoCurrency} />
-        <Route exact path="/RealEstate" component={RealEstate} />
-        <Route exact path="/Shares" component={Shares} />
-        <Route exact path="/IPO" component={IPO} />
-        <Route exact path="/AltInvestment" component={AltInvestment} />
+	return (
+		<ScrollToTop>
+			<div className="App">
+				<Switch>
+					{/* Auth */}
+					<Route exact path="/Login" component={Login} />
+					<Route exact path="/Register" component={Register} />
+					<Route exact path="/Plans" component={Plans} />
+					<Route exact path="/EmailSent" component={VerificationSent} />
+					<Route exact path="/Thankyou" component={ThankyouForReg} />
+					<Route exact path="/forgotpassword" component={ForgotPassword} />
+					<Route exact path="/reset/:token" component={ResetPass} />
+					{/* <OurStory /> */}
+					<Route exact path="/" component={Home} />
+					<Route exact path="/OurStory" component={OurStory} />
+					<Route exact path="/OurStory" component={OurStory} />
+					<Route exact path="/FixedDeposits" component={FD} />
+					<Route exact path="/FixedDeposits/bajaj" component={Bajaj_finserv} />
 
-        {/* Financial pulse */}
-        <Route exact path="/Score" component={KnowYourFP} />
-        <Route exact path="/ComprehensiveFinancialPulse" component={DetailedFP} />
+					{/* Resources */}
+					<Route exact path="/Learn" component={Learn} />
+					<Route exact path="/Invest" component={Invest} />
+					<Route exact path="/Grow" component={Grow} />
+					<Route exact path="/Webinar" component={Webinar} />
+					{/* Resource Links  */}
+					<Route exact path="/Loans" component={Loans} />
+					<Route exact path="/MutualFunds" component={MutualFunds} />
+					<Route exact path="/ProvidentFund" component={ProvidentFund} />
+					<Route exact path="/FixedDeposit" component={FixedDeposit} />
+					<Route exact path="/Insurance" component={Insurance} />
+					<Route exact path="/CreditCard" component={CreditCard} />
+					<Route exact path="/Gold" component={Gold} />
+					<Route exact path="/CryptoCurrency" component={CryptoCurrency} />
+					<Route exact path="/RealEstate" component={RealEstate} />
+					<Route exact path="/Shares" component={Shares} />
+					<Route exact path="/IPO" component={IPO} />
+					<Route exact path="/AltInvestment" component={AltInvestment} />
 
-        <Route exact path="/Details" component={Details} />
+					{/* Financial pulse */}
+					<Route exact path="/Score" component={KnowYourFP} />
+					<Route
+						exact
+						path="/ComprehensiveFinancialPulse"
+						component={DetailedFP}
+					/>
 
-        {/* Women Special */}
-        <Route exact path="/WomenSpecial" component={MoreWomenSpecial} />
-        <Route exact path="/WomenSpecialHome" component={WomenSpecialHome} />
-        <Route exact path="/tips" component={Tips} />
-        <Route exact path="/moneylesson" component={MoneyLessons} />
-        <Route exact path="/financialplan" component={FinancialPlan} />
-        <Route exact path="/emergencyfunds" component={EmergencyFunds} />
-        {/* <Route exact path="/investing" component={Investing}/> */}
-        <Route exact path="/tax" component={Tax} />
-        <Route exact path="/womenloans" component={WomenLoans} />
+					<Route exact path="/Details" component={Details} />
 
-        {/* Markets */}
-        <PrivateRoute exact path="/IPOWatch" component={IPOnew} />
-        {/* Social Links  */}
-        <Route exact path="/SocialPost" component={SocialPost} />
+					{/* Women Special */}
+					<Route exact path="/WomenSpecial" component={MoreWomenSpecial} />
+					<Route exact path="/WomenSpecialHome" component={WomenSpecialHome} />
+					<Route exact path="/tips" component={Tips} />
+					<Route exact path="/moneylesson" component={MoneyLessons} />
+					<Route exact path="/financialplan" component={FinancialPlan} />
+					<Route exact path="/emergencyfunds" component={EmergencyFunds} />
+					{/* <Route exact path="/investing" component={Investing}/> */}
+					<Route exact path="/tax" component={Tax} />
+					<Route exact path="/womenloans" component={WomenLoans} />
 
-        {/* Footer */}
-        <Route exact path="/Careers" component={Careers} />
-        <Route exact path="/Disclaimer" component={Disclaimer} />
-        <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
-        <Route exact path="/Faqs" component={Faqs} />
-        <Route exact path="/Contact" component={ContactUS} />
-        {/* Admin */}
-        {/* <Route exact path="/latest" component={Latestpage}/> 
+					{/* Markets */}
+					<PrivateRoute exact path="/IPOWatch" component={IPOnew} />
+					{/* Social Links  */}
+					<Route exact path="/SocialPost" component={SocialPost} />
+
+					{/* Footer */}
+					<Route exact path="/Careers" component={Careers} />
+					<Route exact path="/Disclaimer" component={Disclaimer} />
+					<Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
+					<Route exact path="/Faqs" component={Faqs} />
+					<Route exact path="/Contact" component={ContactUS} />
+
+					{/* vinay added routes to check*/}
+
+					<Route exact path="/personaldetails" component={Personal_home} />
+					<Route exact path="/income-details/" component={IncomeForm} />
+					<Route exact path="/income-details2/" component={IncomeForm2} />
+					<Route exact path="/financial-goals" component={FinancialGoals} />
+					{/* Admin */}
+					{/* <Route exact path="/latest" component={Latestpage}/> 
            <Route exac path="/latest/:id" component={Updatelatest}/> */}
-      </Switch>
-      {/* <Header /> */}
-      {/* <Carousel /> */}
-      {/* <Test /> */}
-      {/* <FinancialPulse /> */}
-      {/* <OneStopSolution /> */}
-      {/* <WomenSpecial /> */}
-      {/* <Latest /> */}
-      {/* <Footer /> */}
-      {/* <SocialFollow /> */}
-      {/* <AboutUs /> */}
-      {/* <OurStory /> */}
-    </div>
-    </ScrollToTop>
-  );
+				</Switch>
+				{/* <Header /> */}
+				{/* <Carousel /> */}
+				{/* <Test /> */}
+				{/* <FinancialPulse /> */}
+				{/* <OneStopSolution /> */}
+				{/* <WomenSpecial /> */}
+				{/* <Latest /> */}
+				{/* <Footer /> */}
+				{/* <SocialFollow /> */}
+				{/* <AboutUs /> */}
+				{/* <OurStory /> */}
+			</div>
+		</ScrollToTop>
+	);
 }
 
 export default App;
