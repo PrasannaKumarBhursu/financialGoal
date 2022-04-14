@@ -63,10 +63,12 @@ import FD from "./components/FD/FD";
 import Bajaj_finserv from "./components/FD/Bajaj_finserv";
 
 //vinay updated routes
-import IncomeForm2 from "./components/Advisory/Forms/Income2";
+
 import IncomeForm from "./components/Advisory/Forms/Income";
 import Personal_home from "./components/Advisory/Forms/Personal_details/Personal_home";
 import FinancialGoals from "./components/Advisory/Forms/FinancialGoals";
+import RiskProfile from "./components/Advisory/Forms/RiskProfile";
+
 
 function App() {
 	// const {checktoken}=useContext(AppContext)
@@ -133,6 +135,14 @@ function App() {
 					{/* <Route exact path="/investing" component={Investing}/> */}
 					<Route exact path="/tax" component={Tax} />
 					<Route exact path="/womenloans" component={WomenLoans} />
+        {/* Advisory */}
+        <Route exact path="/RiskProfile" component={RiskProfile} />
+      
+
+        {/* Markets */}
+        <PrivateRoute exact path="/IPOWatch" component={IPOnew} />
+        {/* Social Links  */}
+        <Route exact path="/SocialPost" component={SocialPost} />
 
 					{/* Markets */}
 					<PrivateRoute exact path="/IPOWatch" component={IPOnew} />
@@ -150,7 +160,7 @@ function App() {
 
 					<Route exact path="/personaldetails" component={Personal_home} />
 					<Route exact path="/income-details/" component={IncomeForm} />
-					<Route exact path="/income-details2/" component={IncomeForm2} />
+				
 					<Route exact path="/financial-goals" component={FinancialGoals} />
 					{/* Admin */}
 					{/* <Route exact path="/latest" component={Latestpage}/> 
