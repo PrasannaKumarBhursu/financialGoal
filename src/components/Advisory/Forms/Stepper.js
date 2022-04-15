@@ -6,8 +6,14 @@ import StepButton from '@mui/material/StepButton';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import '../../financialpulse/FinancialPulse.css';
+import Header from "../../Layout/Header";
+import Footer from "../../Layout/Footer";
 
+
+import PersonalForm from './Personal_details/Personal_home';
+import IncomeForm from './Income';
 import RiskProfile from './RiskProfile';
+import FinancialGoals from './FinancialGoals';
 
 const steps = ['Personal', 'Income', 'Liability','Asset','Risk Profile','Financial Goals','Self Declaration'];
 
@@ -29,6 +35,44 @@ export default function HorizontalNonLinearStepper() {
 
   const allStepsCompleted = () => {
     return completedSteps() === totalSteps();
+  };
+
+  const getStepContent = (steps) => {
+    switch (steps) {
+      case 0:
+        return(
+        <PersonalForm/>
+        );
+      case 1:
+        return(
+          <IncomeForm/>
+          );
+      case 2:
+        return(
+          //Liability
+          <Typography>Liability</Typography>
+          );
+      case 3:
+        return(
+          //Assets
+          <Typography>Assests</Typography>
+        );
+      case 4:
+        return(
+          <RiskProfile/>
+        );
+      case 5:
+        return(
+          <FinancialGoals/>
+        );
+      case 6:
+        return(
+          //self declaration
+          <Typography>Self declaration</Typography>
+        );
+      default:
+        return 'Unknown step';
+    }
   };
 
   const handleNext = () => {
@@ -62,8 +106,9 @@ export default function HorizontalNonLinearStepper() {
   };
 
   return (
-    <Box sx={{ width: '100%' ,p: 4}}>
-      <Stepper nonLinear activeStep={activeStep} alternativeLabel>
+    <Box sx={{ width: '100%' ,p: 0}}>
+      <Header sx={{ mb:4}}></Header>
+      <Stepper nonLinear activeStep={activeStep} alternativeLabel sx={{mb:5}}>
         {steps.map((label, index) => (
           <Step key={label} completed={completed[index]}>
             <StepButton color="inherit" onClick={handleStep(index)}>
@@ -72,6 +117,7 @@ export default function HorizontalNonLinearStepper() {
           </Step>
         ))}
       </Stepper>
+      
       <div>
         {allStepsCompleted() ? (
           <React.Fragment>
@@ -85,9 +131,16 @@ export default function HorizontalNonLinearStepper() {
           </React.Fragment>
         ) : (
           <React.Fragment>
-            <Typography sx={{ mt: 2, mb: 1 }}>
+            {/* <Typography sx={{ mt: 2, mb: 1 }}>
               Step {activeStep + 1}
-              </Typography>
+              </Typography> */}
+              <div>
+              {
+                // Populate the content pane based on the active step
+                getStepContent(activeStep)
+              }
+              </div>
+
             
             <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2,p:4 }}>
               <Button
@@ -123,6 +176,7 @@ export default function HorizontalNonLinearStepper() {
           </React.Fragment>
         )}
       </div>
+      <Footer/>
     </Box>
   );
 }
