@@ -64,6 +64,7 @@ import Bajaj_finserv from "./components/FD/Bajaj_finserv";
 
 import RiskProfile from "./components/Advisory/Forms/RiskProfile";
 import Personal from "./components/Advisory/Forms/Personal";
+import Stepper from "./components/Advisory/Forms/Stepper";
 
 function App() {
   // const {checktoken}=useContext(AppContext)
@@ -130,6 +131,7 @@ function App() {
         {/* Advisory */}
         <Route exact path="/RiskProfile" component={RiskProfile} />
         <Route exact path="/Personal" component={Personal} />
+        <Route exact path="/Stepper" component={Stepper}/>
 
         {/* Markets */}
         <PrivateRoute exact path="/IPOWatch" component={IPOnew} />

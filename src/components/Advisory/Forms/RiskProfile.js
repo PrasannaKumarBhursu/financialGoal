@@ -9,6 +9,7 @@ import ScrollToTop from "../../ScrollToTop";
 import '../../financialpulse/FinancialPulse.css'
 import GaugeProp from "../../../features/gauge/GaugeProp";
 import { Link } from "react-router-dom";
+import Stepper from "./Stepper.js"
 
 export default function RiskProfile() {
     const [modalShow, setModalShow] = React.useState(false);
@@ -216,6 +217,7 @@ export default function RiskProfile() {
     <div className="App">
       <ScrollToTop />
       <Header />
+      
       {/* <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
@@ -230,6 +232,7 @@ export default function RiskProfile() {
           }}
           className="score-container"
         >
+          <Stepper />
           <h1 className="marginTop">Risk Profile</h1>
 
           <form>
