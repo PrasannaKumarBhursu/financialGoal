@@ -68,6 +68,8 @@ import IncomeForm from "./components/Advisory/Forms/Income";
 import Personal_home from "./components/Advisory/Forms/Personal_details/Personal_home";
 import FinancialGoals from "./components/Advisory/Forms/FinancialGoals";
 import RiskProfile from "./components/Advisory/Forms/RiskProfile";
+import Personal from "./components/Advisory/Forms/Personal_details/Personal_form";
+import Stepper from "./components/Advisory/Forms/Stepper";
 
 
 function App() {
@@ -137,7 +139,12 @@ function App() {
 					<Route exact path="/womenloans" component={WomenLoans} />
         {/* Advisory */}
         <Route exact path="/RiskProfile" component={RiskProfile} />
-      
+        <Route exact path="/Personal" component={Personal} />
+        <Route exact path="/Stepper" component={Stepper}/>
+		{/* vinay added routes to check*/}
+		<Route exact path="/personaldetails" component={Personal_home} />
+		<Route exact path="/income-details/" component={IncomeForm} />
+		<Route exact path="/financial-goals" component={FinancialGoals} />
 
         {/* Markets */}
         <PrivateRoute exact path="/IPOWatch" component={IPOnew} />
@@ -156,12 +163,7 @@ function App() {
 					<Route exact path="/Faqs" component={Faqs} />
 					<Route exact path="/Contact" component={ContactUS} />
 
-					{/* vinay added routes to check*/}
-
-					<Route exact path="/personaldetails" component={Personal_home} />
-					<Route exact path="/income-details/" component={IncomeForm} />
-				
-					<Route exact path="/financial-goals" component={FinancialGoals} />
+					
 					{/* Admin */}
 					{/* <Route exact path="/latest" component={Latestpage}/> 
            <Route exac path="/latest/:id" component={Updatelatest}/> */}

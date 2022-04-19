@@ -9,6 +9,7 @@ import ScrollToTop from "../../ScrollToTop";
 import "../../financialpulse/FinancialPulse.css";
 import GaugeProp from "../../../features/gauge/GaugeProp";
 import { Link } from "react-router-dom";
+import Stepper from "./Stepper.js"
 
 export default function RiskProfile() {
 	const [modalShow, setModalShow] = React.useState(false);
@@ -182,52 +183,53 @@ export default function RiskProfile() {
 		//  console.log("answers",answersArray)
 	};
 
-	//   const handleSubmit = (e) => {
-	//     console.log(answersArray)
-	//     var score = 0;
-	//     e.preventDefault();
-	//     answersArray.forEach((ans) => {
-	//       ans.option === 0
-	//         ? (score += 100)
-	//         : ans.option === 1
-	//         ? (score += 75)
-	//         : ans.option === 2
-	//         ? (score += 50)
-	//         : ans.option === 3
-	//         ? (score += 25)
-	//         : (score += 0);
-	//     });
-	//     var total = score/500;
-	//     // total <= 30 ? setScorePercent(0.3) : total <= 60 ? setScorePercent(0.6) : setScorePercent(0.9);
-	//     if(total<=.4){
-	//         setIndex(0);
-	//     } else if(total>.4 && total<.8){
-	//         setIndex(1);
-	//     } else {
-	//         setIndex(2);
-	//     }
-	//     setScorePercent(total);
-	//     setModalShow(true);
-	//   };
-	return (
-		<div className="App">
-			<ScrollToTop />
-			<Header />
-			{/* <MyVerticallyCenteredModal
+//   const handleSubmit = (e) => {
+//     console.log(answersArray)
+//     var score = 0;
+//     e.preventDefault();
+//     answersArray.forEach((ans) => {
+//       ans.option === 0
+//         ? (score += 100)
+//         : ans.option === 1
+//         ? (score += 75)
+//         : ans.option === 2
+//         ? (score += 50)
+//         : ans.option === 3
+//         ? (score += 25)
+//         : (score += 0);
+//     });
+//     var total = score/500;
+//     // total <= 30 ? setScorePercent(0.3) : total <= 60 ? setScorePercent(0.6) : setScorePercent(0.9);
+//     if(total<=.4){
+//         setIndex(0);
+//     } else if(total>.4 && total<.8){
+//         setIndex(1);
+//     } else {
+//         setIndex(2);
+//     }
+//     setScorePercent(total);
+//     setModalShow(true);
+//   };
+  return (
+    <div className="App">
+      <ScrollToTop />
+      {/* <Header /> */}
+      
+      {/* <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
       /> */}
-			<Jumbotron className="container-fluid">
-				<div
-					style={{
-						background: "white",
-						width: "80%",
-						margin: "auto",
-						padding: "1%",
-					}}
-					className="score-container"
-				>
-					<h1 className="marginTop">Risk Profile</h1>
+      <Jumbotron className="container-fluid">
+        <div
+          style={{
+            background: "white",
+            width: "80%",
+            margin: "auto",
+            padding: "1%",
+          }}
+          className="score-container"
+        >
+          <h1 className="marginTop">Risk Profile</h1>
 
 					<form>
 						{questions.map((q, i) => (
@@ -264,8 +266,8 @@ export default function RiskProfile() {
 					</form>
 				</div>
 			</Jumbotron>
-			<Footer />
-			<SocialFollow />
+			{/* <Footer />
+			<SocialFollow /> */}
 		</div>
 	);
 }
