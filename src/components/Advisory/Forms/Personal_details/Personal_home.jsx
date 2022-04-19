@@ -3,6 +3,7 @@ import { Form } from "formik";
 import Personal_details from "./Personal_form";
 
 //image
+import "../index.css"
 import step3 from "../assets/step3.png";
 import step3mob from "../assets/step3mob.png";
 import pd from "../assets/pd.png";
@@ -31,7 +32,7 @@ const Personal_home = () => {
             <div className="tw-hidden lg:tw-block tw-w-1/3 lg:tw-w-2/5 xl:tw-w-1/2">
               <img
                 src={pd}
-                className="tw-w-full tw-hidden lg:tw-block tw-m-auto tw-my-auto"
+                className="tw-w-full tw-hidden lg:tw-block img tw-m-auto tw-my-auto"
               />
             </div>
           </div>
