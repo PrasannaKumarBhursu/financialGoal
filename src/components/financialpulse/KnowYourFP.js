@@ -189,7 +189,7 @@ export default function KnowYourFP() {
         </div>
       </Jumbotron>
       <Footer />
-      <SocialFollow />
+      {/* <SocialFollow /> */}
     </div>
   );
 }

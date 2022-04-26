@@ -14,6 +14,12 @@ import Logo from "./assets/nishka_footer.png";
 
 import { Button, Alert, Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import twitter from './assets/twitter.png';
+import linkedin from './assets/linkedin.png';
+import instagram from './assets/instagram.png';
+import facebook from './assets/facebook.png';
+import youtube from './assets/youtube.png';
+
 
 import dotenv from "dotenv";
 import axios from "axios";
@@ -139,7 +145,7 @@ export default class Footer extends React.Component {
               </div>
             </div> */}
             </div>
-            <div className="md:tw-w-1/5 lg:tw-w-1/6 lg:tw--ml-20 tw-mt-2 md:tw-mt-0">
+            <div className="md:tw-w-1/5 lg:tw-w-1/6 xl:tw--ml-20 tw-mt-2 md:tw-mt-0">
               <button
                 type="submit"
                 className="tw-shadow-xl tw-border-none tw-text-lg tw-text-white tw-rounded-3xl tw-px-8 tw-font-semibold tw-py-1 tw-bg-nishyellow-400">
@@ -186,12 +192,12 @@ export default class Footer extends React.Component {
         </Modal>
 
         <div className="tw-w-full tw-bg-navgreen-800 tw-text-white tw-pt-4 tw--pb-2 md:tw-text-left md:tw-pl-5 tw-pb-3 md:tw-pb-0">
-          <img src={Logo} className="tw-w-72 tw-h-20 lg:tw-w-62 lg:tw-h-20 md:tw-w-56 md:tw-h-14" />
+          <img src={Logo} className="tw-w-72 tw-h-20 lg:tw-w-62 lg:tw-h-20 md:tw-w-48 md:tw-h-14" />
         </div>
 
-        <div className="tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-800 tw-text-white xl:tw--mt-0 tw-pb-10 lg:tw--mt-20 md:tw--mt-14 xl:tw--mt-2">
-          <div className="tw-flex tw-flex-col md:tw-w-1/5 tw-items-center xl:tw--ml-8 lg:tw-ml-2 md:tw--mt-24 lg:tw--mt-5 xl:tw--mt-1">
-            <div className="tw-text-footer-100 tw-font-bold  tw-text-lg lg:tw-text-2xl">
+        <div className="tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-800 tw-text-white xl:tw--mt-0 tw-pb-10 lg:tw--mt-20  xl:tw--mt-2">
+          <div className="tw-flex tw-flex-col md:tw-w-1/5 tw-items-center xl:tw--ml-8 lg:tw-ml-2 md:tw--mt-24 lg:tw--mt-5 xl:tw--mt-24">
+            <div className="tw-text-footer-100 tw-font-bold md:tw--mt-10 lg:tw--mt-0 tw-text-lg lg:tw-text-2xl">
               Company
             </div>
             <div className="tw-flex tw-flex-col tw-text-sm lg:tw-text-lg md:tw-text-left">
@@ -202,7 +208,7 @@ export default class Footer extends React.Component {
               <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="#">Terms Of Use </Link></p>
             </div>
           </div>
-          <div className="tw-flex tw-flex-col md:tw--mt-36 lg:tw--mt-0 md:tw-w-1/4 lg:tw-w-1/5 xl:tw-w-1/4 xl:tw--mt-16 lg:tw--mt-20 tw-items-center lg:tw-ml-4 xl:tw--ml-10 xl:tw-mr-16">
+          <div className="tw-flex tw-flex-col md:tw--mt-16 md:tw-w-1/4 lg:tw-w-1/5 xl:tw-w-1/4  xl:tw-mt-0 lg:tw-mt-20 tw-items-center lg:tw-ml-4 xl:tw--ml-10 xl:tw-mr-16">
             <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl">
               Products
             </div>
@@ -210,17 +216,17 @@ export default class Footer extends React.Component {
               <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
                 <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/FixedDeposits">Fixed Deposit </Link></p>
                 <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/PersonalLoan">Personal Loan </Link></p>
-                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">Insurance</Link></p>
-                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">Bonds</Link></p>
-                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">NCD</Link></p>
-                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">PMS</Link></p>
-                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">Home Loans</Link></p>
+                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/Insurance">Insurance</Link></p>
+                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">Bonds</Link></p>
+                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">NCD</Link></p>
+                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">PMS</Link></p>
+                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">Home Loans</Link></p>
                 <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/MutualFunds">Mutual Funds</Link></p>
               </div>
             </div>
           </div>
-          <div className="tw-flex tw-flex-col md:tw--mt-28 lg:tw--mt-0 md:tw-w-1/4 lg:tw-w-2/5 xl:tw-w-1/4 lg:tw--mt-20 xl:tw--mt-16 tw-items-center xl:tw--ml-10 xl:tw-mr-16">
-            <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl lg:tw--ml-4 xl:tw--ml-0">
+          <div className="tw-flex tw-flex-col md:tw--mt-36 lg:tw--mt-0 md:tw-w-1/4 lg:tw-w-2/5 xl:tw-w-1/4 md:tw-ml-2 lg:tw--mt-20 xl:tw--mt-40 tw-items-center xl:tw--ml-10 xl:tw-mr-16">
+            <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl  lg:tw--ml-4 xl:tw--ml-0">
               Services
             </div>
             <div className="tw-flex tw-flex-row tw-gap-3 lg:tw-gap-5 xl:tw-gap-12 lg:tw-text-lg">
@@ -236,8 +242,8 @@ export default class Footer extends React.Component {
               </div>
             </div>
           </div>
-          <div className="tw-flex tw-flex-col  xl:tw-pt-0 tw-pt-6 md:tw-pt-6 lg:tw-pt-20 md:tw-w-1/3 tw-items-center ">
-            <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl tw--mt-8">
+          <div className="tw-flex tw-flex-col xl:tw-pt-0 tw-pt-6 md:tw-pt-6 xl:tw--mt-16 md:tw-mt-2 lg:tw-pt-20 md:tw-w-1/3 tw-items-center md:tw-mr-6">
+            <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl tw--mt-2 md:tw--mt-8 ">
               Our Offices
             </div>
             <div className="tw-flex tw-flex-row tw-gap-2 lg:tw-gap-5 tw-ml-5 lg:tw-ml-8">
@@ -245,11 +251,11 @@ export default class Footer extends React.Component {
                 <p className="tw-font-semibold tw-mt-5 lg:tw-text-lg">
                   Registered Office
                 </p>
-                <p className="tw-text-sm tw--mt-2 ">
-                  <span className="tw-mr-3 tw--ml-7 ">
+                <p className="tw-text-sm tw--mt-2 tw-flex">
+                  <span className="tw-mr-3 tw--ml-7 md:tw-hidden lg:tw-block">
                     <HiLocationMarker />
                   </span>
-                  Flat no. 2, A-wing, Shyamsmruti CHS,<br />Nerul, Sec-19,<br />Navi Mumbai,
+                  Flat no. 2, <br />A-wing, <br />Shyamsmruti CHS,<br />Nerul, Sec-19,<br />Navi Mumbai,
                   Maharashtra-400706
                 </p>
               </div>
@@ -257,29 +263,29 @@ export default class Footer extends React.Component {
                 <p className="tw-font-semibold tw-mt-5 lg:tw-text-lg">
                   Gurugram Office
                 </p>
-                <p className="tw-text-sm  tw--mt-2 ">
-                  <span className="tw-mr-3 tw--ml-7 ">
+                <p className="tw-text-sm  tw--mt-2 tw-flex">
+                  <span className="tw-mr-3 tw--ml-7 md:tw-hidden lg:tw-block">
                     <HiLocationMarker />
                   </span>
-                  Unit 125, 1st Floor,<br />Vipul Trade Center, Sohna Road,<br />Gurugram,<br />
+                  Unit 125, <br />1st Floor,<br />Vipul Trade Center, Sohna Road,<br />Gurugram,<br />
                   Haryana-122018
                 </p>
               </div>
             </div>
           </div>
-          <div className="tw-flex tw-flex-col md:tw-w-1/4 lg:tw--mt-4 md:tw--mt-12 tw-items-center tw-mr-2">
+          <div className="tw-flex tw-flex-col md:tw-w-1/4 lg:tw--mt-4 xl:tw--mt-24 md:tw--mt-28 tw-items-center tw-mr-2">
             <div>
               <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl">
                 Contact Us
               </div>
               <div className="md:tw-text-left tw-mt-5">
-                <p>
+                <p className="tw-text-sm">
                   <span className="tw-text-sm lg:tw-mr-3 lg:tw-text-lg">
                     <IoIosMail />
                   </span>
                   <a style={{ textDecoration: 'none' }} className="tw-text-white" href="mailto:contact@nishkaera.com">contact@nishkaera.com</a>
                 </p>
-                <p className="tw--mt-3">
+                <p className="tw--mt-3 tw-text-sm">
                   <span className="tw-text-sm lg:tw-mr-3 lg:tw-text-lg">
                     <RiWhatsappFill />
                   </span>
@@ -293,26 +299,26 @@ export default class Footer extends React.Component {
               </div>
               <div className="tw-flex tw-flex-row tw-gap-4 md:tw-gap-2 lg:tw-gap-6">
                 <a href="https://www.facebook.com/nishkaera/" className="tw-w-7 tw-h-7 hover:tw-text-white tw-text-white">
-                <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src="facebook.png" /> </span>
+                  <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src={facebook} /> </span>
                 </a>
                 <a href="https://www.youtube.com/channel/UCboiaf0to-PrBpvPFXlqimQ" className="tw-w-7 hover:tw-text-white tw-text-white tw-h-7">
-                  <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src="youtube.png" /> </span>
+                  <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src={youtube} /> </span>
                 </a>
                 <a href="https://www.instagram.com/nishkaera/" className="tw-w-7 tw-text-white hover:tw-text-white tw-h-7">
-                  <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src="instagram.png" /> </span>
+                  <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src={instagram} /> </span>
                 </a>
                 <a href="https://www.linkedin.com/company/nishkaera/" className="tw-w-7 tw-text-white hover:tw-text-white tw-h-7">
-                <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src="linkedin.png" /> </span>
+                  <span className="tw-w-14 tw-h-14"><img className="tw-w-full tw-h-full" src={linkedin} /> </span>
                 </a>
                 <a href="https://www.twitter.com/nishkaera" className="tw-w-7 tw-text-white hover:tw-text-white tw-h-7">
-                  <img className="tw-w-full tw-h-full" src="twitter.png" /> 
+                  <img className="tw-w-full tw-h-full" src={twitter} />
                 </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="tw-flex tw-bg-navgreen-800 tw-gap-2 tw-text-white tw-pt-10 tw-justify-center">
+        <div className="tw-flex tw-bg-navgreen-800 tw-gap-2 tw-text-white md:tw--mt-6 tw-justify-center">
           <span className="tw-h-6 tw-w-6">
             <AiOutlineCopyrightCircle className="tw-h-full tw-w-full" />
           </span>

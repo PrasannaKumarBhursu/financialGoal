@@ -63,27 +63,27 @@ const Un_benefits_SDP = () => {
                             <button className='tw-bg-white tw-border-0 tw-font-semibold tw-text-xl tw-text-blue-600' onClick={() => { setReadMore(!readMore) }}>{linkName}</button>
                         </div>
                         <div className="tw-flex tw-flex-row tw-justify-center tw-py-4 tw-px-2 md:tw-gap-6 tw-gap-4 tw-flex-wrap">
-                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-52 tw-h-36 tw-w-36 tw-rounded-xl">
-                                <div className="tw-w-max tw-text-left tw-flex tw-flex-col tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-gap-1 md:tw-my-6">
+                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-56 tw-h-36 tw-w-36 tw-rounded-xl">
+                                <div className="tw-w-full tw-text-left tw-flex tw-flex-col tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-gap-1 md:tw-my-6">
 
-                                    <p className="tw-w-max tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
+                                    <p className="tw-w-full tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
                                         Resident
                                     </p>
-                                    <p className="tw-w-max tw-text-xl tw--mt-2 md:tw--mt-0 md:tw-text-3xl tw-text-white tw-font-black">
+                                    <p className="tw-w-full tw-text-xl tw--mt-2 md:tw--mt-0 md:tw-text-3xl tw-text-white tw-font-black">
                                         Indian
                                     </p>
-                                    <p className="tw-w-max md:tw-text-lg tw--mt-2 md:tw--mt-0 tw-text-xs tw-font-semibold ">Indian residents
+                                    <p className="tw-w-full md:tw-text-lg tw--mt-2 tw-pr-6 md:tw--mt-0 tw-text-xs tw-font-semibold ">Indian residents
                                         above 18 years are
                                         eligible. </p>
                                 </div>
                             </div>
-                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-52 tw-h-36 tw-w-36 tw-rounded-xl">
+                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-56 tw-h-36 tw-w-36 tw-rounded-xl">
                             
-                                <div className="tw-w-max tw-text-left tw-flex tw-flex-col tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-gap-1 md:tw-my-6">
-                                    <p className="tw-w-max tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
+                                <div className="tw-w-full tw-text-left tw-flex tw-flex-col tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-gap-1 md:tw-my-6">
+                                    <p className="tw-w-full tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
                                         Assured Returns Upto
                                     </p>
-                                    <p className="tw-w-max tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-w-full tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
                                         7.35%
                                     </p>
                                     <p className="tw-w-3/4 md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Best returns on
@@ -91,54 +91,54 @@ const Un_benefits_SDP = () => {
                                 </div>
                             </div>
 
-                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-52 tw-h-36 tw-w-36 tw-rounded-xl">
+                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-56 tw-h-36 tw-w-36 tw-rounded-xl">
                             
-                                <div className="tw-w-max tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-my-6">
+                                <div className="tw-w-full tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-my-6">
                                     <p className="t-w-max tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
                                         Additional Benefit
                                     </p>
-                                    <p className="tw-text-xl tw-w-max md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl tw-w-full md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
                                         0.25%
                                     </p>
-                                    <p className="tw-w-max md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">For Senior Citizens</p>
+                                    <p className="tw-w-full md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">For Senior Citizens</p>
                                 </div>
                             </div>
 
-                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-52 tw-h-36 tw-w-36 tw-rounded-xl">
-                                <div className="tw-w-max tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 tw-mt-10 tw-ml-5">
-                                    <p className="tw-w-max tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
+                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-56 tw-h-36 tw-w-36 tw-rounded-xl">
+                                <div className="tw-w-full tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-my-6">
+                                    <p className="tw-w-full tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
                                         Payouts
                                     </p>
-                                    <p className="tw-w-max tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-w-full tw-text-xl md:tw-text-3xl tw--mt-2 tw-text-white tw-font-black">
                                         Monthly
                                     </p>
-                                    <p className="tw-w-max md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Recieve Monthly
+                                    <p className="tw-w-full md:tw-text-lg tw-text-xs tw--mt-2 tw-pr-6 tw-font-semibold">Recieve Monthly
                                         Payouts</p>
                                 </div>
                             </div>
-                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-52 tw-h-36 tw-w-36 tw-rounded-xl">
+                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-56 tw-h-36 tw-w-36 tw-rounded-xl">
                             
-                                <div className="tw-w-max tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-my-6">
-                                    <p className="t-w-max tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
+                                <div className="tw-w-full tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-my-6">
+                                    <p className="t-w-full tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
                                         Deposits
                                     </p>
-                                    <p className="tw-text-xl tw-w-max md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-text-xl tw-w-full md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
                                         5000
                                     </p>
-                                    <p className="tw-w-3/4 md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Deposits starts at
+                                    <p className="tw-w-3/4 md:tw-text-lg tw-text-xs tw--mt-2 tw-pr-6 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Deposits starts at
                                         5000 rupees per
                                         month</p>
                                 </div>
                             </div>
-                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-52 tw-h-36 tw-w-36 tw-rounded-xl">
-                                <div className="tw-w-max tw-mt-9 tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 tw-mt-10 tw-ml-5">
-                                    <p className="tw-w-max tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
+                            <div className="tw-bg-nishblue-400 md:tw-w-52 md:tw-h-56 tw-h-36 tw-w-36 tw-rounded-xl">
+                                <div className="tw-w-full tw-mt-9 tw-text-left tw-flex tw-flex-col md:tw-gap-1 tw-mx-2 md:tw-mx-5 tw-my-4 md:tw-my-6">
+                                    <p className="tw-w-full tw-text-white tw-text-xs md:tw-text-lg tw-font-semibold">
                                         Months
                                     </p>
-                                    <p className="tw-w-max tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
+                                    <p className="tw-w-full tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
                                         12-60
                                     </p>
-                                    <p className="tw-w-max md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Flexible Tenor</p>
+                                    <p className="tw-w-full md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Flexible Tenor</p>
                                 </div>
                             </div>
                             {readMore && extraContent}

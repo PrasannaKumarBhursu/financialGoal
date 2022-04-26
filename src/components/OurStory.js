@@ -159,7 +159,7 @@ export default function OurStory() {
       {/* <OurTeam /> */}
       </Jumbotron>
       <Footer />
-      <SocialFollow />
+      {/* <SocialFollow /> */}
       {/* <div className="h3">How we are achieving it?</div>
             <div className="p">We are achieving this by bringing our expertise in technology, financial services and customer focus to provide our customers with best-in-class and hassle-free financial platform to learn about various financial products and  buy them as per their choice.</div>
             <div className="h3">WomenSpecial: </div>

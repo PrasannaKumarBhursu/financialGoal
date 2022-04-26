@@ -5,7 +5,7 @@ import Modal from "react-bootstrap/Modal";
 // import CardGauge from "../CardGauge";
 import { Link, Redirect, useHistory } from "react-router-dom";
 import { Block } from "@material-ui/icons";
-import { Card, CardDeck , CardGroup , Row , Col} from 'react-bootstrap';
+import { Card, CardDeck, CardGroup, Row, Col } from 'react-bootstrap';
 import Gauge30 from '../../features/Gauge30';
 import Gauge60 from '../../features/Gauge60';
 import Gauge82 from '../../features/Gauge82';
@@ -35,27 +35,27 @@ export default function FinancialPulse() {
 
 
 
-  const [show1,setShow1] = useState(true);
-  const [show2,setShow2] = useState(false);
-  const [show3,setShow3] = useState(false);
+  const [show1, setShow1] = useState(true);
+  const [show2, setShow2] = useState(false);
+  const [show3, setShow3] = useState(false);
 
 
-  function handleClick1(){
-      setShow1(true);
-      setShow2(false);
-      setShow3(false);
+  function handleClick1() {
+    setShow1(true);
+    setShow2(false);
+    setShow3(false);
   }
 
-  function handleClick2(){
-      setShow1(false);
-      setShow2(true);
-      setShow3(false);
+  function handleClick2() {
+    setShow1(false);
+    setShow2(true);
+    setShow3(false);
   }
 
-  function handleClick3(){
-      setShow1(false);
-      setShow2(false);
-      setShow3(true);
+  function handleClick3() {
+    setShow1(false);
+    setShow2(false);
+    setShow3(true);
   }
   function MyVerticallyCenteredModal(props) {
     return (
@@ -81,16 +81,16 @@ export default function FinancialPulse() {
       id="FinancialPulse"
       style={{ marginTop: "0px" }}
     >
-      <Jumbotron style={{backgroundColor:"white"}}>
+      <Jumbotron style={{ backgroundColor: "white" }}>
         <MyVerticallyCenteredModal
           show={modalShow}
           onHide={() => setModalShow(false)}
         />
         {/* {PromptModal} */}
-        <div className="h1 sectionHeading tw-mt-4 " style={{color: "#1D6A58"}}>
+        <div className="h1 sectionHeading tw-mt-4 " style={{ fontSize: "72px", color: "#114034" }}>
           Know your Financial Pulse
         </div>
-        <p className=" h5 sectionParagraph tw--mt-5">
+        <p style={{ color: "#114034" }} className=" h5 sectionParagraph tw--mt-5">
           Just answer few simple questions to get your financial score.
         </p>
         {/* <p>
@@ -104,153 +104,171 @@ export default function FinancialPulse() {
           </Button>
         </p> */}
         {/* <CardGauge /> */}
-   
 
 
-    {/* return ( */}
+
+        {/* return ( */}
         <div className='shadow p-1 bg-body rounded tw-mb-8 tw--mt-4'>
-        {/* <div className='shadow shadow-success shadow-intensity-xl p-1  ' style={{margin:20}}> */}
-        <Card border='0' style={{margin:50}} >
-           
-           <CardGroup>
-        
-                <Card border='0' >
-                
-                    <div class=" pb-1" onClick={handleClick1} style={{ cursor: "pointer" }}>
-                        {/* <Card.Body> */}
+          {/* <div className='shadow shadow-success shadow-intensity-xl p-1  ' style={{margin:20}}> */}
+          <Card border='0' style={{ margin: 50 }} >
 
-                        {
-                                show1?
-                                <div class="d-flex flex-row bd-highlight ">
-                                {/* <div class="first"><img class="rounded float-left img-fluid" src="strong_true.png"/></div>
-                                <div><h2 class="mt-0 ml-2 text-left  head">Financially Strong</h2><hr class="ml-2" id="r" /><h5 class="mt-2 ml-2 text-left  head" >Your financial position is strong and you can make it even better</h5></div>
-                        */}
-                        <img class="img-fluid" src="Group 45.png" />
-                                
-                                </div>
+            <CardGroup className="tw-flex md:tw-flex-row tw-flex-col-reverse tw-items-center">
 
-                            :
+              <Card className="tw--mt-5" border='0' >
 
-                            <div class="d-flex flex-row bd-highlight ">
-                                {/* <div ><img class="rounded float-left img-fluid" src="strong_false.png"/></div>
-                                <div><h2 class="mt-4 text-left content">Financially Strong</h2></div> */}
+                <div className="tw-h-1/3 md:tw-my-4 tw-mt-2 tw-mb-4" onClick={handleClick1} style={{ cursor: "pointer" }}>
+                  {/* <Card.Body> */}
 
-                                <img class="img-fluid" src="strong false.png" />
-                                </div>
-                            }
+                  {
+                    show1 ?
+
+                      <div className="tw-flex tw-flex-row tw-w-full tw-items-center tw-gap-7">
+                        <div className="tw-w-1/6 tw-rounded-full">
+                          <img src="fp1.png" className="tw-h-full tw-w-full" />
+                        </div>
+                        <div className="tw-w-5/6 tw-text-left ">
+                          <p style={{ textUnderlineOffset: "10px" }} className="xl:tw-text-4xl lg:tw-text-2xl md:tw-text-xl tw-text-lg tw-font-semibold tw-text-nishblue-400 tw-underline">Financially Strong</p>
+                          <p className="xl:tw-text-xl lg:tw-text-lg md:tw-text-md tw-text-md tw-font-semibold tw-text-nishblue-400 xl:tw-w-3/4 tw-w-full">Your financial position is strong and you can make it even better</p>
+                        </div>
+                      </div>
+
+                      :
+
+                      <div className="tw-flex tw-flex-row tw-items-center tw-gap-7">
+                        <div className=" tw-w-1/6 tw-rounded-full">
+                          <img src="fp1.2.png" className="tw-h-full tw-w-full" />
+                        </div>
+                        <div className="tw-w-5/6 tw-text-left ">
+                          <p className="xl:tw-text-4xl lg:tw-text-2xl md:tw-text-xl tw-text-xl tw-font-semibold tw-text-navgreen-600 ">Financially Strong</p>
+
+                        </div>
+                      </div>
+                  }
 
 
-                        {/* </Card.Body> */}
-                    </div>
-                   
-                
-                <Divider style={{color:'green'}}/>
+                  {/* </Card.Body> */}
+                </div>
 
-                    <div class="pb-2 "  onClick={handleClick2} style={{ cursor: "pointer" }}>
-                        
-                        {/* <Card.Body> */}
 
-                        {
-                                show2?
-                                <div class="d-flex flex-row bd-highlight ">
-                                {/* <div ><img class="rounded float-left img-fluid" src="coping_true.png"/></div>
-                                <div class="mt-1" ><h2 class="mt-2 ml-2 text-left  head ">Financially Coping</h2><hr class=" ml-2" id="r" /><h5 class=" mt-2 ml-2 text-left  head" >You are doing good but there is good scope to improve</h5></div>
-                                 */}
-                                 <img class="img-fluid mt-2" src="coping true.png" />
-     
-                                     
-                                
-                                </div>
+                <Divider style={{ color: 'green' }} />
 
-                            :
+                <div className=" tw-h-1/3 tw-my-4" onClick={handleClick2} style={{ cursor: "pointer" }}>
 
-                            <div class="d-flex flex-row bd-highlight">
-                                {/* <div ><img class="rounded float-left img-fluid" src="coping_false.png"/></div>
-                                {/* <div><h2 class="mt-4 text-left content">Financially Coping</h2></div> */}
-                                {/* <div><h2 class=" mt-4 text-left content">Financially Coping</h2></div> */} 
-                                <img class="img-fluid mt-2" src="coping false.png" />
-                                </div>
-                            }   
+                  {/* <Card.Body> */}
 
-                            
-                        {/* </Card.Body> */}
-                    </div>
-                
-                <Divider  style={{color:'green'}}/>
+                  {
+                    show2 ?
 
-                   <div class=" pt-2" border='0'  onClick={handleClick3} style={{ cursor: "pointer" }}>
-                        {/* <Card.Body> */}
-                        {
-                                show3?
-                                <div class="d-flex flex-row bd-highlight">
-                                {/* <div ><img class="rounded float-left img-fluid" src="weak_true.png"/></div>
-                                <div><h2 class="mt-0 ml-2 text-left  head ">Financially Weak</h2><hr class="ml-2"id="r" /><h5 class="mt-2 ml-2 text-left  head" >Your financials need immediate attention and course correction</h5></div>
-                        */}
-                        <img class="img-fluid" src="weak true.png" />
-                                
-                                </div>
+                      <div className="tw-flex tw-flex-row tw-w-full tw-items-center tw-gap-7">
+                        <div className="tw-w-1/6 tw-rounded-full">
+                          <img src="fp2.png" className="tw-h-full tw-w-full" />
+                        </div>
+                        <div className="tw-w-5/6 tw-text-left ">
+                          <p style={{ textUnderlineOffset: "10px" }} className="xl:tw-text-4xl lg:tw-text-2xl md:tw-text-xl tw-text-xl tw-font-semibold tw-text-nishblue-400 tw--pr-4 tw-underline">Financially Coping</p>
+                          <p className="xl:tw-text-xl lg:tw-text-lg md:tw-text-md tw-text-md tw-font-semibold tw-text-nishblue-400 xl:tw-w-3/4 tw-w-full">You are doing good but there is scope for improvement</p>
+                        </div>
+                      </div>
 
-                            :
+                      :
 
-                            <div class="d-flex flex-row bd-highlight ">
-                                {/* <div ><img class="rounded float-left img-fluid" src="weak_false.png"/></div>
-                                <div><h2 class="mt-4 text-left content">Financially Weak</h2></div> */}
-                                <img class="img-fluid" src="weak false.png" />
-                                </div>
-                            }
-                     
-                        {/* </Card.Body> */}
-                   </div>
+                      <div className="tw-flex tw-flex-row tw-items-center tw-gap-7">
+                        <div className=" tw-w-1/6 tw-rounded-full">
+                          <img src="fp2.2.png" className="tw-h-full tw-w-full" />
+                        </div>
+                        <div className="tw-w-5/6 tw-text-left ">
+                          <p className="xl:tw-text-4xl lg:tw-text-2xl md:tw-text-xl tw-text-xl tw-font-semibold tw-text-navgreen-600 ">Financially Coping</p>
 
+                        </div>
+                      </div>
+                  }
+
+
+                  {/* </Card.Body> */}
+                </div>
+
+                <Divider className="" style={{ color: 'green' }} />
+
+                <div className="tw-h-1/3 tw-my-4" border='0' onClick={handleClick3} style={{ cursor: "pointer" }}>
+                  {/* <Card.Body> */}
+                  {
+                    show3 ?
+
+                      <div className="tw-flex tw-flex-row tw-w-full tw-items-center tw-gap-7">
+                        <div className="tw-w-1/6 tw-rounded-full">
+                          <img src="fp3.png" className="tw-h-full tw-w-full" />
+                        </div>
+                        <div className="tw-w-5/6 tw-text-left ">
+                          <p style={{ textUnderlineOffset: "10px" }} className="xl:tw-text-4xl lg:tw-text-2xl md:tw-text-xl tw-text-xl tw-font-semibold tw-text-nishblue-400 tw--pr-4 tw-underline">Financially Weak</p>
+                          <p className="xl:tw-text-xl lg:tw-text-lg md:tw-text-md tw-text-md tw-font-semibold tw-text-nishblue-400 xl:tw-w-3/4 tw-w-full">Your financials need immediate attention and course correction</p>
+                        </div>
+                      </div>
+
+                      :
+
+
+                      <div className="tw-flex tw-flex-row tw-items-center tw-gap-7">
+                        <div className=" tw-w-1/6 tw-rounded-full">
+                          <img src="fp3.2.png" className="tw-h-full tw-w-full" />
+                        </div>
+                        <div className="tw-w-5/6 tw-text-left ">
+                          <p className=" xl:tw-text-4xl lg:tw-text-2xl md:tw-text-xl tw-text-xl tw-font-semibold tw-text-navgreen-600 ">Financially Weak</p>
+
+                        </div>
+                      </div>
+                  }
+
+                  {/* </Card.Body> */}
+                </div>
+
+              </Card>
+
+
+              <Card border='0'>
+
+                <Card border='0'>
+                  <Card.Body>
+                    {
+                      show1 ? <Gauge82 /> : null
+                    }
+
+                    {
+                      show2 ? <Gauge60 /> : null
+                    }
+
+                    {
+                      show3 ? <Gauge30 /> : null
+                    }
+
+                    <p className="tw-flex lg:tw-flex-row tw-items-center tw-justify-center tw-flex-col tw-gap-2">
+                      <Link to="/Score">
+                        <Button className="mr-2 btn btn-success">
+                          Quick Pulse
+                        </Button>
+                      </Link>
+
+
+                      <Button variant="none" className="btn btn-outline-success" onClick={handleClick}>
+                        Comprehensive Pulse
+                      </Button>
+                    </p>
+
+                  </Card.Body>
                 </Card>
-        
 
-                <Card border='0'> 
-
-                   <Card border='0'>
-                        <Card.Body>
-                            {
-                            show1? <Gauge82 />:null
-                            }
-
-                            {
-                            show2? <Gauge60 />:null
-                            }
-
-                            {
-                            show3? <Gauge30 />:null
-                            }
-
-<p>
-          <Link to="/Score">
-            <Button  className="mr-2 btn btn-success">
-              Quick Pulse
-            </Button>
-          </Link>
-          
-          
-          <Button  variant="none" className="btn btn-outline-success" onClick={handleClick}>
-            Comprehensive Pulse
-          </Button>
-        </p>
-                      
-                        </Card.Body>
-                   </Card>
-
-                   {/* <Card border='0'>
+                {/* <Card border='0'>
                         <Card.Body>
                         <Card.Title> Card Title</Card.Title>
                         </Card.Body>
                    </Card> */}
 
-                </Card>
-        
+              </Card>
+
 
             </CardGroup>
-            
 
-        </Card>
-   </div>
+
+          </Card>
+        </div>
       </Jumbotron>
     </div>
   );
