@@ -20,7 +20,7 @@ const Bajaj_FHL = () => {
             <RequirementFHL />
             <Steps />
             <Faq />
-            <ScrollUpButton/>
+            {/* <ScrollUpButton/> */}
         </>
     );
 };

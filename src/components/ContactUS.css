@@ -27,7 +27,13 @@
     }
     
 } */
+/* @media screen and (min-width : 1288px) {
 
+    .link_1{
+        width: 20% !important;
+    }
+
+} */
 
 @media screen and (min-width : 1022px) {
 
@@ -40,7 +46,7 @@
       width: 34% !important;
   }
   .link_1{
-      left:67% !important;
+      left:66% !important;
       width: 23% !important;
   }
   .text_2{
@@ -48,7 +54,7 @@
       width: 34% !important;
   }
   .link_2{
-      left: 71% !important;
+      left: 70% !important;
       width: 15% !important;
       height: 9% !important;
   }

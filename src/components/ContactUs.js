@@ -30,8 +30,8 @@ export default class ContactUs extends Component {
           <h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"600" , textAlign:"center", lineHeight:"30px"}}>Enhance the reach and growth of your business multi-fold by joining us as channel partner or a DSA.</h1>
           </div>
 
-          <div  className="link_1" style={{position:"absolute" ,zIndex:"1", left:"65%"   , top:"29%" ,height:"9%",width:"19%",borderRadius:"20px", backgroundColor:"#0B4FD3"}}>
-          <h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"500"  , color:"#FFFFFF", textAlign:"center", lineHeight:"57px"}}>Partner with Us</h1>
+          <div  className="link_1" style={{position:"absolute" ,zIndex:"1", left:"67%", top:"29%" ,height:"9%",width:"18%",borderRadius:"20px", backgroundColor:"#0B4FD3"}}>
+          <a href="mailto:contact@nishkaera.com"><h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"500"  , color:"#FFFFFF", textAlign:"center", lineHeight:"57px"}}>Partner with Us</h1></a>
           </div>
 
           <div className="line" style={{position:"absolute" ,zIndex:"1", left:"62%"   , top:"47%" ,height:"0.5%",width:"33%" , backgroundColor:"#524F4F"}}>
@@ -43,7 +43,7 @@ export default class ContactUs extends Component {
           </div>
 
           <div  className="link_2" style={{position:"absolute" ,zIndex:"1", left:"70%"   , top:"82%" ,height:"9%",width:"14%",borderRadius:"20px", backgroundColor:"#0B4FD3"}}>
-          <h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"500"  , color:"#FFFFFF", textAlign:"center", lineHeight:"57px"}}>Join Us</h1>
+         <a href="/Careers"> <h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"500"  , color:"#FFFFFF", textAlign:"center", lineHeight:"57px"}}>Join Us</h1></a>
           </div>
 
           </div>

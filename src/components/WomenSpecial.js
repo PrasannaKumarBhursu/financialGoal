@@ -12,7 +12,7 @@ export default function WomenSpecial() {
 
             <div className="middiv" style={{ backgroundColor: "#FFEAF9", position: "absolute", zIndex: "2", width: "100%", height: "18%", position: "absolute", top: "33%" }}>
             </div>
-            <div className="head" style={{ position: "absolute", zIndex: "2", left: "33%", top: "5%", borderBottomWidth: "5px", borderBottomColor: "#D60067", borderBottomStyle: "solid", borderBottomLeftRadius: "2px", borderBottomRightRadius: "2px" }}>
+            <div className="head" style={{ position: "absolute", zIndex: "2", left: "33%", top: "5%" }}>
                 <h1 className=" headtext" style={{ fontSize: "64px", fontStyle: "normal", fontWeight: "900", color: "#D60067" }}>Women Special</h1>
             </div>
 
@@ -21,9 +21,6 @@ export default function WomenSpecial() {
             <div className="image" style={{ position: "absolute", zIndex: "2", left: "4%", top: "17%", width: "37%" }}>
                 <img src="Frame 6hope.png" style={{ maxHeight: "100%", maxWidth: "100%" }} alt="nishkaera" />
             </div>
-
-
-
 
             <div className="div1_w" style={{ position: "absolute", zIndex: "2", left: "45%", top: "15%", width: "45%", height: "17%" }}>
 

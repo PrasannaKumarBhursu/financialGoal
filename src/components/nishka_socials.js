@@ -11,7 +11,7 @@ export default class Nishka_socials extends Component {
 
 
       <div>
-        <div className="outer_social_heading" style={{ backgroundColor: "white", height: "114px", position: "relative" }}>
+        <div className="outer_social_heading tw--mt-8" style={{ backgroundColor: "white", height: "114px", position: "relative" }}>
 
           <div className="topic_social" style={{ position: "absolute", zIndex: "3", left: "20%", height: "80%", width: "60%" }}>
             <h1 className="topic_social_content" style={{ fontSize: "72px", color: "#114034" }}>Nishkaera on Socials</h1>

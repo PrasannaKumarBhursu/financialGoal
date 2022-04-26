@@ -18,7 +18,7 @@ const Bajaj_TL = () => {
             <EligibilityTL />
             <Steps />
             <Faq />
-            <ScrollUpButton AnimationDuration={10000}/>
+            {/* <ScrollUpButton AnimationDuration={10000}/> */}
 
         </>
     );

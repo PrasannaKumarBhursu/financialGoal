@@ -8,7 +8,7 @@ export default class Trending extends Component {
   render() {
     return (
 
-      <div className="outer_trend" style={{backgroundColor:"white" , height:"670px", position:"relative"}}>
+      <div className="outer_trend tw-mt-4" style={{backgroundColor:"white" , height:"670px", position:"relative"}}>
         {/* <div  className="topic_trending" style={{position:"absolute" ,zIndex:"3", left:"33%"   , top:"6.5%" ,height:"9%",width:"34%"}}>
           <h1 className="topic_trend_content" style={{fontSize:"72px"  , color:"#114034"}}>Trending News</h1>
           </div> */}

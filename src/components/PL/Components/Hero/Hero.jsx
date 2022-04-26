@@ -60,8 +60,8 @@ const Hero = () => {
                             </div>
 
                             <div className="tw--mt-10 tw-w-full tw-text-center lg:tw--ml-2 lg:tw--mt-12 xl:tw--ml-2 xl:tw--mt-12 md:tw--ml-2 md:tw--mt-10">
-                                <button href="https://www.bajajfinserv.in/fixed-deposit-application-form?PartnerCode=126584&utm_source=IFA_Prime&utm_medium=B2B&utm_campaign=IFA_NISHKAERA_FINANCIAL_ADVISORY" className="tw-m-auto tw-bg-nishyellow-400 tw-text-xs md:tw-text-md lg:tw-text-lg tw-rounded-md tw-w-28 md:tw-w-32 lg:tw-w-40 tw-h-10 tw-font-semibold">
-                                    Apply Now
+                                <button href="" className="tw-m-auto tw-bg-nishyellow-400 tw-text-xs md:tw-text-md lg:tw-text-lg tw-rounded-md tw-w-28 md:tw-w-32 lg:tw-w-40 tw-h-10 tw-font-semibold">
+                                Coming Soon
                                 </button>
                             </div>
                         </div>

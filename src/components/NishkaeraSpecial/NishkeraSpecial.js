@@ -11,11 +11,7 @@ export default function NishkeraSpecial() {
 
 
 
-    <div style={{ backgroundColor: "white", height: "775px", position: "relative" }}>
-
-
-
-
+    <div className="" style={{ backgroundColor: "white", height: "775px", position: "relative" }}>
 
       <div className="heading" style={{ position: "absolute", zIndex: "2", left: "33%", top: "5%" }}>
         <h1 className=" headcontent" style={{ fontSize: "70px", fontStyle: "normal", fontWeight: "700", color: "#1D6A58" }}>Nishkaera's Special</h1>
@@ -23,9 +19,6 @@ export default function NishkeraSpecial() {
       <div className="image" style={{ position: "absolute", zIndex: "2", left: "-50px", bottom: "0px", width: "47%" }}>
         <img src="Group 122special.png" style={{ maxHeight: "100%", maxWidth: "100%" }} alt="nishkaera" />
       </div>
-
-
-
 
       <div className="div1" style={{ position: "absolute", zIndex: "2", left: "46%", top: "13%", width: "25%", height: "36%" }}>
 
@@ -101,7 +94,7 @@ export default function NishkeraSpecial() {
 
 
 
-      <div className="caraa" style={{ paddingTop:"150px"}}>
+      <div className="caraa" style={{ paddingTop: "150px" }}>
 
 
 

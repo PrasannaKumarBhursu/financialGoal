@@ -101,7 +101,7 @@ const InterestMain = () => {
               <div className="tw-flex tw-w-full tw-items-center">
                 <div className="tw-w-2/12 tw-text-left">
                 </div>
-                <div className="tw-flex tw-flex-row  md:tw-pl-14 lg:tw-pl-40 tw-flex-start md:tw-gap-4 lg:tw-gap-3 lg:tw-text-lg md:tw-text-sm tw-text-xs tw-w-full">
+                <div className="tw-flex tw-flex-row  md:tw-pl-14 lg:tw-pl-30 tw-flex-start md:tw-gap-4 lg:tw-gap-3 lg:tw-text-lg md:tw-text-sm tw-text-xs tw-w-full">
                   <div className="tw-text-left tw-w-1/4">Name</div>
                   <div className="tw-w-1/4">Bank/NBFC</div>
                   <div className="tw-w-1/4">Interest Rate (p.a.)</div>
@@ -155,7 +155,7 @@ const Benefits = (props) => {
               <div className="tw-w-2/12 tw-text-left">
                 <img className="" src={img} />
               </div>
-              <div className="tw-flex tw-flex-row  md:tw-pl-14 lg:tw-pl-40 tw-flex-start md:tw-gap-4 lg:tw-gap-3 lg:tw-text-lg md:tw-text-sm tw-text-xs tw-w-full">
+              <div className="tw-flex tw-flex-row  md:tw-pl-14 lg:tw-pl-30 tw-flex-start md:tw-gap-4 lg:tw-gap-3 lg:tw-text-lg md:tw-text-sm tw-text-xs tw-w-full">
                 <div className="tw-text-left tw-w-1/4">{name}</div>
                 <div className="tw-w-1/4">{bk}</div>
                 <div className="tw-font-semibold tw-w-1/4">{rate} <span className="tw-font-normal tw-text-sm">onwards</span></div>

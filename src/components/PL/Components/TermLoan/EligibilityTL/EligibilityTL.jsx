@@ -22,16 +22,27 @@ const EligibilityTL = () => {
                 When you apply for a Bajaj Finserv Personal Loan, you need to
                 meet the following basic eligibility criteria:
               </p>
-
-              <p className="tw-mt-6 tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Nationality :</span> Indian</p>
-              <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Age :</span> 21 to 67 years* </p>
-              <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Work Status :</span> Salaried</p>
-              <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Employment :</span> Working at an MNC, public or private company</p>
-              <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">CIBIL Score :</span> 750 or higher</p>
-              <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">
-                Monthly Salary:</span> Starting Rs. 22,000, based on your city of
-                residence
-              </p>
+              
+              <div className="tw-flex tw-flex-row">
+                <div>
+                  <p className="tw-mt-6 tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Nationality :</span></p>
+                  <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Age :</span> </p>
+                  <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Work Status :</span></p>
+                  <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">Employment :</span></p>
+                  <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">CIBIL Score :</span></p>
+                  <p className="tw-ml-5 tw-font-light"><span className="tw-font-semibold tw-pr-2">
+                    Monthly Salary:</span>
+                  </p>
+                </div>
+                <div>
+                  <p className="tw-mt-6 tw-ml-5 tw-font-light">Indian</p>
+                  <p className="tw-ml-5 tw-font-light">21 to 67 years*</p>
+                  <p className="tw-ml-5 tw-font-light">Salaried</p>
+                  <p className="tw-ml-5 tw-font-light">Working at an MNC, public or private company</p>
+                  <p className="tw-ml-5 tw-font-light">750 or higher</p>
+                  <p className="tw-ml-5 tw-font-light">Starting Rs. 22,000, based on your city of residence</p>
+                </div>
+              </div>
 
               <p className="tw-mr-4 tw-mt-8 tw-ml-5">
                 The minimum monthly salary required for applicants from cities
@@ -59,7 +70,7 @@ const EligibilityTL = () => {
                   Chalisgaon, Godhra, Gandhidham, Pen </span> and others should be earning
                 a minimum monthly salary of Rs. 22,000 per month.
               </p>
-              <p className="tw-m-4 tw-ml-5 tw-font-semibold">For a complete list of our locations, please <span className="tw-text-nishblue-400"> click here. </span></p>
+              <p className="tw-m-4 tw-ml-5 tw-font-semibold">For a complete list of our locations, please <span className="tw-text-nishblue-400"><a target="_blank" href="https://www.bajajfinserv.in/flexi-loans">click here.</a></span></p>
               <p className="tw-m-4 tw-ml-5 tw-font-semibold">Documents required for a personal loan</p>
 
 

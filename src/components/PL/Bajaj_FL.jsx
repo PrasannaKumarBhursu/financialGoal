@@ -23,7 +23,7 @@ const Bajaj_FL = () => {
             <RequirementFL />
             <Steps/>
             <Faq/>
-            <ScrollUpButton/>
+            {/* <ScrollUpButton/> */}
         </>
     );
 };

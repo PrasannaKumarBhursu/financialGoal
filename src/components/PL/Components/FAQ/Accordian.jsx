@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // Imported from Headless UI
 import { Disclosure } from '@headlessui/react'
-import { FaChevronUp } from 'react-icons/fa'
+import { FaChevronDown } from 'react-icons/fa'
 
 
 export default function Accordian() {
@@ -13,9 +13,9 @@ export default function Accordian() {
             {({ open }) => (
                 <>
                     {/* Unopened Display Text */}
-                    <Disclosure.Button className="tw-h-22 tw-items-center tw-flex justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-bg-white tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>What are the eligibility criteria for a personal loan?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -41,7 +41,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>What is the minimum salary required to get a loan?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -61,7 +61,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>How can I calculate my EMI?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -81,7 +81,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>What is the CIBIL score required to get a loan?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -101,7 +101,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>What is the maximum loan that I can get?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -122,7 +122,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>Why should I choose a Bajaj Finserv Personal Loan?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -151,7 +151,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>What is the difference between a term loan and a Flexi loan?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -173,7 +173,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>How long does it take to get approved for a personal loan?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -192,7 +192,7 @@ export default function Accordian() {
                     {/* Unopened Display Text */}
                     <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                         <span>How to calculate personal loan EMI?</span>
-                        <FaChevronUp
+                        <FaChevronDown
                             className={`${open ? 'tw-transform tw-rotate-180' : ''
                                 } tw-w-3 tw-h-3 tw-text-black`}
                         />
@@ -218,7 +218,7 @@ export default function Accordian() {
                             {/* Unopened Display Text */}
                             <Disclosure.Button className=" tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                                 <span>What is a Personal Loan?</span>
-                                <FaChevronUp
+                                <FaChevronDown
                                     className={`${open ? 'tw-transform tw-rotate-180' : ''
                                         } tw-w-3 tw-h-3 tw-text-black`}
                                 />
@@ -241,7 +241,7 @@ export default function Accordian() {
                             {/* Unopened Display Text */}
                             <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                                 <span>Where can a personal loan be used?</span>
-                                <FaChevronUp
+                                <FaChevronDown
                                     className={`${open ? 'tw-transform tw-rotate-180' : ''
                                         } tw-w-3 tw-h-3 tw-text-black`}
                                 />
@@ -271,7 +271,7 @@ export default function Accordian() {
                             {/* Unopened Display Text */}
                             <Disclosure.Button className="tw-h-22 tw-items-center tw-bg-white tw-flex tw-justify-between tw-w-full tw-px-4 tw-py-2 tw-text-md md:tw-text-lg lg:tw-text-xl tw-font-medium tw-text-left tw-text-black tw-font-semibold tw-rounded-lg tw-hover:bg-nishblue-100 tw-focus:outline-none tw-focus-visible:ring tw-focus-visible:ring-nishblue-200 tw-focus-visible:ring-opacity-75">
                                 <span>What are the documents required for a personal loan?</span>
-                                <FaChevronUp
+                                <FaChevronDown
                                     className={`${open ? 'tw-transform tw-rotate-180' : ''
                                         } tw-w-3 tw-h-3 tw-text-black`}
                                 />
