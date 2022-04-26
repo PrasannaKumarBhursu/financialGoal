@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.783d2f55.chunk.css",
-    "main.js": "/static/js/main.b5f45886.chunk.js",
-    "main.js.map": "/static/js/main.b5f45886.chunk.js.map",
+    "main.js": "/static/js/main.d0e599b3.chunk.js",
+    "main.js.map": "/static/js/main.d0e599b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.644ba94a.js",
     "runtime-main.js.map": "/static/js/runtime-main.644ba94a.js.map",
     "static/css/2.ba0e7b12.chunk.css": "/static/css/2.ba0e7b12.chunk.css",
-    "static/js/2.6b43e978.chunk.js": "/static/js/2.6b43e978.chunk.js",
-    "static/js/2.6b43e978.chunk.js.map": "/static/js/2.6b43e978.chunk.js.map",
+    "static/js/2.9739221b.chunk.js": "/static/js/2.9739221b.chunk.js",
+    "static/js/2.9739221b.chunk.js.map": "/static/js/2.9739221b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ba0e7b12.chunk.css.map": "/static/css/2.ba0e7b12.chunk.css.map",
     "static/css/main.783d2f55.chunk.css.map": "/static/css/main.783d2f55.chunk.css.map",
-    "static/js/2.6b43e978.chunk.js.LICENSE.txt": "/static/js/2.6b43e978.chunk.js.LICENSE.txt",
+    "static/js/2.9739221b.chunk.js.LICENSE.txt": "/static/js/2.9739221b.chunk.js.LICENSE.txt",
     "static/media/3.5298681e.png": "/static/media/3.5298681e.png",
     "static/media/NishkaEra_Logo.d09d5a06.png": "/static/media/NishkaEra_Logo.d09d5a06.png",
     "static/media/PLMain.f1a3c50f.png": "/static/media/PLMain.f1a3c50f.png",
@@ -58,8 +58,8 @@
   "entrypoints": [
     "static/js/runtime-main.644ba94a.js",
     "static/css/2.ba0e7b12.chunk.css",
-    "static/js/2.6b43e978.chunk.js",
+    "static/js/2.9739221b.chunk.js",
     "static/css/main.783d2f55.chunk.css",
-    "static/js/main.b5f45886.chunk.js"
+    "static/js/main.d0e599b3.chunk.js"
   ]
 }

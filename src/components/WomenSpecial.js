@@ -13,7 +13,7 @@ export default function WomenSpecial() {
             <div className="middiv" style={{ backgroundColor: "#FFEAF9", position: "absolute", zIndex: "2", width: "100%", height: "18%", position: "absolute", top: "33%" }}>
             </div>
             <div className="head" style={{ position: "absolute", zIndex: "2", left: "33%", top: "5%" }}>
-                <h1 className=" headtext" style={{ fontSize: "64px", fontStyle: "normal", fontWeight: "900", color: "#D60067" }}>Women Special</h1>
+                <h1 className=" headtext" style={{ fontSize: "64px", fontStyle: "normal", fontWeight: "600", color: "#D60067" }}>Women Special</h1>
             </div>
 
 

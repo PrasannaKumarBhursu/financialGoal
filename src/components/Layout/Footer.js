@@ -192,7 +192,7 @@ export default class Footer extends React.Component {
         </Modal>
 
         <div className="tw-w-full tw-bg-navgreen-800 tw-text-white tw-pt-4 tw--pb-2 md:tw-text-left md:tw-pl-5 tw-pb-3 md:tw-pb-0">
-          <img style={{height:"70px"}} src={Logo} className="tw-w-72 lg:tw-w-71 md:tw-w-48 md:tw-h-14" />
+          <img style={{ height: "70px" }} src={Logo} className="tw-w-72 lg:tw-w-71 md:tw-w-48 md:tw-h-14" />
         </div>
 
         <div className="tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-800 tw-text-white xl:tw--mt-0 tw-pb-10 lg:tw--mt-20  xl:tw--mt-2">
@@ -256,8 +256,8 @@ export default class Footer extends React.Component {
                   <span className="tw-mr-3 tw--ml-7 md:tw-hidden lg:tw-block">
                     <HiLocationMarker />
                   </span>
-                  <a href="https://goo.gl/maps/CFiyQnsDRXCQWgQc8">Flat no. 2, <br />A-wing, <br />Shyamsmruti CHS,<br />Nerul, Sec-19,<br />Navi Mumbai,
-                  Maharashtra-400706</a>
+                  <a target="_blank" className="tw-text-white" style={{ textDecoration: "none" }} href="https://goo.gl/maps/CFiyQnsDRXCQWgQc8">Flat no. 2, <br />A-wing, <br />Shyamsmruti CHS,<br />Nerul, Sec-19,<br />Navi Mumbai,
+                    Maharashtra-400706</a>
                 </p>
               </div>
               <div className="tw-w-1/2 tw-flex tw-flex-col tw-text-left">
@@ -268,8 +268,8 @@ export default class Footer extends React.Component {
                   <span className="tw-mr-3 tw--ml-7 md:tw-hidden lg:tw-block">
                     <HiLocationMarker />
                   </span>
-                  Unit 125, <br />1st Floor,<br />Vipul Trade Center, Sohna Road,<br />Gurugram,<br />
-                  Haryana-122018
+                  <a target="_blank" className="tw-text-white" style={{ textDecoration: "none" }} href="https://goo.gl/maps/JQr8SdsnNnCk6jLw6">Unit 125, <br />1st Floor,<br />Vipul Trade Center, Sohna Road,<br />Gurugram,<br />
+                    Haryana-122018</a>
                 </p>
               </div>
             </div>
