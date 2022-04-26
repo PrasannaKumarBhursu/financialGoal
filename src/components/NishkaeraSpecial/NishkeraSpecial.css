@@ -53,10 +53,22 @@
         
     }
     @media screen and (max-width : 480px){
+ 
+         .headcontent{
+           font-size: 45px !important;
+           font-weight: 500 !important;
+           
+          }  
 
-        .headcontent{
-            display: none !important;
-        }
+         .heading{
+             top: 0% !important;
+             left: 2% !important;
+             
+         }
+         .caraa{
+             padding-top: 100px !important;
+         }
+
         .div1, .div2, .div3, .div4{
             display: none !important;
         }
@@ -64,6 +76,16 @@
     }
     
     @media screen and (max-width : 376px){
+        .headcontent{
+            font-size: 40px !important;
+            font-weight: 500 !important;
+            
+           }  
+           .heading{
+            top: 0% !important;
+            left: 0% !important;
+           }
+ 
         .image{
             height: 80% !important;
         }

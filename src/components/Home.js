@@ -5,6 +5,11 @@ import FinancialPulse from "./financialpulse/FinancialPulse";
 import WomenSpecial from "./WomenSpecial";
 import OneStopSolution from "./OneStopSolution";
 import Latest from "./Latest";
+import ContactUs from "./ContactUs";
+import Trending_heading from "./Trending_heading";
+import Nishka_socials from "./nishka_socials";
+import Testimonials from "./Testimonials";
+// import Nishka_socials_heading from "./nishka_socials_heading";
 
 // import FinancialPlanning from './resources/FinancialPlanning';
 // import Resources from './resources/Resources';
@@ -13,7 +18,8 @@ import Footer from "./Layout/Footer";
 import SocialFollow from "./social/SocialFollow";
 import Marque from "./Marque";
 import NishkaeraSpecial from "./NishkaeraSpecial/NishkeraSpecial"
-//  import ContactUS from "./ContactUs";
+import Special_heading from "./special_heading";
+import Trending from "./Trending";
 
 function Home() {
   return (
@@ -23,9 +29,16 @@ function Home() {
       <Carousel />
       <FinancialPulse />
       <OneStopSolution />
+      <Testimonials />
+      <Special_heading />
       <NishkaeraSpecial />
       <WomenSpecial />
-      <Latest />
+      <ContactUs />
+      <Trending_heading />
+      <Trending />
+      {/* <Nishka_socials_heading /> */}
+      <Nishka_socials />
+      {/* <Latest /> */}
       {/* <ContactUS/>  */}
       {/* <FinancialPlanning /> */}
       {/* <Resources /> */}
@@ -35,5 +48,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;

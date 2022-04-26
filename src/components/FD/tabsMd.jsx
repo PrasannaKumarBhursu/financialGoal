@@ -39,7 +39,7 @@ export default function Tabs() {
               )
             }
           >
-            NRI FD
+            SDP
           </Tab>
 
           <Tab
@@ -53,7 +53,7 @@ export default function Tabs() {
               )
             }
           >
-            SDP
+            NRI FD
           </Tab>
 
         </Tab.List>
@@ -62,16 +62,17 @@ export default function Tabs() {
       <Tab.Panels className="tw--mt-16">
 
         <Tab.Panel>
-          <Bajaj_finserv/>
+          <Bajaj_finserv />
         </Tab.Panel>
 
         <Tab.Panel>
-          <NRI/>
+          <SDP />
         </Tab.Panel>
 
         <Tab.Panel>
-          <SDP/>
+          <NRI />
         </Tab.Panel>
+
 
       </Tab.Panels>
 

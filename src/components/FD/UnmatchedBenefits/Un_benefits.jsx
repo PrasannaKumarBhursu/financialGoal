@@ -59,7 +59,7 @@ const Un_benefits = () => {
                                         Interest Rates
                                     </p>
                                     <p className="tw-w-max tw-text-xl tw--mt-2 md:tw--mt-0 md:tw-text-3xl tw-text-white tw-font-black">
-                                        7.05%p.a.*
+                                        7.35%p.a.*
                                     </p>
                                     <p className="tw-w-max md:tw-text-lg tw--mt-2 md:tw--mt-0 tw-text-xs tw-font-semibold ">For Senior Citizen</p>
                                 </div>
@@ -77,7 +77,7 @@ const Un_benefits = () => {
                                         Interest Rates
                                     </p>
                                     <p className="tw-w-max tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
-                                        6.80%p.a.**
+                                        7.10%p.a.**
                                     </p>
                                     <p className="tw-w-max md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">For Non Senior Citizen</p>
                                 </div>

@@ -1,0 +1,83 @@
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+  
+@media screen and (min-width : 1022px) {
+
+   .top_commas{
+       top: 10% !important;
+   }
+   .name{
+       top: 21% !important;
+   }
+   .l_text{
+       top: 30% !important;
+   }
+   .t_text{
+       top: 30% !important;
+   }
+   
+   }
+   @media screen and (min-width : 1275px) {
+   
+      
+   }
+   
+   @media screen and (max-width : 920px){
+       
+  .l_text{
+      top: 30% !important;
+  }
+  .top_commas{
+      top: 6% !important;
+  }
+  .name{
+      top: 14% !important;
+  }
+  .bottom_commas{
+      top: 82% !important;
+  }
+  .t_text{
+      top: 30% !important;
+  }
+  
+   
+   }
+   
+   @media screen and (min-width: 500px) {
+       .small_carousel{
+           display: none !important;
+       }
+       
+   }
+   
+   @media screen and (max-width : 480px){
+   
+   .large_carousel{
+       display: none !important;
+   }
+
+   .head_content_test{
+       font-size: 63px !important;
+   }
+   
+   }
+   
+   @media screen and (max-width : 376px){
+       .topic_social{
+           left: 3% !important;
+           width: 95% !important;
+           height: 40px !important;
+       }
+       .topic_social_content{
+           font-size: 35px !important;
+       }
+   .outer_social_heading{
+       height:50px !important;
+   }
+       
+       
+       
+       
+   }

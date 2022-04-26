@@ -54,10 +54,10 @@ const Calc = () => {
 
     const [interest, setinterest] = useState(5.65);
     function handleChange() {
-        if (interest == 5.65) {
-            setinterest(5.9);
+        if (interest == 5.75) {
+            setinterest(6.00);
         } else {
-            setinterest(5.65);
+            setinterest(5.75);
         }
     }
 

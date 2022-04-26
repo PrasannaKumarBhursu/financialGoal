@@ -84,7 +84,7 @@ const Un_benefits_SDP = () => {
                                         Assured Returns Upto
                                     </p>
                                     <p className="tw-w-max tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
-                                        7.05%
+                                        7.35%
                                     </p>
                                     <p className="tw-w-3/4 md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">Best returns on
                                         deposit</p>

@@ -82,7 +82,7 @@ const Features = () => {
                                     <div className="tw-text-right tw-mt-2 tw-leading-6 tw-text-lg tw-text-white tw-font-bold">
                                         <p>
                                             Get secured<br />
-                                            returns upto 7.05%
+                                            returns upto 7.35%
                                         </p>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ const Features = () => {
                             <div className="tw-mx-10 md:tw-mx-16 tw-text-justify">
                                 <p>
                                     Fixed deposit (FD) is a low-risk financial instrument that is offered by banks, post offices or Non-banking Financial Companies (NBFCs). Bajaj Finance offers higher FD rates ensuring you earn better returns.<br/><br/>
-                                    With the Bajaj Finance Fixed Deposit, you can grow your savings at attractive FD interest rates up to 7.05%*p.a. along with the convenience of an end-to-end paperless investment process. The Bajaj Finance online FD provides an easy application process that saves you time and trouble waiting in long queues to open an FD account.<br/> <br/>
+                                    With the Bajaj Finance Fixed Deposit, you can grow your savings at attractive FD interest rates up to 7.35%*p.a. along with the convenience of an end-to-end paperless investment process. The Bajaj Finance online FD provides an easy application process that saves you time and trouble waiting in long queues to open an FD account.<br/> <br/>
                                     Amid increasing market volatilities, investing in a Bajaj Finance FD offers assured returns along with steady growth of savings. So you can build your savings without any effect of market fluctuations. Moreover, Bajaj Finance has the highest credit quality and safety ratings. CRISIL and ICRA have awarded it with MAAA and FAAA, respectively, making the Bajaj Finance Fixed Deposit one of the safest investment options.<br/><br/>
                                     *Conditions apply
                                 </p>

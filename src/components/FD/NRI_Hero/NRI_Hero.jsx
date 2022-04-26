@@ -41,10 +41,10 @@ const NRI_Hero = () => {
                                             </ul>
                                             <ul className="tw--ml-4 md:tw--ml-0 tw-list-none">
                                                 <li>
-                                                    -upto <span className="tw-font-semibold">6.75% p.a.</span>
+                                                    -upto <span className="tw-font-semibold">7.15% p.a.</span>
                                                 </li>
                                                 <li>
-                                                    -upto <span className="tw-font-semibold">6.60% p.a.</span>
+                                                    -upto <span className="tw-font-semibold">6.90% p.a.</span>
                                                 </li>
                                             </ul>
                                         </div>

@@ -41,10 +41,10 @@ const SDP_Hero = () => {
                                             </ul>
                                             <ul className="tw--ml-4 md:tw--ml-0 tw-list-none">
                                                 <li>
-                                                    -upto <span className="tw-font-semibold">7.05% p.a.</span>
+                                                    -upto <span className="tw-font-semibold">7.35% p.a.</span>
                                                 </li>
                                                 <li>
-                                                    -upto <span className="tw-font-semibold">6.80% p.a.</span>
+                                                    -upto <span className="tw-font-semibold">7.10% p.a.</span>
                                                 </li>
                                             </ul>
                                         </div>

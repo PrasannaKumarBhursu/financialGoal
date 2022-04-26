@@ -31,7 +31,7 @@ const Bajaj_Finserv = () => {
                 <Un_benefits />
                 <Requirements />
                 <Invest_card />
-                <Calc />
+                {/* <Calc /> */}
                 <Table />
                 <Steps />
                 <Faq />

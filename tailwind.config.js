@@ -11,6 +11,7 @@ module.exports = {
 
       boxShadow: {
         '3xl': '0px 5px 7px rgba(58, 212, 175, 0.25)',
+        '4xl': ' 10px 15px 5px 2px rgba(0,0,0,0.17)'
       },
       colors: {
         navgreen: {

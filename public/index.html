@@ -31,7 +31,20 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <script src="//code.tidio.co/qjc0u537jjhhskqbqmtw2mszec95ea0t.js" async></script>
+  <script src="//code.tidio.co/qjc0u537jjhhskqbqmtw2mszec95ea0t.js" async>
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          setShowButton(true);
+        } else {
+          setShowButton(false);
+        }
+      });
+    }, []);
+    
+  </script>
 </body>
 
 </html>

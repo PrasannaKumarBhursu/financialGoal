@@ -42,7 +42,7 @@ const Un_benefits_NRI = () => {
         <p>
             Non-resident Indians (NRIs) looking to diversify their portfolios can invest in a Bajaj Finance Fixed Deposit for NRIs to get attractive and guaranteed returns. Bajaj Finance offers FDs for non-resident Indians, overseas citizen of India and any person of Indian origin. Investors can start investing through an NRO account.<br/><br/>
 
-            As an NRI you can grow your wealth at interest rates up to 7.05%. Choose a tenor between 12 months and 36 months to get maturity proceeds in time for your financial needs and claim tax benefits under a DTAA to reduce your tax payment.<br/><br/>
+            As an NRI you can grow your wealth at interest rates up to 7.15%. Choose a tenor between 12 months and 36 months to get maturity proceeds in time for your financial needs and claim tax benefits under a DTAA to reduce your tax payment.<br/><br/>
 
             Bajaj Finance NRI FD is backed by ICRA's MAAA (stable) rating and CRISIL's FAAA/ Stable rating, assuring investors guaranteed returns on maturity. Safeguard yourself from stock market fluctuations or intermittent interest rate movements by investing in an FD. You can also take advantage of periodic interest payouts should you need liquidity for recurring expenses.<br/><br/>
         </p>
@@ -73,7 +73,7 @@ const Un_benefits_NRI = () => {
                                         Interest Rates
                                     </p>
                                     <p className="tw-w-max tw-text-xl tw--mt-2 md:tw--mt-0 md:tw-text-3xl tw-text-white tw-font-black">
-                                        7.05%p.a.*
+                                        7.15%p.a.*
                                     </p>
                                     <p className="tw-w-max md:tw-text-lg tw--mt-2 md:tw--mt-0 tw-text-xs tw-font-semibold ">For Senior Citizen</p>
                                 </div>
@@ -91,7 +91,7 @@ const Un_benefits_NRI = () => {
                                         Interest Rates
                                     </p>
                                     <p className="tw-w-max tw-text-xl md:tw-text-3xl tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-text-white tw-font-black">
-                                        6.60%p.a.**
+                                        6.90%p.a.**
                                     </p>
                                     <p className="tw-w-3/4 md:tw-text-lg tw-text-xs tw--mt-2 md:tw--mt-0 md:tw--mt-0 tw-font-semibold">For Non Senior Citizen</p>
                                 </div>

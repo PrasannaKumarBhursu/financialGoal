@@ -67,7 +67,53 @@ export default function Header1() {
                 <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
                 <Link style={{ textDecoration: 'none' }} to={"/PersonalLoan"}><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Personal Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li></Link>
                 <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
-                <li className="tw-rounded-sm tw-px-1 tw-text-white disabled tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Buisness Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                <li className="tw-rounded-sm tw-px-1 tw-text-white disabled tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Business Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
+                <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
+                  <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-items-center tw-outline-none focus:tw-outline-none">
+                    <Link style={{ textDecoration: 'none' }} to={""}><span className="tw-rounded-sm tw-px-1 tw-text-white disabled tw--ml-3 tw-text-left tw-font-normal tw-py-1">More Products</span></Link>
+                    <span className="tw-mr-auto">
+                      <svg className="tw-fill-current tw-h-4 tw-w-4
+                        tw-transition tw-duration-150 tw-ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <ul className="tw-bg-navgreen-100 tw-border tw-list-none tw--ml-9 tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
+                    tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
+                    <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
+                  <div className="tw-w-full tw-text-left tw-text-nishblue-900 tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
+                    <Link style={{ textDecoration: 'none' }} to={""}><span className="tw-pr-1 tw-text-nishblue-900 tw-cursor-pointer tw-flex-1">Insurance</span></Link>
+                    <span className="tw-mr-auto">
+                      <svg className="tw-fill-current tw-h-4 tw-w-4
+                        tw-transition tw-duration-150 tw-ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <ul className="tw-bg-navgreen-100 tw-w-max tw-border tw-list-none tw--ml-9 tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
+                    tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
+                    <li className="tw-px-3 tw-py-1 tw--ml-9 ">Term Insurance</li>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Health Insurance</li></Link>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Motor Insurance</li></Link>
+                  </ul>
+                </li>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Bonds</li></Link>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">NCD</li></Link>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">PMS</li></Link>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Home Loans</li></Link>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <Link style={{ textDecoration: 'none' }} to={""}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Mutual Funds</li></Link>
+
+
+                  </ul>
+                </li>
               </ul>
             </div>
 
@@ -98,13 +144,14 @@ export default function Header1() {
                   <ul className="tw-bg-navgreen-100 tw-border tw-list-none tw--ml-9 tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
                     <li className="tw-px-3 tw-py-1 tw--ml-9 ">The A to Z about Financial Products</li>
-                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
                     <Link style={{ textDecoration: 'none' }} to={"/Score"}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Financial Pulse</li></Link>
-                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
                     <Link style={{ textDecoration: 'none' }} to={"/Webinar"}><li className="tw--ml-9 tw-text-nishblue-900 tw-px-3 tw-py-1 ">Webinar</li></Link>
                   </ul>
                 </li>
 
+                <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
 
                 <li className="tw-rounded-sm tw-relative tw-px-3 tw--ml-6 tw-py-1 ">
                   <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
@@ -119,11 +166,14 @@ export default function Header1() {
                   <ul className="tw-bg-nishblue-100 tw-border tw-list-none tw-shadow-3xl tw-text-nishblue-900 tw-font-normal tw-absolute tw-top-0 tw-right-0 
                     tw-transition tw-duration-150 tw-ease-in-out tw-origin-top-left min-w-32 ">
                     <Link style={{ textDecoration: 'none' }} to={"/IPOWatch"}><li className=" tw-text-nishblue-900 tw-px-3 tw-py-1 tw--ml-9 ">IPO Analysis</li></Link>
-                    <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
                     <li className="tw-px-3 tw-py-1 tw--ml-9 ">Financial Result Analysis <br /><span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                    <hr className="tw-text-nishblue-300 tw-p-0 tw-m-0 tw--ml-8" />
+                    <li className="tw-px-3 tw-py-1 tw--ml-9 ">Daily Digest <br /><span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
+
                   </ul>
                 </li>
-
+                <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-8" />
                 <li className="tw-rounded-sm tw-relative tw-px-3 tw--ml-6 tw-py-1 ">
                   <div className="tw-w-full tw-text-white tw-font-normal tw-text-left tw-flex tw-items-center tw-outline-none focus:tw-outline-none">
                     <span className="tw-pr-1 tw-flex-1 tw-cursor-pointer">Investment Advisory Services</span>
