@@ -181,6 +181,7 @@ function App() {
           <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
           <Route exact path="/Faqs" component={Faqs} />
           <Route exact path="/Contact" component={ContactUS} />
+          <Route exact path="/Contact" component={ContactUS} />
           {/* Admin */}
           {/* <Route exact path="/latest" component={Latestpage}/> 
            <Route exac path="/latest/:id" component={Updatelatest}/> */}

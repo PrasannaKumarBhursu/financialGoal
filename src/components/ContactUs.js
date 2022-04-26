@@ -34,7 +34,7 @@ export default class ContactUs extends Component {
           <a href="mailto:contact@nishkaera.com"><h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"500"  , color:"#FFFFFF", textAlign:"center", lineHeight:"57px"}}>Partner with Us</h1></a>
           </div>
 
-          <div className="line" style={{position:"absolute" ,zIndex:"1", left:"62%"   , top:"47%" ,height:"0.5%",width:"33%" , backgroundColor:"#524F4F"}}>
+          <div className="line tw--mt-2" style={{position:"absolute" ,zIndex:"1", left:"62%"   , top:"47%" ,height:"0.5%",width:"33%" , backgroundColor:"#524F4F"}}>
 
           </div>
 
@@ -42,7 +42,7 @@ export default class ContactUs extends Component {
           <h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"600" , textAlign:"center", lineHeight:"30px"}}>Nishkaera offers unique opportunities for career growth to youngsters and experienced professionals. Join us today for a rewarding career.</h1>
           </div>
 
-          <div  className="link_2" style={{position:"absolute" ,zIndex:"1", left:"70%"   , top:"82%" ,height:"9%",width:"14%",borderRadius:"20px", backgroundColor:"#0B4FD3"}}>
+          <div  className="link_2 tw--mt-4" style={{position:"absolute" ,zIndex:"1", left:"70%"   , top:"82%" ,height:"9%",width:"14%",borderRadius:"20px", backgroundColor:"#0B4FD3"}}>
          <a href="/Careers"> <h1  style={{fontSize:"25px" ,fontStyle:"normal" , fontWeight:"500"  , color:"#FFFFFF", textAlign:"center", lineHeight:"57px"}}>Join Us</h1></a>
           </div>
 

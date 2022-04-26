@@ -109,7 +109,7 @@ export default class Testimonials extends Component {
                 </div>
 
                 <div className="place" style={{ position: "absolute", zIndex: "1", left: "4%", top: "90%", height: "7%", width: "90%" }}>
-                  <h1 className="place_content" style={{ fontSize: "22px", lineHeight: " 26px", fontStyle: "normal", fontWeight: "500", color: "#000000", textAlign: "center" }}>~ Ahemdabad</h1>
+                  <h1 className="place_content" style={{ fontSize: "22px", lineHeight: " 26px", fontStyle: "normal", fontWeight: "500", color: "#000000", textAlign: "center" }}>~ Ahmedabad</h1>
                 </div>
 
 

@@ -192,7 +192,7 @@ export default class Footer extends React.Component {
         </Modal>
 
         <div className="tw-w-full tw-bg-navgreen-800 tw-text-white tw-pt-4 tw--pb-2 md:tw-text-left md:tw-pl-5 tw-pb-3 md:tw-pb-0">
-          <img src={Logo} className="tw-w-72 tw-h-20 lg:tw-w-62 lg:tw-h-20 md:tw-w-48 md:tw-h-14" />
+          <img style={{height:"70px"}} src={Logo} className="tw-w-72 lg:tw-w-71 md:tw-w-48 md:tw-h-14" />
         </div>
 
         <div className="tw-items-center tw-flex tw-flex-col md:tw-flex-row tw-bg-navgreen-800 tw-text-white xl:tw--mt-0 tw-pb-10 lg:tw--mt-20  xl:tw--mt-2">
@@ -208,7 +208,7 @@ export default class Footer extends React.Component {
               <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="#">Terms Of Use </Link></p>
             </div>
           </div>
-          <div className="tw-flex tw-flex-col md:tw--mt-16 md:tw-w-1/4 lg:tw-w-1/5 xl:tw-w-1/4  xl:tw-mt-0 lg:tw-mt-20 tw-items-center lg:tw-ml-4 xl:tw--ml-10 xl:tw-mr-16">
+          <div className="tw-flex tw-flex-col md:tw--mt-16 md:tw-w-1/4 lg:tw-w-1/5 xl:tw-w-1/4  xl:tw-mt-8 lg:tw-mt-20 tw-items-center lg:tw-ml-4 xl:tw--ml-10 xl:tw-mr-16">
             <div className="tw-text-footer-100 tw-font-bold tw-text-lg lg:tw-text-2xl">
               Products
             </div>
@@ -216,6 +216,7 @@ export default class Footer extends React.Component {
               <div className="tw-flex tw-flex-col tw-text-sm md:tw-text-left lg:tw-text-lg">
                 <p className="tw-mt-6"><Link className="tw-text-white hover:tw-text-white" to="/FixedDeposits">Fixed Deposit </Link></p>
                 <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/PersonalLoan">Personal Loan </Link></p>
+                <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">Business Loan</Link></p>
                 <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="/Insurance">Insurance</Link></p>
                 <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">Bonds</Link></p>
                 <p className="tw--mt-3"><Link className="tw-text-white hover:tw-text-white" to="">NCD</Link></p>
@@ -255,8 +256,8 @@ export default class Footer extends React.Component {
                   <span className="tw-mr-3 tw--ml-7 md:tw-hidden lg:tw-block">
                     <HiLocationMarker />
                   </span>
-                  Flat no. 2, <br />A-wing, <br />Shyamsmruti CHS,<br />Nerul, Sec-19,<br />Navi Mumbai,
-                  Maharashtra-400706
+                  <a href="https://goo.gl/maps/CFiyQnsDRXCQWgQc8">Flat no. 2, <br />A-wing, <br />Shyamsmruti CHS,<br />Nerul, Sec-19,<br />Navi Mumbai,
+                  Maharashtra-400706</a>
                 </p>
               </div>
               <div className="tw-w-1/2 tw-flex tw-flex-col tw-text-left">

@@ -65,9 +65,9 @@ export default function Header1() {
                 tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32 ">
                 <Link style={{ textDecoration: 'none' }} to={"/FixedDeposits"}><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Fixed Deposit</li></Link>
                 <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
-                <Link style={{ textDecoration: 'none' }} to={"/PersonalLoan"}><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Personal Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li></Link>
+                <Link style={{ textDecoration: 'none' }} to={"/PersonalLoan"}><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Personal Loan <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li></Link>
                 <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
-                <li className="tw-rounded-sm tw-px-1 tw-text-white disabled tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Business Loans <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                <li className="tw-rounded-sm tw-px-1 tw-text-white disabled tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Business Loan <span className="tw-text-gray-200 tw-font-light tw-text-sm">Coming Up Soon</span></li>
                 <hr className="tw-text-nishblue-100 tw-p-0 tw-m-0 tw--ml-6" />
                 <li className="tw-rounded-sm tw-relative tw--ml-6 tw-px-3 tw-py-1 ">
                   <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-items-center tw-outline-none focus:tw-outline-none">
@@ -280,8 +280,8 @@ export default function Header1() {
                 <ul className="tw-bg-navgreen-600 tw-border tw-ml-16 tw-pr-2 tw-list-none tw-z-10 tw-rounded-b-xl tw-text-center tw-shadow-3xl tw-transform tw-scale-0 group-hover:scale-100 tw-absolute 
                 tw-transition tw-duration-150 tw-ease-in-out tw-origin-top min-w-32">
                   <a style={{ textDecoration: 'none' }} href="/FixedDeposits"><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1">Fixed Deposit</li></a>
-                  <a style={{ textDecoration: 'none' }} href="/PersonalLoan"><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1">Personal Loan <span className="tw-font-light tw-text-sm">Coming Up Soon</span></li></a>
-                  <li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Business Loans <span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
+                  <a style={{ textDecoration: 'none' }} href="/PersonalLoan"><li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1">Personal Loan<span className="tw-font-light tw-text-sm">Coming Up Soon</span></li></a>
+                  <li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1 ">Business Loan <span className="tw-font-light tw-text-sm">Coming Up Soon</span></li>
                   <li className="tw-rounded-sm tw-px-1 tw-no-underline tw-text-white tw--ml-6 tw-text-left tw-font-normal tw-py-1">
                     <div className="tw-w-full tw-text-left tw-text-white tw-font-normal tw-flex tw-gap-0 tw-items-center tw-w-1/4 tw-outline-none focus:tw-outline-none">
                       <span className="tw-pr-1 tw-flex-1">More Products</span>

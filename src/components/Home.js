@@ -34,8 +34,8 @@ function Home() {
       <NishkaeraSpecial />
       <WomenSpecial />
       <ContactUs />
-      <Trending_heading />
-      <Trending />
+      {/* <Trending_heading /> */}
+      {/* <Trending /> */}
       {/* <Nishka_socials_heading /> */}
       <Nishka_socials />
       {/* <Latest /> */}
