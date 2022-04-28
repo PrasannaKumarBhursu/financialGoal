@@ -84,6 +84,11 @@ import twitter from "./components/blogs/twitter";
 import LatestPost from "./components/Latestpost";
 import facebook from "./components/blogs/facebook";
 import instagram from "./components/blogs/instagram";
+
+
+
+
+import Stepper from "./components/Advisory/Forms/Stepper";
 function App() {
   // const {checktoken}=useContext(AppContext)
 
@@ -182,6 +187,12 @@ function App() {
           <Route exact path="/Faqs" component={Faqs} />
           <Route exact path="/Contact" component={ContactUS} />
           <Route exact path="/Contact" component={ContactUS} />
+
+
+          {/* Advisory  */}
+          <Route exact path="/forms/" component={Stepper} />
+
+
           {/* Admin */}
           {/* <Route exact path="/latest" component={Latestpage}/> 
            <Route exac path="/latest/:id" component={Updatelatest}/> */}

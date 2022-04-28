@@ -1,0 +1,73 @@
+/*.box-con {
+    height: 100vh;
+    margin: 0 !important;
+    background-color: #f0f5f9a7;
+    width: 100vw;
+     background-image: url('https://res.cloudinary.com/vinayreddy/image/upload/v1649764377/nishkaera_logo_wqjoxr.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto 60%;
+    overflow-y: auto;
+    opacity: ;
+    overflow-x: hidden;
+}
+
+.form-container {
+    min-height: 78vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-fields {
+    width: 70%;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.desktop-img {
+    width: 50%;
+}
+
+.input-field {
+    width: 50%;
+
+    padding: 10px;
+}
+
+.input-con {
+    width: 45% !important;
+    ;
+}
+
+.btn-con {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.heading-color {
+    font-size: 30px;
+    color: rgba(58, 212, 175);
+}
+ */
+
+/* 
+@media (max-width:576px){
+    .mobile-bg {
+        background-image: url('./assets/NE_logo.png');
+        background-size: 200px auto;
+        background-repeat: no-repeat;
+      background-position: fixed;
+         opacity: 0.2; 
+       
+        background-position: center; 
+       
+    }
+} */
