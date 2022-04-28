@@ -171,9 +171,10 @@ export default function KnowYourFP() {
                       className="mr-2"
                       name={`${i}`}
                       required
+                      id={`${i}${index}`}
                       value={`${index}`}
                     />
-                    <label htmlFor={`${index}`}>{opt}</label>
+                    <label htmlFor={`${i}${index}`}>{opt}</label>
                   </div>
                 ))}
               </div>

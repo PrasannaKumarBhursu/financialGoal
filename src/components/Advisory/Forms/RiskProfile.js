@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { Button } from "react-bootstrap";
 import { Modal } from "react-bootstrap";
-
 import SocialFollow from "../../social/SocialFollow";
 import ScrollToTop from "../../ScrollToTop";
 import "../../financialpulse/FinancialPulse.css";

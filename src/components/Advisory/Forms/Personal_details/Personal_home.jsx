@@ -3,12 +3,11 @@ import { Form } from "formik";
 import Personal_details from "./Personal_form";
 
 //image
-
 import step3 from "../assets/step3.png";
 import step3mob from "../assets/step3mob.png";
 import pd from "../assets/pd.png";
 
-const Personal_home = (props) => {
+const PersonalHome = (props) => {
 	const { next } = props;
 	return (
 		<>
@@ -43,4 +42,4 @@ const Personal_home = (props) => {
 	);
 };
 
-export default Personal_home;
+export default PersonalHome;

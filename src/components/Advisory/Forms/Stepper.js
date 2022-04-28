@@ -11,7 +11,7 @@ import Header from "../../Layout/Header";
 import Footer from "../../Layout/Footer";
 import Marque from "../../Marque";
 
-import PersonalForm from "./Personal_details/Personal_home";
+import PersonalHome from "./Personal_details/Personal_home";
 import IncomeForm from "./Income_details/Income_home";
 import RiskProfile from "./RiskProfile";
 import FinancialGoals from "./FinancialGoals";
@@ -50,7 +50,7 @@ export default function HorizontalNonLinearStepper() {
 	const getStepContent = (steps) => {
 		switch (steps) {
 			case 0:
-				return <PersonalForm next={handleComplete} />;
+				return <PersonalHome next={handleComplete} />;
 			case 1:
 				return <IncomeForm />;
 			case 2:
@@ -107,8 +107,7 @@ export default function HorizontalNonLinearStepper() {
 	};
 
 	return (
-		<Box sx={{ width: "100%", p: 0, m: 0 }}>
-			{/* <Header1 sx={{ mb: 4 }}></Header1> */}
+		<Box sx={{ p: 0, m: 0 }}>
 			<Header />
 			<Marque />
 			<Stepper
