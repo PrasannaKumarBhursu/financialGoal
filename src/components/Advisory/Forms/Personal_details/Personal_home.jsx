@@ -11,7 +11,7 @@ const PersonalHome = (props) => {
 	const { next } = props;
 	return (
 		<>
-			<div className="tw-hidden tw-mt-20 md:tw-mob  tw-w-full tw-px-8 tw-pt-18">
+			<div className="tw-hidden tw-mt-20 md:tw-visible tw-w-full tw-px-8 tw-pt-18">
 				<img src={step3} className="tw-mx-auto tw-w-full" />
 			</div>
 			<div className="tw-block md:tw-hidden tw-w-full tw-px-2 tw-pt-8">
@@ -25,14 +25,14 @@ const PersonalHome = (props) => {
 					</h1>
 
 					<div className="tw-flex tw-w-full">
-						<div className="lg:tw-w-1/2">
+						<div className="lg:tw-w-4/5">
 							<Personal_details next={next} />
 						</div>
 
 						<div className="tw-hidden lg:tw-block tw-w-1/3 lg:tw-w-2/5 xl:tw-w-1/2">
 							<img
 								src={pd}
-								className="tw-w-full tw-hidden lg:tw-block tw-sticky tw-top-0 tw-m-auto tw-my-auto"
+								className="tw-w-full  lg:tw-block tw-sticky tw-top-0 tw-m-auto tw-my-auto"
 							/>
 						</div>
 					</div>
